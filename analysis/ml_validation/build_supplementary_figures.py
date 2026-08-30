@@ -9,7 +9,7 @@ s=pd.read_csv(ROOT/"Table_S_primary_model_validation_summary.csv")
 n=pd.read_csv(ROOT/"Table_S_permutation_null_distributions.csv")
 p=pd.read_csv(ROOT/"Table_S_nested_outer_fold_predictions.csv")
 o=pd.read_csv(ROOT/"Table_S_model_selection_optimism.csv")
-COL={"pbmc":"#2878B5","tcr":"#D6814E","bcr":"#4C9B78"}
+COL={"pbmc":"#6F6F6F","tcr":"#0072B2","bcr":"#D55E00"}
 LAB={"pbmc":"PBMC composition","tcr":"TCR","bcr":"BCR"}
 TASK={"cd_vs_control":"CD vs control","uc_vs_control":"UC vs control","cd_vs_uc":"CD vs UC"}
 s["label"]=s.modality.map(LAB)+"\n"+s.task.map(TASK)
@@ -36,6 +36,6 @@ ax=axs[0]
 q=p.groupby(["modality","task","participant","truth"],as_index=False).probability.mean()
 for mod in ["pbmc","tcr","bcr"]:
     z=q[(q.modality==mod)&(q.task=="cd_vs_control")]; frac,mean=calibration_curve(z.truth,z.probability,n_bins=6,strategy="quantile");ax.plot(mean,frac,marker="o",label=LAB[mod],color=COL[mod])
-ax.plot([0,1],[0,1],ls="--",color="#888");ax.set(xlabel="Mean predicted probability",ylabel="Observed event fraction",title="A  Calibration: CD versus control");ax.legend(frameon=False)
-ax=axs[1]; oo=o.copy();oo["label"]=oo.modality.map(LAB)+"\n"+oo.task.map(TASK);colors=[COL[x] for x in oo.modality];ax.bar(range(len(oo)),oo.apparent_optimism,color=colors);ax.axhline(0,color="#777",lw=1);ax.set_xticks(range(len(oo)),oo.label,rotation=35,ha="right");ax.set_ylabel("Best historical AUC − nested primary-model AUC");ax.set_title("B  Apparent model-selection optimism")
+ax.plot([0,1],[0,1],ls="--",color="#888");ax.set(xlabel="Mean predicted probability",ylabel="Observed event fraction",title="C  Calibration: CD versus control");ax.legend(frameon=False)
+ax=axs[1]; oo=o.copy();oo["label"]=oo.modality.map(LAB)+"\n"+oo.task.map(TASK);colors=[COL[x] for x in oo.modality];ax.bar(range(len(oo)),oo.apparent_optimism,color=colors);ax.axhline(0,color="#777",lw=1);ax.set_xticks(range(len(oo)),oo.label,rotation=35,ha="right");ax.set_ylabel("Best historical AUC − nested primary-model AUC");ax.set_title("D  Apparent model-selection optimism")
 fig.savefig(ROOT/"Figure_S_ML_calibration_and_optimism.pdf",bbox_inches="tight");fig.savefig(ROOT/"Figure_S_ML_calibration_and_optimism.png",dpi=400,bbox_inches="tight");plt.close(fig)

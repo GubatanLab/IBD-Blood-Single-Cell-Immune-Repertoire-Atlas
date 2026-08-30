@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib.colors import TwoSlopeNorm
 
-base=Path(r"C:/path/to/private-manuscript-workspace\High Impact Additional Analyses")
+base=Path(r"C:\Users\johng\OneDrive\Documents\Immune Repertoire Manuscript\High Impact Additional Analyses")
 out=base/"Requested Priority Analyses Figures";out.mkdir(parents=True,exist_ok=True)
 mpl.rcParams.update({"font.family":"Arial","font.size":8,"axes.titlesize":9,"axes.labelsize":8,"pdf.fonttype":42,"ps.fonttype":42,"axes.linewidth":0.7})
-colors={"Control":"#6B7280","CD":"#C94C4C","UC":"#3C78B5","TCR":"#7B4AB5","BCR":"#D88724"}
+colors={"Control":"#6F6F6F","CD":"#0072B2","UC":"#D55E00","TCR":"#0072B2","BCR":"#D55E00"}
 
 def panel(ax,label):ax.text(-0.28,1.10,label,transform=ax.transAxes,fontweight="bold",fontsize=11,va="top",ha="left",clip_on=False)
 def bhstar(q):return "***" if q<.001 else "**" if q<.01 else "*" if q<.05 else ""
