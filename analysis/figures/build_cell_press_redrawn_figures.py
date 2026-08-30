@@ -1511,6 +1511,7 @@ def build_figure_1():
         ("F", "CD8", "CD8 T Cells", cd8, lineage_row[0, 1]),
         ("G", "B", "B Cells", bcell, lineage_row[0, 2]),
     ]
+    lineage_headings = []
     for letter, panel, title, data, subplot_spec in lineage_panels:
         panel_widths = [1.82, 0.68] if panel in {"CD4", "CD8"} else [1.65, 0.85]
         inner = GridSpecFromSubplotSpec(
@@ -1520,34 +1521,49 @@ def build_figure_1():
         legend_ax = fig.add_subplot(inner[0, 1])
         draw_level3_umap(umap_ax, data, panel)
         draw_level3_state_legend(legend_ax, panel)
-        row = panel_summary.loc[panel]
-        panel_label(umap_ax, letter, x=-0.16, y=1.14)
-        umap_ax.text(
-            0.00, 1.12, title, transform=umap_ax.transAxes, ha="left", va="top",
-            fontsize=7.2, fontweight="bold", color=COL["ink"], clip_on=False,
+        lineage_headings.append((letter, title, umap_ax))
+
+    # Equal-aspect UMAP axes can have different physical heights. Draw all
+    # three headings in figure coordinates so E-G share one exact baseline.
+    fig.canvas.draw()
+    lineage_top = lineage_row[0, 0].get_position(fig).y1 + 0.004
+    for letter, title, umap_ax in lineage_headings:
+        title_x = umap_ax.get_position().x0
+        fig.text(
+            title_x - 0.025, lineage_top, letter, ha="left", va="top",
+            fontsize=12, fontweight="bold", color=COL["ink"],
         )
-        umap_ax.text(
-            0.00, 1.045, f'{int(row.total_cells):,} cells | {int(row.participants)} participants',
-            transform=umap_ax.transAxes, ha="left", va="top",
-            fontsize=5.3, color=COL["muted"], clip_on=False,
+        fig.text(
+            title_x, lineage_top, title, ha="left", va="top",
+            fontsize=7.2, fontweight="bold", color=COL["ink"],
         )
 
     clone_handles = [
         Line2D(
-            [0], [0], marker="o", ls="", ms=3.1 + 0.45 * index,
+            [0], [0], marker="o", ls="", ms=4.2 + 0.55 * index,
             markerfacecolor=color, markeredgecolor="white", markeredgewidth=0.40,
             label=label,
         )
         for index, (label, _, _, color, _) in enumerate(LEVEL3_CLONE_STYLES)
     ]
-    fig.text(
-        0.46, 0.478, "Expanded paired clonotype size (cells):", ha="right", va="center",
-        fontsize=4.8, color=COL["ink"],
+    lineage_left = lineage_row[0, 0].get_position(fig).x0
+    lineage_right = lineage_row[0, 2].get_position(fig).x1
+    lineage_bottom = lineage_row[0, 0].get_position(fig).y0
+    clone_legend = fig.legend(
+        handles=clone_handles,
+        title="Expanded paired clonotype size (cells)",
+        frameon=False,
+        loc="upper center",
+        bbox_to_anchor=((lineage_left + lineage_right) / 2, lineage_bottom - 0.004),
+        ncol=4,
+        fontsize=5.6,
+        title_fontsize=5.8,
+        handletextpad=0.28,
+        columnspacing=0.88,
+        labelspacing=0.20,
+        borderaxespad=0,
     )
-    fig.legend(
-        handles=clone_handles, frameon=False, loc="center left", bbox_to_anchor=(0.465, 0.478), ncol=4,
-        fontsize=4.6, handletextpad=0.18, columnspacing=0.52, borderaxespad=0,
-    )
+    clone_legend._legend_box.align = "center"
 
     marker_ax = fig.add_subplot(gs[3, 0])
     compact_canonical_marker_dotplot(marker_ax, marker_data, marker_clone_summary)
