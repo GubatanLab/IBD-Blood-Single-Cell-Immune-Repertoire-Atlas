@@ -71,6 +71,18 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
 
     # A: a single left-to-right Figure 2 -> sequence-neighborhood argument.
     ax = fig.add_subplot(gs[0, 0])
+    # Use more of the intentionally generous inter-column gutter for panel A.
+    # This enlarges the data-bearing network and schematic without changing the
+    # overall Cell Press canvas or reducing the neighboring panel B allocation.
+    panel_a_position = ax.get_position()
+    ax.set_position(
+        [
+            panel_a_position.x0,
+            panel_a_position.y0 - 0.003,
+            panel_a_position.width * 1.14,
+            panel_a_position.height * 1.035,
+        ]
+    )
     ax.set_axis_off()
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
@@ -159,7 +171,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         cmap=eomes_cmap,
         vmin=-vmax,
         vmax=vmax,
-        node_size=43,
+        node_size=50,
         edgecolors="white",
         linewidths=0.62,
     )
@@ -238,7 +250,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
     ax.set_xlabel("Pooled edge correlation (95% CI)", labelpad=2)
     ax.text(0.99, 0.03, "43,742 clonotypes · 5,548 edges · 181 participants", transform=ax.transAxes, ha="right", va="bottom", fontsize=4.8, color=col["muted"])
     style_axis(ax, "x")
-    panel_title(ax, "Sequence-related alpha-beta TCRs share Figure 2 programs")
+    panel_title(ax, "Sequence-related paired TCRs converge on Figure 2 programs")
     panel_label(ax, "B")
 
     # C: diagnosis-restricted replication makes the sequence result explicitly IBD-facing.
@@ -568,7 +580,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
     ax.set_xlabel("Excess same-inflammation edge fraction (95% CI)")
     ax.tick_params(axis="y", labelsize=5.5)
     style_axis(ax, "x")
-    panel_title(ax, "Sequence neighborhoods track inflammatory status")
+    panel_title(ax, "Sequence neighborhoods associate with inflammatory status")
     panel_label(ax, "E", x=-0.22, y=1.08)
 
     ax = fig.add_subplot(inflammation_grid[0, 1])

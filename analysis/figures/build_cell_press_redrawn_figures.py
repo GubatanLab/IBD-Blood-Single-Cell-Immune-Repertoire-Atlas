@@ -2607,33 +2607,55 @@ def build_figure_5():
 
     tree_container = fig.add_subplot(gs[2, 0])
     tree_container.set_axis_off()
+    # Enlarge the representative-lineage panel into the generous inter-panel
+    # gutters while preserving the fixed Cell Press page dimensions and the
+    # allocation of panel F. The nested axes are positioned explicitly so the
+    # lineage artwork, rather than blank padding, occupies the added space.
+    tree_position = tree_container.get_position()
+    tree_container.set_position([
+        tree_position.x0,
+        tree_position.y0 - 0.006,
+        tree_position.width * 1.12,
+        tree_position.height * 1.10,
+    ])
     figure5_heading(tree_container, "E", "Representative germline-rooted lineage graphs")
-    tree_grid = GridSpecFromSubplotSpec(1, 3, subplot_spec=gs[2, 0], wspace=0.20)
+    tree_position = tree_container.get_position()
+    tree_gap = 0.006
+    tree_width = (tree_position.width - 2 * tree_gap) / 3
     global_xmax = max(0.01, representative_nodes["x"].max())
     for tree_index, diagnosis in enumerate(DIAG):
-        tree_ax = fig.add_subplot(tree_grid[0, tree_index])
+        tree_ax = fig.add_axes([
+            tree_position.x0 + tree_index * (tree_width + tree_gap),
+            tree_position.y0,
+            tree_width,
+            tree_position.height,
+        ])
         selected = representative_selection[representative_selection["Diagnosis"].eq(diagnosis)].iloc[0]
         nodes = representative_nodes[representative_nodes["Diagnosis"].eq(diagnosis)].set_index("node_id")
         edges = representative_edges[representative_edges["Diagnosis"].eq(diagnosis)]
         ymin, ymax = nodes["y"].min(), nodes["y"].max()
         yscale = max(1.0, ymax - ymin)
         normalized_y = (nodes["y"] - ymin) / yscale
-        display_y = 0.22 + 0.58 * normalized_y
+        display_y = 0.16 + 0.70 * normalized_y
+        # Center shorter examples on the common x scale. Translation preserves
+        # branch-length comparability while removing one-sided empty space.
+        local_xmax = max(0.0, nodes["x"].max())
+        x_offset = 0.5 * (global_xmax - local_xmax)
         for _, edge in edges.iterrows():
             source = nodes.loc[int(edge["source"])]
             target = nodes.loc[int(edge["target"])]
-            tree_ax.plot([source["x"], target["x"]],
+            tree_ax.plot([source["x"] + x_offset, target["x"] + x_offset],
                          [display_y.loc[int(edge["source"])], display_y.loc[int(edge["target"])]],
                          color=COL["muted"] if bool(edge["germline_edge"]) else COL[diagnosis],
                          lw=0.9 if bool(edge["germline_edge"]) else 1.05,
                          ls="--" if bool(edge["germline_edge"]) else "-", zorder=1)
         observed = nodes[nodes["node_type"].eq("Observed")]
-        sizes = 12 + 7 * np.sqrt(observed["count"].clip(lower=1))
-        tree_ax.scatter(observed["x"], display_y.loc[observed.index], s=sizes,
+        sizes = 14 + 8 * np.sqrt(observed["count"].clip(lower=1))
+        tree_ax.scatter(observed["x"] + x_offset, display_y.loc[observed.index], s=sizes,
                         color=COL[diagnosis], alpha=0.82, edgecolor="white", lw=0.45, zorder=3)
         root_node = nodes[nodes["node_type"].eq("Germline")].iloc[0]
         root_id = nodes[nodes["node_type"].eq("Germline")].index[0]
-        tree_ax.scatter(root_node["x"], display_y.loc[root_id], marker="D", s=24,
+        tree_ax.scatter(root_node["x"] + x_offset, display_y.loc[root_id], marker="D", s=27,
                         color=COL["ink"], edgecolor="white", lw=0.45, zorder=4)
         light_v = str(selected["dominant_light_id"]).split("|")[0].replace("nan", "unmapped")
         annotation = (f"{selected['SampleID']} | {selected['v_gene']}/{selected['j_gene']}\n"
@@ -2643,7 +2665,7 @@ def build_figure_5():
                      fontsize=7.0, fontweight="bold", ha="center", va="top")
         tree_ax.text(0.5, 0.015, annotation, transform=tree_ax.transAxes, ha="center", va="bottom",
                      fontsize=4.35, linespacing=1.10)
-        tree_ax.set_xlim(-0.03 * global_xmax, global_xmax * 1.05)
+        tree_ax.set_xlim(-0.02 * global_xmax, global_xmax * 1.02)
         tree_ax.set_ylim(0, 1)
         tree_ax.set_xticks([]); tree_ax.set_yticks([])
         for spine in tree_ax.spines.values():
