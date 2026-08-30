@@ -1,0 +1,5 @@
+item,value
+clonotype definition,within-participant exact productive paired alpha-beta V+J+CDR3 amino-acid identity
+state matching,"clone-size-bin score minus singleton score within participant, compartment, and annotated state; equal state and compartment weights"
+programs,EOMES_ZEB2_inflammatory_CD8_TRM_like; Effector_cytotoxicity; Th1_Tc1_inflammatory; GZMK_inflammatory_memory
+integration status,canonical Figure 2B revision requested 2026-08-29

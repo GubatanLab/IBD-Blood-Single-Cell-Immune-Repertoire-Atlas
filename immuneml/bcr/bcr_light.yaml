@@ -1,0 +1,473 @@
+definitions:
+  datasets:
+    bcr_light_cd_vs_control:
+      format: AIRR
+      params:
+        import_empty_aa_sequences: false
+        import_empty_nt_sequences: true
+        import_illegal_characters: false
+        import_out_of_frame: false
+        import_productive: true
+        import_unknown_productivity: true
+        import_with_stop_codon: false
+        is_repertoire: true
+        label_columns: null
+        metadata_file: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/metadata_cd_vs_control.csv
+        paired: false
+        path: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/repertoires
+        region_type: IMGT_CDR3
+        separator: "\t"
+    bcr_light_uc_vs_control:
+      format: AIRR
+      params:
+        import_empty_aa_sequences: false
+        import_empty_nt_sequences: true
+        import_illegal_characters: false
+        import_out_of_frame: false
+        import_productive: true
+        import_unknown_productivity: true
+        import_with_stop_codon: false
+        is_repertoire: true
+        label_columns: null
+        metadata_file: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/metadata_uc_vs_control.csv
+        paired: false
+        path: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/repertoires
+        region_type: IMGT_CDR3
+        separator: "\t"
+    bcr_light_cd_vs_uc:
+      format: AIRR
+      params:
+        import_empty_aa_sequences: false
+        import_empty_nt_sequences: true
+        import_illegal_characters: false
+        import_out_of_frame: false
+        import_productive: true
+        import_unknown_productivity: true
+        import_with_stop_codon: false
+        is_repertoire: true
+        label_columns: null
+        metadata_file: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/metadata_cd_vs_uc.csv
+        paired: false
+        path: C:/path/to/private-immuneml-workspace/chain_bcr_immuneml/airr_input/bcr_light/repertoires
+        region_type: IMGT_CDR3
+        separator: "\t"
+  encodings:
+    k3_aa:
+      KmerFrequency:
+        k: 3
+        k_left: 1
+        k_right: 1
+        max_gap: 0
+        min_gap: 0
+        name: k3_aa
+        normalization_type: relative_frequency
+        reads: unique
+        region_type: imgt_cdr3
+        scale_to_unit_variance: true
+        scale_to_zero_mean: false
+        sequence_encoding: CONTINUOUS_KMER
+        sequence_type: AMINO_ACID
+    k4_aa:
+      KmerFrequency:
+        k: 4
+        k_left: 1
+        k_right: 1
+        max_gap: 0
+        min_gap: 0
+        name: k4_aa
+        normalization_type: relative_frequency
+        reads: unique
+        region_type: imgt_cdr3
+        scale_to_unit_variance: true
+        scale_to_zero_mean: false
+        sequence_encoding: CONTINUOUS_KMER
+        sequence_type: AMINO_ACID
+    k3_nt:
+      KmerFrequency:
+        k: 3
+        k_left: 1
+        k_right: 1
+        max_gap: 0
+        min_gap: 0
+        name: k3_nt
+        normalization_type: relative_frequency
+        reads: unique
+        region_type: imgt_cdr3
+        scale_to_unit_variance: true
+        scale_to_zero_mean: false
+        sequence_encoding: CONTINUOUS_KMER
+        sequence_type: NUCLEOTIDE
+    k4_nt:
+      KmerFrequency:
+        k: 4
+        k_left: 1
+        k_right: 1
+        max_gap: 0
+        min_gap: 0
+        name: k4_nt
+        normalization_type: relative_frequency
+        reads: unique
+        region_type: imgt_cdr3
+        scale_to_unit_variance: true
+        scale_to_zero_mean: false
+        sequence_encoding: CONTINUOUS_KMER
+        sequence_type: NUCLEOTIDE
+  example_weightings: {}
+  ml_methods:
+    logistic_regression:
+      LogisticRegression: {}
+      model_selection_cv: false
+      model_selection_n_folds: -1
+  motifs: {}
+  preprocessing_sequences: {}
+  signals: {}
+  simulations: {}
+instructions:
+  bcr_light_cd_vs_control_k3_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_control_k4_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_control_k3_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_control_k4_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3
+  bcr_light_uc_vs_control_k3_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_uc_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_uc_vs_control_k4_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_uc_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_uc_vs_control_k3_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_uc_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3
+  bcr_light_uc_vs_control_k4_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_uc_vs_control
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_uc_k3_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_uc
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_uc_k4_aa:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_aa
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_uc
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: AMINO_ACID
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_uc_k3_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k3_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_uc
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3
+  bcr_light_cd_vs_uc_k4_nt:
+    type: TrainMLModel
+    settings:
+    - encoding: k4_nt
+      ml_method: logistic_regression
+      preprocessing: null
+    assessment:
+      split_strategy: random
+      split_count: 5
+      training_percentage: 0.7
+    selection:
+      split_strategy: random
+      split_count: 1
+      training_percentage: 0.7
+    labels:
+    - Diagnosis1
+    strategy: GridSearch
+    metrics:
+    - auc
+    - balanced_accuracy
+    - f1_macro
+    optimization_metric: balanced_accuracy
+    number_of_processes: 1
+    reports: []
+    dataset: bcr_light_cd_vs_uc
+    refit_optimal_model: false
+    export_all_ml_settings: false
+    sequence_type: NUCLEOTIDE
+    region_type: IMGT_CDR3

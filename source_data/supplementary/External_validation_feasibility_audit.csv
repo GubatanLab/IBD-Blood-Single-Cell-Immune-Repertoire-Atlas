@@ -1,0 +1,8 @@
+Dataset,Analysis,Status,Reason
+GSE261334,Longitudinal PBMC + paired TCR/BCR,Executable,"5 healthy; 10 UC, paired baseline/week 6"
+GSE125527,Blood–rectum/ileum paired repertoires,Executable,15 participants
+GSE301689,Blood–colon–MLN paired TCR traffic,Descriptive,3 Crohn disease participants
+JCI Insight 2026,Five GLIPH2 specificity motifs,Executable,Independent 32 IBD / 24 healthy validation
+SCP1690,Colon plasma-cell repertoire,Access-limited,Portal requires authenticated download
+Multi-organ CD B atlas,Cross-organ B-cell state/lineage validation,Not executable,No public cell-level accession located
+Frozen classifier,Diagnosis/response transfer,Not executable,No serialized weights or preprocessing object

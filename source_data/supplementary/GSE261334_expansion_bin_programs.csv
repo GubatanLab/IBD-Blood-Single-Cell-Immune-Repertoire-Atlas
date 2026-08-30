@@ -1,0 +1,1832 @@
+cohort,sample,participant,time,disease,receptor,module,expansion_bin,value,n_cells
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Naive/CM,1,1.0993811,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Naive/CM,2,0.7634139,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Naive/CM,3–4,0.61982495,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Naive/CM,≥5,0.4633717,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cytotoxic,1,0.11995934,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cytotoxic,2,1.1451824,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cytotoxic,3–4,1.3432626,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cytotoxic,≥5,1.7109239,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,GZMK memory,1,0.2881356,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,GZMK memory,2,1.1038979,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,GZMK memory,3–4,1.3031166,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,GZMK memory,≥5,1.233491,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17/IL23,1,0.19812581,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17/IL23,2,0.17262661,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17/IL23,3–4,0.10038161,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17/IL23,≥5,0.063697174,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,TRM,1,0.17718579,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,TRM,2,0.20526424,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,TRM,3–4,0.26844695,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,TRM,≥5,0.24678248,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Gut homing,1,0.6323096,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Gut homing,2,0.57895005,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Gut homing,3–4,0.5755561,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Gut homing,≥5,0.5744364,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Tph/Tfh help,1,0.0941192,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Tph/Tfh help,2,0.10637762,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Tph/Tfh help,3–4,0.11890237,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Tph/Tfh help,≥5,0.13558114,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Activated Treg,1,0.0,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Activated Treg,2,0.0,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Activated Treg,3–4,0.0,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Activated Treg,≥5,0.062176608,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cycling T,1,0.0819901,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cycling T,2,0.08581303,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cycling T,3–4,0.095091306,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Cycling T,≥5,0.09561564,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 conventional,1,0.37389994,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 conventional,2,0.4014001,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 conventional,3–4,0.35055348,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 conventional,≥5,0.24071382,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 pathogenic,1,0.0,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 pathogenic,2,0.7710719,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 pathogenic,3–4,0.99994856,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Th17 pathogenic,≥5,0.91639936,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg suppressive,1,0.0,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg suppressive,2,0.0,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg suppressive,3–4,0.0,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg suppressive,≥5,0.0,392
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg reprogramming,1,0.13077103,2149
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg reprogramming,2,0.7106768,150
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg reprogramming,3–4,0.80986047,111
+GSE261334,HC-1,HC-1,baseline,healthy,TCR,Treg reprogramming,≥5,0.73070663,392
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Naive B,1,1.1133907,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Naive B,2,0.8641044,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Naive B,3–4,0.6341785,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Memory B,1,1.5263283,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Memory B,2,1.4531981,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Memory B,3–4,1.2281761,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Atypical memory,1,0.21169925,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Atypical memory,2,0.22970656,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Atypical memory,3–4,0.31559843,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Plasma differentiation,1,0.20495985,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Plasma differentiation,2,0.20035398,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Plasma differentiation,3–4,0.21347228,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Antibody secretion/UPR,1,0.45809025,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Antibody secretion/UPR,2,0.35989386,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Antibody secretion/UPR,3–4,0.33993182,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgA mucosal,1,0.14310747,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgA mucosal,2,0.16927525,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgA mucosal,3–4,0.0,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgG inflammatory,1,0.33669648,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgG inflammatory,2,0.34396863,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,IgG inflammatory,3–4,0.23893975,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Inflammatory AP/UPR,1,1.6095655,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Inflammatory AP/UPR,2,1.4785907,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Inflammatory AP/UPR,3–4,1.4258728,7
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Cycling B,1,0.08389449,1028
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Cycling B,2,0.06492661,16
+GSE261334,HC-1,HC-1,baseline,healthy,BCR,Cycling B,3–4,0.106555395,7
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Naive/CM,1,1.092423,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Naive/CM,2,0.8990592,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Naive/CM,3–4,0.84461856,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Naive/CM,≥5,0.63206184,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cytotoxic,1,0.17975467,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cytotoxic,2,0.9102339,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cytotoxic,3–4,1.0663371,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cytotoxic,≥5,1.3650583,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,GZMK memory,1,0.3463076,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,GZMK memory,2,1.1034226,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,GZMK memory,3–4,1.2501194,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,GZMK memory,≥5,1.3197951,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17/IL23,1,0.20742324,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17/IL23,2,0.17435074,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17/IL23,3–4,0.19163895,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17/IL23,≥5,0.1036528,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,TRM,1,0.16828342,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,TRM,2,0.2176263,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,TRM,3–4,0.27739644,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,TRM,≥5,0.20758922,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Gut homing,1,0.64098084,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Gut homing,2,0.60779583,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Gut homing,3–4,0.6717315,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Gut homing,≥5,0.6119383,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Tph/Tfh help,1,0.104036294,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Tph/Tfh help,2,0.103940666,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Tph/Tfh help,3–4,0.16980374,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Tph/Tfh help,≥5,0.1264546,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Activated Treg,1,0.0,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Activated Treg,2,0.018876895,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Activated Treg,3–4,0.0,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Activated Treg,≥5,0.09377311,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cycling T,1,0.086386845,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cycling T,2,0.08801547,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cycling T,3–4,0.09268075,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Cycling T,≥5,0.094867565,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 conventional,1,0.39919686,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 conventional,2,0.37487724,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 conventional,3–4,0.40928924,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 conventional,≥5,0.34353387,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 pathogenic,1,0.0,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 pathogenic,2,0.90027255,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 pathogenic,3–4,1.0632087,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Th17 pathogenic,≥5,1.0023572,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg suppressive,1,0.0,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg suppressive,2,0.0,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg suppressive,3–4,0.0,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg suppressive,≥5,0.0,275
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg reprogramming,1,0.1962682,945
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg reprogramming,2,0.74683106,96
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg reprogramming,3–4,0.9118606,88
+GSE261334,HC-5,HC-5,baseline,healthy,TCR,Treg reprogramming,≥5,0.8010367,275
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Naive B,1,1.2023557,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Naive B,2,0.80691355,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Naive B,≥5,0.11025973,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Memory B,1,1.5947969,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Memory B,2,1.5236356,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Memory B,≥5,0.67789936,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Atypical memory,1,0.21052855,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Atypical memory,2,0.25418663,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Atypical memory,≥5,0.32858795,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Plasma differentiation,1,0.21358074,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Plasma differentiation,2,0.4040563,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Plasma differentiation,≥5,0.21963274,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Antibody secretion/UPR,1,0.42040527,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Antibody secretion/UPR,2,0.4970191,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Antibody secretion/UPR,≥5,0.55051243,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgA mucosal,1,0.18435653,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgA mucosal,2,0.4606026,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgA mucosal,≥5,0.13406888,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgG inflammatory,1,0.32614836,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgG inflammatory,2,0.4078806,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,IgG inflammatory,≥5,0.103684045,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Inflammatory AP/UPR,1,1.6145837,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Inflammatory AP/UPR,2,1.5322645,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Inflammatory AP/UPR,≥5,1.3467865,14
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Cycling B,1,0.083559304,546
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Cycling B,2,0.15449387,10
+GSE261334,HC-5,HC-5,baseline,healthy,BCR,Cycling B,≥5,0.068384826,14
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Naive/CM,1,1.1586787,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Naive/CM,2,0.6410599,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Naive/CM,3–4,0.40051937,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Naive/CM,≥5,0.36898622,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cytotoxic,1,0.19593938,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cytotoxic,2,1.3420819,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cytotoxic,3–4,1.5925301,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cytotoxic,≥5,1.8472714,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,GZMK memory,1,0.34722948,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,GZMK memory,2,1.1746416,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,GZMK memory,3–4,1.119996,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,GZMK memory,≥5,1.1161245,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17/IL23,1,0.20077911,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17/IL23,2,0.0955433,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17/IL23,3–4,0.0,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17/IL23,≥5,0.0,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,TRM,1,0.14674805,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,TRM,2,0.1318166,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,TRM,3–4,0.15313043,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,TRM,≥5,0.18579373,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Gut homing,1,0.6428899,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Gut homing,2,0.60234255,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Gut homing,3–4,0.57930917,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Gut homing,≥5,0.5689424,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Tph/Tfh help,1,0.08148336,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Tph/Tfh help,2,0.1560708,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Tph/Tfh help,3–4,0.11427727,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Tph/Tfh help,≥5,0.12697807,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Activated Treg,1,0.0,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Activated Treg,2,0.09995248,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Activated Treg,3–4,0.09890175,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Activated Treg,≥5,0.10546773,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cycling T,1,0.08785395,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cycling T,2,0.08600437,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cycling T,3–4,0.09520363,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Cycling T,≥5,0.09423502,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 conventional,1,0.32639024,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 conventional,2,0.2691425,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 conventional,3–4,0.0,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 conventional,≥5,0.0,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 pathogenic,1,0.18197636,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 pathogenic,2,0.894438,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 pathogenic,3–4,0.92383033,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Th17 pathogenic,≥5,0.923893,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg suppressive,1,0.0,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg suppressive,2,0.15423596,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg suppressive,3–4,0.16279931,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg suppressive,≥5,0.17585674,494
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg reprogramming,1,0.20010668,633
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg reprogramming,2,0.7593652,82
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg reprogramming,3–4,0.7161631,67
+GSE261334,HC-2,HC-2,baseline,healthy,TCR,Treg reprogramming,≥5,0.6956736,494
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Naive B,1,1.0812479,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Naive B,2,1.2400131,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Naive B,3–4,1.4835643,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Memory B,1,1.617664,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Memory B,2,1.5284874,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Memory B,3–4,1.7350807,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Atypical memory,1,0.19101182,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Atypical memory,2,0.20019543,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Atypical memory,3–4,0.12458712,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Plasma differentiation,1,0.23577163,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Plasma differentiation,2,0.14899635,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Plasma differentiation,3–4,0.26984987,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Antibody secretion/UPR,1,0.4252359,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Antibody secretion/UPR,2,0.32970506,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Antibody secretion/UPR,3–4,0.46512523,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgA mucosal,1,0.20281075,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgA mucosal,2,0.14309606,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgA mucosal,3–4,0.17442197,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgG inflammatory,1,0.40538833,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgG inflammatory,2,0.3523319,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,IgG inflammatory,3–4,0.37682143,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Inflammatory AP/UPR,1,1.6465703,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Inflammatory AP/UPR,2,1.496439,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Inflammatory AP/UPR,3–4,1.762338,3
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Cycling B,1,0.081255235,966
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Cycling B,2,0.0,28
+GSE261334,HC-2,HC-2,baseline,healthy,BCR,Cycling B,3–4,0.0,3
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Naive/CM,1,0.8698719,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Naive/CM,2,0.5935794,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Naive/CM,3–4,0.44682235,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Naive/CM,≥5,0.33627734,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cytotoxic,1,0.35255876,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cytotoxic,2,1.3764267,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cytotoxic,3–4,1.4290848,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cytotoxic,≥5,1.7061343,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,GZMK memory,1,0.55324936,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,GZMK memory,2,1.2143205,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,GZMK memory,3–4,1.2636976,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,GZMK memory,≥5,1.1340152,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17/IL23,1,0.19790827,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17/IL23,2,0.09432189,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17/IL23,3–4,0.10297978,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17/IL23,≥5,0.0,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,TRM,1,0.16952313,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,TRM,2,0.14589491,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,TRM,3–4,0.22430974,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,TRM,≥5,0.18751079,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Gut homing,1,0.602097,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Gut homing,2,0.58302945,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Gut homing,3–4,0.57668656,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Gut homing,≥5,0.50832546,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Tph/Tfh help,1,0.11572221,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Tph/Tfh help,2,0.12300251,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Tph/Tfh help,3–4,0.15779138,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Tph/Tfh help,≥5,0.12671438,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Activated Treg,1,0.0,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Activated Treg,2,0.0,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Activated Treg,3–4,0.09540287,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Activated Treg,≥5,0.0,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cycling T,1,0.0904207,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cycling T,2,0.029831184,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cycling T,3–4,0.104534365,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Cycling T,≥5,0.09504326,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 conventional,1,0.37386253,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 conventional,2,0.285787,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 conventional,3–4,0.25352687,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 conventional,≥5,0.0,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 pathogenic,1,0.41103867,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 pathogenic,2,1.0489262,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 pathogenic,3–4,1.0142136,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Th17 pathogenic,≥5,0.8753112,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg suppressive,1,0.0,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg suppressive,2,0.0,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg suppressive,3–4,0.0,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg suppressive,≥5,0.0,401
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg reprogramming,1,0.42412692,593
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg reprogramming,2,0.8039883,86
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg reprogramming,3–4,0.83035207,64
+GSE261334,HC-3,HC-3,baseline,healthy,TCR,Treg reprogramming,≥5,0.6905476,401
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Naive B,1,0.99495244,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Naive B,2,1.0056741,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Naive B,3–4,1.02056,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Memory B,1,1.5972855,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Memory B,2,1.4577157,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Memory B,3–4,1.3722442,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Atypical memory,1,0.19911316,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Atypical memory,2,0.25874034,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Atypical memory,3–4,0.13573979,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Plasma differentiation,1,0.23382966,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Plasma differentiation,2,0.12715991,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Plasma differentiation,3–4,0.2563234,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Antibody secretion/UPR,1,0.4203717,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Antibody secretion/UPR,2,0.29427165,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Antibody secretion/UPR,3–4,0.35885277,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgA mucosal,1,0.20453435,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgA mucosal,2,0.15272251,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgA mucosal,3–4,0.17942639,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgG inflammatory,1,0.30800444,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgG inflammatory,2,0.26910472,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,IgG inflammatory,3–4,0.16311489,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Inflammatory AP/UPR,1,1.5742847,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Inflammatory AP/UPR,2,1.4548755,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Inflammatory AP/UPR,3–4,1.3056206,3
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Cycling B,1,0.08241518,866
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Cycling B,2,0.0,22
+GSE261334,HC-3,HC-3,baseline,healthy,BCR,Cycling B,3–4,0.0,3
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Naive/CM,1,1.2852105,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Naive/CM,2,0.8088962,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Naive/CM,3–4,0.6907646,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Naive/CM,≥5,0.6410017,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cytotoxic,1,0.18071155,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cytotoxic,2,1.2546682,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cytotoxic,3–4,1.2747282,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cytotoxic,≥5,1.4942459,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,GZMK memory,1,0.33291796,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,GZMK memory,2,1.0817819,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,GZMK memory,3–4,1.1708022,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,GZMK memory,≥5,1.1713281,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17/IL23,1,0.2074532,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17/IL23,2,0.14132059,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17/IL23,3–4,0.09344798,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17/IL23,≥5,0.097406685,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,TRM,1,0.14760207,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,TRM,2,0.22424778,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,TRM,3–4,0.24560198,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,TRM,≥5,0.2597182,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Gut homing,1,0.74509037,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Gut homing,2,0.7293713,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Gut homing,3–4,0.7046281,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Gut homing,≥5,0.71696174,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Tph/Tfh help,1,0.097748294,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Tph/Tfh help,2,0.13930932,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Tph/Tfh help,3–4,0.1661024,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Tph/Tfh help,≥5,0.18297547,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Activated Treg,1,0.06781775,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Activated Treg,2,0.0821598,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Activated Treg,3–4,0.09328456,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Activated Treg,≥5,0.092366256,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cycling T,1,0.08929593,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cycling T,2,0.096665114,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cycling T,3–4,0.09489137,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Cycling T,≥5,0.094047256,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 conventional,1,0.35562968,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 conventional,2,0.31164142,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 conventional,3–4,0.29307234,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 conventional,≥5,0.29360464,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 pathogenic,1,0.0,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 pathogenic,2,0.86315036,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 pathogenic,3–4,1.0323708,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Th17 pathogenic,≥5,0.9727358,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg suppressive,1,0.0,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg suppressive,2,0.09819732,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg suppressive,3–4,0.1489071,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg suppressive,≥5,0.14177153,288
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg reprogramming,1,0.16304347,1233
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg reprogramming,2,0.7130477,120
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg reprogramming,3–4,0.8110199,96
+GSE261334,HC-4,HC-4,baseline,healthy,TCR,Treg reprogramming,≥5,0.80804,288
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Naive B,1,1.5803192,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Naive B,2,1.150015,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Memory B,1,1.6294941,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Memory B,2,1.2850155,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Atypical memory,1,0.2638889,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Atypical memory,2,0.38157073,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Plasma differentiation,1,0.22532432,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Plasma differentiation,2,0.41573063,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Antibody secretion/UPR,1,0.45155632,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Antibody secretion/UPR,2,0.44178766,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,IgA mucosal,1,0.15271214,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,IgA mucosal,2,0.23958296,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,IgG inflammatory,1,0.3550072,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,IgG inflammatory,2,0.5816318,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Inflammatory AP/UPR,1,1.6195759,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Inflammatory AP/UPR,2,1.5657704,2
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Cycling B,1,0.08890979,729
+GSE261334,HC-4,HC-4,baseline,healthy,BCR,Cycling B,2,0.104634315,2
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Naive/CM,1,1.0877905,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Naive/CM,2,0.6305867,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Naive/CM,3–4,0.5004931,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Naive/CM,≥5,0.34816596,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cytotoxic,1,0.09299268,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cytotoxic,2,0.8642444,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cytotoxic,3–4,1.0966858,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cytotoxic,≥5,1.3033202,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,GZMK memory,1,0.1752111,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,GZMK memory,2,0.9910345,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,GZMK memory,3–4,0.96808434,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,GZMK memory,≥5,1.3135778,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17/IL23,1,0.19489445,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17/IL23,2,0.16163605,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17/IL23,3–4,0.10217936,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17/IL23,≥5,0.08219563,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,TRM,1,0.13188554,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,TRM,2,0.30989945,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,TRM,3–4,0.30170882,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,TRM,≥5,0.31835303,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Gut homing,1,0.5311997,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Gut homing,2,0.5333031,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Gut homing,3–4,0.5570027,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Gut homing,≥5,0.44074106,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Tph/Tfh help,1,0.0,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Tph/Tfh help,2,0.08273523,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Tph/Tfh help,3–4,0.105445504,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Tph/Tfh help,≥5,0.119690545,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Activated Treg,1,0.0,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Activated Treg,2,0.0,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Activated Treg,3–4,0.0,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Activated Treg,≥5,0.0,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cycling T,1,0.058295846,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cycling T,2,0.080232084,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cycling T,3–4,0.08821382,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Cycling T,≥5,0.0946609,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 conventional,1,0.24899891,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 conventional,2,0.27642807,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 conventional,3–4,0.2655172,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 conventional,≥5,0.0,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 pathogenic,1,0.0,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 pathogenic,2,0.6422781,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 pathogenic,3–4,0.6085458,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Th17 pathogenic,≥5,1.1550201,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg suppressive,1,0.0,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg suppressive,2,0.0,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg suppressive,3–4,0.0,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg suppressive,≥5,0.0,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg reprogramming,1,0.0,3678
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg reprogramming,2,0.5790793,84
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg reprogramming,3–4,0.5020515,30
+GSE261334,IBD-1_1,IBD-1,baseline,UC,TCR,Treg reprogramming,≥5,0.9019166,27
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Naive B,1,0.8885967,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Naive B,2,0.8864423,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Naive B,3–4,0.27851528,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Memory B,1,1.5320414,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Memory B,2,1.4763076,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Memory B,3–4,0.5130883,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Atypical memory,1,0.15526792,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Atypical memory,2,0.12965034,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Atypical memory,3–4,0.10517381,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Plasma differentiation,1,0.2094035,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Plasma differentiation,2,0.23719895,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Plasma differentiation,3–4,1.2596654,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Antibody secretion/UPR,1,0.51255685,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Antibody secretion/UPR,2,0.5905488,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Antibody secretion/UPR,3–4,1.4719539,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgA mucosal,1,0.16493213,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgA mucosal,2,0.1286477,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgA mucosal,3–4,1.759916,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgG inflammatory,1,0.38368818,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgG inflammatory,2,0.32035732,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,IgG inflammatory,3–4,1.020206,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6121738,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Inflammatory AP/UPR,2,1.3609669,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.6229552,3
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Cycling B,1,0.0,1285
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Cycling B,2,0.0,14
+GSE261334,IBD-1_1,IBD-1,baseline,UC,BCR,Cycling B,3–4,0.032594766,3
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Naive/CM,1,0.97839665,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Naive/CM,2,0.7074317,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Naive/CM,3–4,0.44128525,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Naive/CM,≥5,0.18655136,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cytotoxic,1,0.084419295,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cytotoxic,2,0.47875586,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cytotoxic,3–4,1.1240325,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cytotoxic,≥5,1.2619612,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,GZMK memory,1,0.19154273,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,GZMK memory,2,0.67033577,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,GZMK memory,3–4,1.1276248,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,GZMK memory,≥5,1.3470979,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17/IL23,1,0.19576268,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17/IL23,2,0.3417033,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17/IL23,3–4,0.18362083,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17/IL23,≥5,0.0,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,TRM,1,0.12838897,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,TRM,2,0.3601514,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,TRM,3–4,0.3705566,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,TRM,≥5,0.3892612,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Gut homing,1,0.4098937,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Gut homing,2,0.46467155,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Gut homing,3–4,0.41789526,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Gut homing,≥5,0.30111971,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Tph/Tfh help,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Tph/Tfh help,2,0.099212974,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Tph/Tfh help,3–4,0.0,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Tph/Tfh help,≥5,0.09696968,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Activated Treg,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Activated Treg,2,0.0,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Activated Treg,3–4,0.0,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Activated Treg,≥5,0.0,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cycling T,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cycling T,2,0.0,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cycling T,3–4,0.0,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Cycling T,≥5,0.12482715,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 conventional,1,0.28717077,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 conventional,2,0.6055219,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 conventional,3–4,0.27534434,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 conventional,≥5,0.21125159,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 pathogenic,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 pathogenic,2,0.31937745,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 pathogenic,3–4,0.86673313,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Th17 pathogenic,≥5,1.0007343,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg suppressive,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg suppressive,2,0.0,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg suppressive,3–4,0.0,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg suppressive,≥5,0.0,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg reprogramming,1,0.0,2852
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg reprogramming,2,0.5179377,42
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg reprogramming,3–4,0.78005373,25
+GSE261334,IBD-1_2,IBD-1,week6,UC,TCR,Treg reprogramming,≥5,0.80666244,6
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Naive B,1,0.916498,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Naive B,2,0.87223476,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Memory B,1,1.5023108,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Memory B,2,1.460774,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Atypical memory,1,0.15448713,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Atypical memory,2,0.09426309,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Plasma differentiation,1,0.18889038,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Plasma differentiation,2,0.39113855,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Antibody secretion/UPR,1,0.48521775,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Antibody secretion/UPR,2,0.7892059,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,IgA mucosal,1,0.14625028,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,IgA mucosal,2,0.47891882,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,IgG inflammatory,1,0.38023022,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,IgG inflammatory,2,0.60978264,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Inflammatory AP/UPR,1,1.5910509,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Inflammatory AP/UPR,2,1.6894312,4
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Cycling B,1,0.051876668,619
+GSE261334,IBD-1_2,IBD-1,week6,UC,BCR,Cycling B,2,0.12731184,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Naive/CM,1,0.962448,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Naive/CM,2,0.6189982,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Naive/CM,3–4,0.4642322,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Naive/CM,≥5,0.3132221,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cytotoxic,1,0.13634223,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cytotoxic,2,0.9733374,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cytotoxic,3–4,1.2402731,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cytotoxic,≥5,1.5870011,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,GZMK memory,1,0.28888842,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,GZMK memory,2,0.96944517,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,GZMK memory,3–4,1.1004148,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,GZMK memory,≥5,1.1207197,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17/IL23,1,0.21076694,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17/IL23,2,0.11967951,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17/IL23,3–4,0.10014178,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17/IL23,≥5,0.0,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,TRM,1,0.24531798,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,TRM,2,0.32133606,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,TRM,3–4,0.3068967,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,TRM,≥5,0.25515348,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Gut homing,1,0.6157234,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Gut homing,2,0.5606688,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Gut homing,3–4,0.54151374,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Gut homing,≥5,0.48904896,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Tph/Tfh help,1,0.08688789,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Tph/Tfh help,2,0.09233043,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Tph/Tfh help,3–4,0.0,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Tph/Tfh help,≥5,0.0,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Activated Treg,1,0.06412637,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Activated Treg,2,0.0,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Activated Treg,3–4,0.0,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Activated Treg,≥5,0.0,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cycling T,1,0.07617374,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cycling T,2,0.07659652,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cycling T,3–4,0.020314993,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Cycling T,≥5,0.088432446,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 conventional,1,0.29517922,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 conventional,2,0.23536682,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 conventional,3–4,0.23058188,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 conventional,≥5,0.13468352,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 pathogenic,1,0.0,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 pathogenic,2,0.668927,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 pathogenic,3–4,0.92443156,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Th17 pathogenic,≥5,0.8737049,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg suppressive,1,0.0,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg suppressive,2,0.0,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg suppressive,3–4,0.0,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg suppressive,≥5,0.0,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg reprogramming,1,0.20837973,1537
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg reprogramming,2,0.5275618,126
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg reprogramming,3–4,0.7381892,118
+GSE261334,IBD-9_1,IBD-9,baseline,UC,TCR,Treg reprogramming,≥5,0.67990845,2231
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Naive B,1,0.90888774,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Naive B,2,0.87845075,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Naive B,3–4,0.9065179,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Memory B,1,1.4604543,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Memory B,2,1.376389,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Memory B,3–4,1.6285952,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Atypical memory,1,0.2021436,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Atypical memory,2,0.17858523,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Atypical memory,3–4,0.1903807,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Plasma differentiation,1,0.21032321,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Plasma differentiation,2,0.14739831,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Plasma differentiation,3–4,0.16733846,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Antibody secretion/UPR,1,0.53261715,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Antibody secretion/UPR,2,0.50894785,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Antibody secretion/UPR,3–4,0.5164412,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgA mucosal,1,0.14290193,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgA mucosal,2,0.09349851,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgA mucosal,3–4,0.0,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgG inflammatory,1,0.344395,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgG inflammatory,2,0.24961928,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,IgG inflammatory,3–4,0.25815064,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6841067,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Inflammatory AP/UPR,2,1.5408931,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.7491635,4
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Cycling B,1,0.06959316,569
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Cycling B,2,0.0,14
+GSE261334,IBD-9_1,IBD-9,baseline,UC,BCR,Cycling B,3–4,0.090046994,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Naive/CM,1,1.0840213,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Naive/CM,2,0.5688995,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Naive/CM,3–4,0.5005909,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Naive/CM,≥5,0.3774988,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cytotoxic,1,0.12690291,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cytotoxic,2,1.2032566,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cytotoxic,3–4,1.3215512,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cytotoxic,≥5,1.6976092,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,GZMK memory,1,0.27948588,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,GZMK memory,2,1.102087,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,GZMK memory,3–4,1.1306574,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,GZMK memory,≥5,1.1743668,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17/IL23,1,0.22767274,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17/IL23,2,0.13858148,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17/IL23,3–4,0.09901188,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17/IL23,≥5,0.0,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,TRM,1,0.23091166,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,TRM,2,0.26683217,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,TRM,3–4,0.25916177,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,TRM,≥5,0.22169308,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Gut homing,1,0.67513764,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Gut homing,2,0.66577345,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Gut homing,3–4,0.5867675,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Gut homing,≥5,0.54366267,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Tph/Tfh help,1,0.0984346,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Tph/Tfh help,2,0.11458521,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Tph/Tfh help,3–4,0.11172487,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Tph/Tfh help,≥5,0.10136996,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Activated Treg,1,0.0,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Activated Treg,2,0.0,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Activated Treg,3–4,0.0,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Activated Treg,≥5,0.0,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cycling T,1,0.07878995,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cycling T,2,0.084631294,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cycling T,3–4,0.082514375,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Cycling T,≥5,0.08703488,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 conventional,1,0.32929346,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 conventional,2,0.25683337,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 conventional,3–4,0.23422006,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 conventional,≥5,0.15590686,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 pathogenic,1,0.0,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 pathogenic,2,0.8456849,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 pathogenic,3–4,0.94531345,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Th17 pathogenic,≥5,0.9043803,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg suppressive,1,0.0,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg suppressive,2,0.0,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg suppressive,3–4,0.0,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg suppressive,≥5,0.0,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg reprogramming,1,0.1642769,1931
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg reprogramming,2,0.69126034,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg reprogramming,3–4,0.7808552,146
+GSE261334,IBD-9_2,IBD-9,week6,UC,TCR,Treg reprogramming,≥5,0.70584184,1684
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Naive B,1,1.1766579,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Naive B,2,0.96174693,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Naive B,3–4,0.9181994,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Memory B,1,1.500851,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Memory B,2,1.4013577,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Memory B,3–4,1.6905761,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Atypical memory,1,0.20536105,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Atypical memory,2,0.16315296,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Atypical memory,3–4,0.43316084,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Plasma differentiation,1,0.20240417,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Plasma differentiation,2,0.46700794,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Plasma differentiation,3–4,0.15782225,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Antibody secretion/UPR,1,0.47147068,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Antibody secretion/UPR,2,0.706035,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Antibody secretion/UPR,3–4,0.63783,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgA mucosal,1,0.14168292,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgA mucosal,2,0.3101638,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgA mucosal,3–4,0.14483407,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgG inflammatory,1,0.33393553,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgG inflammatory,2,0.46996957,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,IgG inflammatory,3–4,0.46300143,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Inflammatory AP/UPR,1,1.6332637,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Inflammatory AP/UPR,2,1.6045232,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Inflammatory AP/UPR,3–4,1.697225,4
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Cycling B,1,0.08122168,355
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Cycling B,2,0.14163971,6
+GSE261334,IBD-9_2,IBD-9,week6,UC,BCR,Cycling B,3–4,0.0,4
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Naive/CM,1,1.0278807,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Naive/CM,2,0.47548968,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Naive/CM,3–4,0.37257925,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Naive/CM,≥5,0.32442412,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cytotoxic,1,0.14766502,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cytotoxic,2,1.4498563,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cytotoxic,3–4,1.6721965,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cytotoxic,≥5,1.6977749,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,GZMK memory,1,0.27889073,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,GZMK memory,2,1.1782956,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,GZMK memory,3–4,1.1735592,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,GZMK memory,≥5,1.1729966,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17/IL23,1,0.12834209,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17/IL23,2,0.0,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17/IL23,3–4,0.0,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17/IL23,≥5,0.0,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,TRM,1,0.1955869,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,TRM,2,0.3514624,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,TRM,3–4,0.31761354,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,TRM,≥5,0.288405,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Gut homing,1,0.58262074,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Gut homing,2,0.6170359,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Gut homing,3–4,0.59616244,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Gut homing,≥5,0.56737804,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Tph/Tfh help,1,0.09749377,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Tph/Tfh help,2,0.13075794,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Tph/Tfh help,3–4,0.1110141,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Tph/Tfh help,≥5,0.10522069,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Activated Treg,1,0.0,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Activated Treg,2,0.07693666,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Activated Treg,3–4,0.0,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Activated Treg,≥5,0.0,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cycling T,1,0.08428159,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cycling T,2,0.10111447,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cycling T,3–4,0.09563981,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Cycling T,≥5,0.09310553,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 conventional,1,0.36901712,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 conventional,2,0.25244558,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 conventional,3–4,0.19096078,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 conventional,≥5,0.16173486,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 pathogenic,1,0.0,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 pathogenic,2,0.94946945,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 pathogenic,3–4,0.89301616,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Th17 pathogenic,≥5,0.86707723,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg suppressive,1,0.0,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg suppressive,2,0.0,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg suppressive,3–4,0.0,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg suppressive,≥5,0.0,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg reprogramming,1,0.0,584
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg reprogramming,2,0.7398797,60
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg reprogramming,3–4,0.71746445,53
+GSE261334,IBD-10_1,IBD-10,baseline,UC,TCR,Treg reprogramming,≥5,0.68697596,1480
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Naive B,1,1.1013522,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Naive B,2,0.6585766,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Memory B,1,1.519506,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Memory B,2,1.2060015,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Atypical memory,1,0.21666963,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Atypical memory,2,0.10083982,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Plasma differentiation,1,0.18728694,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Plasma differentiation,2,0.7504444,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Antibody secretion/UPR,1,0.46378684,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Antibody secretion/UPR,2,0.7207281,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,IgA mucosal,1,0.12100112,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,IgA mucosal,2,1.1048185,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,IgG inflammatory,1,0.32516265,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,IgG inflammatory,2,0.6865864,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6322663,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Inflammatory AP/UPR,2,1.6402626,8
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Cycling B,1,0.07886317,418
+GSE261334,IBD-10_1,IBD-10,baseline,UC,BCR,Cycling B,2,0.12576857,8
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Naive/CM,1,1.0393188,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Naive/CM,2,0.5900178,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Naive/CM,3–4,0.50451016,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Naive/CM,≥5,0.32719353,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cytotoxic,1,0.12315891,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cytotoxic,2,1.1608927,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cytotoxic,3–4,1.3077693,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cytotoxic,≥5,1.6663547,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,GZMK memory,1,0.2545493,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,GZMK memory,2,1.0461462,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,GZMK memory,3–4,1.0579071,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,GZMK memory,≥5,1.0604376,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17/IL23,1,0.18840371,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17/IL23,2,0.11829694,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17/IL23,3–4,0.0,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17/IL23,≥5,0.0,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,TRM,1,0.18389688,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,TRM,2,0.2697327,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,TRM,3–4,0.27270058,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,TRM,≥5,0.22975744,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Gut homing,1,0.6264012,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Gut homing,2,0.59849507,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Gut homing,3–4,0.61908114,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Gut homing,≥5,0.5402184,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Tph/Tfh help,1,0.08955413,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Tph/Tfh help,2,0.12289528,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Tph/Tfh help,3–4,0.10732387,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Tph/Tfh help,≥5,0.09987032,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Activated Treg,1,0.0,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Activated Treg,2,0.0,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Activated Treg,3–4,0.0,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Activated Treg,≥5,0.0,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cycling T,1,0.077527836,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cycling T,2,0.084538564,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cycling T,3–4,0.08453123,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Cycling T,≥5,0.08765418,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 conventional,1,0.32313097,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 conventional,2,0.28934908,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 conventional,3–4,0.23442324,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 conventional,≥5,0.109986335,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 pathogenic,1,0.0,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 pathogenic,2,0.8191893,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 pathogenic,3–4,0.99996597,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Th17 pathogenic,≥5,0.8863966,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg suppressive,1,0.0,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg suppressive,2,0.0,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg suppressive,3–4,0.0,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg suppressive,≥5,0.0,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg reprogramming,1,0.13457212,1806
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg reprogramming,2,0.70899546,136
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg reprogramming,3–4,0.79583323,75
+GSE261334,IBD-10_2,IBD-10,week6,UC,TCR,Treg reprogramming,≥5,0.70498306,1941
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Naive B,1,1.193922,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Naive B,2,1.284069,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Memory B,1,1.5611583,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Memory B,2,1.3460083,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Atypical memory,1,0.21158554,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Atypical memory,2,0.15544921,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Plasma differentiation,1,0.18804494,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Plasma differentiation,2,0.14921764,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Antibody secretion/UPR,1,0.45190877,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Antibody secretion/UPR,2,0.37442356,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,IgA mucosal,1,0.116352245,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,IgA mucosal,2,0.09342958,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,IgG inflammatory,1,0.2982546,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,IgG inflammatory,2,0.23055008,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Inflammatory AP/UPR,1,1.6923876,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Inflammatory AP/UPR,2,1.6526272,10
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Cycling B,1,0.07552564,806
+GSE261334,IBD-10_2,IBD-10,week6,UC,BCR,Cycling B,2,0.07857565,10
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Naive/CM,1,1.2791166,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Naive/CM,2,0.87331116,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Naive/CM,3–4,0.63941175,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Naive/CM,≥5,0.61570406,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cytotoxic,1,0.08661983,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cytotoxic,2,1.0306101,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cytotoxic,3–4,1.1218228,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cytotoxic,≥5,1.3749363,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,GZMK memory,1,0.21923414,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,GZMK memory,2,1.1130713,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,GZMK memory,3–4,1.1504804,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,GZMK memory,≥5,1.1817226,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17/IL23,1,0.18254611,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17/IL23,2,0.15055662,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17/IL23,3–4,0.07058428,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17/IL23,≥5,0.0,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,TRM,1,0.3576957,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,TRM,2,0.4336177,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,TRM,3–4,0.37907612,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,TRM,≥5,0.371129,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Gut homing,1,0.7170248,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Gut homing,2,0.7309561,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Gut homing,3–4,0.7134813,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Gut homing,≥5,0.7464545,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Tph/Tfh help,1,0.086535215,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Tph/Tfh help,2,0.13375139,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Tph/Tfh help,3–4,0.1028582,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Tph/Tfh help,≥5,0.08892306,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Activated Treg,1,0.090120316,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Activated Treg,2,0.113583684,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Activated Treg,3–4,0.0792619,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Activated Treg,≥5,0.06828878,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cycling T,1,0.07528867,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cycling T,2,0.085260585,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cycling T,3–4,0.06996092,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Cycling T,≥5,0.090811044,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 conventional,1,0.32587528,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 conventional,2,0.2899471,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 conventional,3–4,0.26035768,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 conventional,≥5,0.2539388,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 pathogenic,1,0.0,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 pathogenic,2,0.7751626,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 pathogenic,3–4,0.82488704,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Th17 pathogenic,≥5,0.98777676,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg suppressive,1,0.0,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg suppressive,2,0.12376129,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg suppressive,3–4,0.0,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg suppressive,≥5,0.0,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg reprogramming,1,0.0,878
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg reprogramming,2,0.5813719,24
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg reprogramming,3–4,0.6186653,17
+GSE261334,IBD-2_1,IBD-2,baseline,UC,TCR,Treg reprogramming,≥5,0.7585237,38
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Naive B,1,1.4290711,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Naive B,2,1.2846568,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Naive B,3–4,1.1762334,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Memory B,1,1.5421604,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Memory B,2,1.4586785,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Memory B,3–4,1.5478662,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Atypical memory,1,0.19345355,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Atypical memory,2,0.13384819,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Atypical memory,3–4,0.16056104,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Plasma differentiation,1,0.20608963,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Plasma differentiation,2,0.18724933,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Plasma differentiation,3–4,0.16056104,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Antibody secretion/UPR,1,0.51853025,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Antibody secretion/UPR,2,0.5160535,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Antibody secretion/UPR,3–4,0.33133313,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgA mucosal,1,0.13317972,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgA mucosal,2,0.12735601,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgA mucosal,3–4,0.0,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgG inflammatory,1,0.35953462,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgG inflammatory,2,0.28756765,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,IgG inflammatory,3–4,0.26243117,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6107752,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Inflammatory AP/UPR,2,1.3285832,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.3392677,3
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Cycling B,1,0.08131123,441
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Cycling B,2,0.0,6
+GSE261334,IBD-2_1,IBD-2,baseline,UC,BCR,Cycling B,3–4,0.14985697,3
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Naive/CM,1,1.3272402,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Naive/CM,2,1.0342499,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Naive/CM,3–4,0.6502026,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Naive/CM,≥5,0.64583385,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cytotoxic,1,0.10040769,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cytotoxic,2,0.4521488,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cytotoxic,3–4,1.2855548,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cytotoxic,≥5,1.3572562,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,GZMK memory,1,0.21600688,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,GZMK memory,2,0.7153535,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,GZMK memory,3–4,1.1656691,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,GZMK memory,≥5,1.1883769,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17/IL23,1,0.2301563,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17/IL23,2,0.2135255,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17/IL23,3–4,0.18180928,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17/IL23,≥5,0.090190865,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,TRM,1,0.11733493,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,TRM,2,0.17789155,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,TRM,3–4,0.22839715,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,TRM,≥5,0.21446852,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Gut homing,1,0.6593129,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Gut homing,2,0.70476234,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Gut homing,3–4,0.6795496,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Gut homing,≥5,0.71834934,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Tph/Tfh help,1,0.080080345,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Tph/Tfh help,2,0.10677385,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Tph/Tfh help,3–4,0.17327584,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Tph/Tfh help,≥5,0.14158918,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Activated Treg,1,0.0,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Activated Treg,2,0.07296033,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Activated Treg,3–4,0.08268945,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Activated Treg,≥5,0.07635582,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cycling T,1,0.08184763,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cycling T,2,0.09241749,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cycling T,3–4,0.08622015,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Cycling T,≥5,0.08751495,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 conventional,1,0.3071409,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 conventional,2,0.28779304,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 conventional,3–4,0.20105983,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 conventional,≥5,0.16821364,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 pathogenic,1,0.0,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 pathogenic,2,0.5705023,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 pathogenic,3–4,1.1157207,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Th17 pathogenic,≥5,1.1057678,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg suppressive,1,0.0,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg suppressive,2,0.0,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg suppressive,3–4,0.0,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg suppressive,≥5,0.0,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg reprogramming,1,0.0,2010
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg reprogramming,2,0.42787674,78
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg reprogramming,3–4,0.9180534,49
+GSE261334,IBD-2_2,IBD-2,week6,UC,TCR,Treg reprogramming,≥5,0.87403965,99
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Naive B,1,1.7238582,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Naive B,2,0.8758479,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Memory B,1,1.5980154,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Memory B,2,1.0324606,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Atypical memory,1,0.1981293,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Atypical memory,2,0.11757499,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Plasma differentiation,1,0.20462736,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Plasma differentiation,2,0.9358657,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Antibody secretion/UPR,1,0.4367015,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Antibody secretion/UPR,2,1.0135949,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,IgA mucosal,1,0.13352959,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,IgA mucosal,2,0.6916207,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,IgG inflammatory,1,0.285615,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,IgG inflammatory,2,1.1002599,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Inflammatory AP/UPR,1,1.5998167,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Inflammatory AP/UPR,2,1.7955596,4
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Cycling B,1,0.0839727,493
+GSE261334,IBD-2_2,IBD-2,week6,UC,BCR,Cycling B,2,0.0536586,4
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Naive/CM,1,1.0684946,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Naive/CM,2,0.58073103,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Naive/CM,3–4,0.38331065,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Naive/CM,≥5,0.39706245,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cytotoxic,1,0.11295216,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cytotoxic,2,1.3307707,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cytotoxic,3–4,1.7241266,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cytotoxic,≥5,1.7298354,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,GZMK memory,1,0.27795833,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,GZMK memory,2,1.0484238,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,GZMK memory,3–4,1.1154997,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,GZMK memory,≥5,1.0679471,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17/IL23,1,0.1519166,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17/IL23,2,0.16023743,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17/IL23,3–4,0.08290388,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17/IL23,≥5,0.0,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,TRM,1,0.195409,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,TRM,2,0.34057617,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,TRM,3–4,0.29939294,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,TRM,≥5,0.32345793,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Gut homing,1,0.5406976,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Gut homing,2,0.52210504,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Gut homing,3–4,0.56576854,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Gut homing,≥5,0.50316536,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Tph/Tfh help,1,0.0,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Tph/Tfh help,2,0.0891088,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Tph/Tfh help,3–4,0.120884925,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Tph/Tfh help,≥5,0.11678107,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Activated Treg,1,0.0,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Activated Treg,2,0.09753014,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Activated Treg,3–4,0.0,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Activated Treg,≥5,0.0,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cycling T,1,0.07599535,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cycling T,2,0.111264214,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cycling T,3–4,0.113215566,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Cycling T,≥5,0.10892526,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 conventional,1,0.3985728,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 conventional,2,0.539293,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 conventional,3–4,0.25989738,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 conventional,≥5,0.31424055,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 pathogenic,1,0.0,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 pathogenic,2,0.7105347,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 pathogenic,3–4,0.7110503,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Th17 pathogenic,≥5,0.72149545,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg suppressive,1,0.0,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg suppressive,2,0.0,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg suppressive,3–4,0.0,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg suppressive,≥5,0.0,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg reprogramming,1,0.0,848
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg reprogramming,2,0.7562448,34
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg reprogramming,3–4,0.6701281,45
+GSE261334,IBD-3_1,IBD-3,baseline,UC,TCR,Treg reprogramming,≥5,0.5801708,769
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Naive B,1,1.0966878,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Naive B,2,0.7316559,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Memory B,1,1.4798449,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Memory B,2,1.1847842,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Atypical memory,1,0.13168368,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Atypical memory,2,0.25783545,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Plasma differentiation,1,0.15825474,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Plasma differentiation,2,0.30980876,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Antibody secretion/UPR,1,0.35893643,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Antibody secretion/UPR,2,0.39788318,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,IgA mucosal,1,0.13977274,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,IgA mucosal,2,0.2064937,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,IgG inflammatory,1,0.28508502,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,IgG inflammatory,2,0.31554526,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Inflammatory AP/UPR,1,1.4783481,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Inflammatory AP/UPR,2,1.3856919,14
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Cycling B,1,0.0,533
+GSE261334,IBD-3_1,IBD-3,baseline,UC,BCR,Cycling B,2,0.036181808,14
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Naive/CM,1,1.1570704,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Naive/CM,2,0.879359,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Naive/CM,3–4,0.43591088,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Naive/CM,≥5,0.39591983,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cytotoxic,1,0.11978766,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cytotoxic,2,0.64514655,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cytotoxic,3–4,1.6318285,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cytotoxic,≥5,1.7585809,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,GZMK memory,1,0.28110138,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,GZMK memory,2,0.8822089,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,GZMK memory,3–4,1.0628995,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,GZMK memory,≥5,1.0877019,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17/IL23,1,0.22262825,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17/IL23,2,0.20903571,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17/IL23,3–4,0.11378591,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17/IL23,≥5,0.0,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,TRM,1,0.23655261,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,TRM,2,0.27887076,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,TRM,3–4,0.3152864,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,TRM,≥5,0.35171846,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Gut homing,1,0.68351233,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Gut homing,2,0.59080577,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Gut homing,3–4,0.56128687,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Gut homing,≥5,0.54884547,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Tph/Tfh help,1,0.09148201,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Tph/Tfh help,2,0.11762325,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Tph/Tfh help,3–4,0.10734142,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Tph/Tfh help,≥5,0.10751749,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Activated Treg,1,0.0,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Activated Treg,2,0.08566302,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Activated Treg,3–4,0.0,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Activated Treg,≥5,0.0,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cycling T,1,0.087674126,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cycling T,2,0.10726065,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cycling T,3–4,0.10063721,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Cycling T,≥5,0.10091444,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 conventional,1,0.38211432,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 conventional,2,0.3690408,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 conventional,3–4,0.28972507,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 conventional,≥5,0.25046217,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 pathogenic,1,0.0,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 pathogenic,2,0.6207242,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 pathogenic,3–4,0.6990028,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Th17 pathogenic,≥5,0.8231432,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg suppressive,1,0.0,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg suppressive,2,0.0,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg suppressive,3–4,0.0,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg suppressive,≥5,0.0,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg reprogramming,1,0.0,1272
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg reprogramming,2,0.5050602,56
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg reprogramming,3–4,0.5690934,45
+GSE261334,IBD-3_2,IBD-3,week6,UC,TCR,Treg reprogramming,≥5,0.6464096,481
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Naive B,1,1.2420428,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Memory B,1,1.629875,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Atypical memory,1,0.15396087,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Plasma differentiation,1,0.20127967,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Antibody secretion/UPR,1,0.40031713,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,IgA mucosal,1,0.15012458,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,IgG inflammatory,1,0.39939937,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Inflammatory AP/UPR,1,1.6468749,174
+GSE261334,IBD-3_2,IBD-3,week6,UC,BCR,Cycling B,1,0.07533692,174
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Naive/CM,1,1.1022854,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Naive/CM,2,0.5014509,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Naive/CM,3–4,0.5111644,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Naive/CM,≥5,0.47594154,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cytotoxic,1,0.11930476,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cytotoxic,2,1.5175102,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cytotoxic,3–4,1.4946966,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cytotoxic,≥5,1.6348468,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,GZMK memory,1,0.2914885,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,GZMK memory,2,1.2482364,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,GZMK memory,3–4,1.262008,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,GZMK memory,≥5,1.1857034,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17/IL23,1,0.16793275,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17/IL23,2,0.0,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17/IL23,3–4,0.090635315,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17/IL23,≥5,0.08795681,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,TRM,1,0.21156411,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,TRM,2,0.33955318,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,TRM,3–4,0.3391344,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,TRM,≥5,0.3184667,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Gut homing,1,0.6327542,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Gut homing,2,0.6358918,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Gut homing,3–4,0.64624107,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Gut homing,≥5,0.6145413,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Tph/Tfh help,1,0.10898686,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Tph/Tfh help,2,0.13579813,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Tph/Tfh help,3–4,0.11692807,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Tph/Tfh help,≥5,0.12535217,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Activated Treg,1,0.0,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Activated Treg,2,0.0,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Activated Treg,3–4,0.0,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Activated Treg,≥5,0.0,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cycling T,1,0.09040643,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cycling T,2,0.10149243,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cycling T,3–4,0.097170234,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Cycling T,≥5,0.107488275,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 conventional,1,0.37584347,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 conventional,2,0.2428,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 conventional,3–4,0.37152416,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 conventional,≥5,0.34781098,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 pathogenic,1,0.0,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 pathogenic,2,1.013629,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 pathogenic,3–4,0.92288744,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Th17 pathogenic,≥5,0.86082554,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg suppressive,1,0.0,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg suppressive,2,0.0,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg suppressive,3–4,0.0,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg suppressive,≥5,0.0,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg reprogramming,1,0.0,437
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg reprogramming,2,0.7733918,60
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg reprogramming,3–4,0.82457894,62
+GSE261334,IBD-4_1,IBD-4,baseline,UC,TCR,Treg reprogramming,≥5,0.70958555,939
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Naive B,1,1.2413267,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Naive B,2,1.1868877,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Naive B,3–4,0.81718546,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Memory B,1,1.5055728,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Memory B,2,1.6588355,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Memory B,3–4,1.852107,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Atypical memory,1,0.20545779,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Atypical memory,2,0.4411763,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Atypical memory,3–4,0.5604506,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Plasma differentiation,1,0.19200435,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Plasma differentiation,2,0.19081563,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Plasma differentiation,3–4,0.37707895,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Antibody secretion/UPR,1,0.40177906,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Antibody secretion/UPR,2,0.42405564,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Antibody secretion/UPR,3–4,0.3148438,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgA mucosal,1,0.15627994,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgA mucosal,2,0.31793654,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgA mucosal,3–4,0.43888846,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgG inflammatory,1,0.33905908,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgG inflammatory,2,0.41346163,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,IgG inflammatory,3–4,0.7983135,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Inflammatory AP/UPR,1,1.5767266,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Inflammatory AP/UPR,2,1.6631224,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.8407451,3
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Cycling B,1,0.06383893,781
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Cycling B,2,0.08421795,12
+GSE261334,IBD-4_1,IBD-4,baseline,UC,BCR,Cycling B,3–4,0.109694004,3
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Naive/CM,1,1.2754395,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Naive/CM,2,0.6688701,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Naive/CM,3–4,0.54518425,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Naive/CM,≥5,0.48935232,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cytotoxic,1,0.0879835,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cytotoxic,2,1.3659607,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cytotoxic,3–4,1.5093254,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cytotoxic,≥5,1.5942872,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,GZMK memory,1,0.24275419,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,GZMK memory,2,1.1333296,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,GZMK memory,3–4,1.362851,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,GZMK memory,≥5,1.2064996,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17/IL23,1,0.21459547,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17/IL23,2,0.14855778,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17/IL23,3–4,0.0,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17/IL23,≥5,0.09592742,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,TRM,1,0.16326348,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,TRM,2,0.2618974,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,TRM,3–4,0.25311843,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,TRM,≥5,0.2591003,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Gut homing,1,0.6870574,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Gut homing,2,0.6089717,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Gut homing,3–4,0.6126338,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Gut homing,≥5,0.6104814,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Tph/Tfh help,1,0.099573456,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Tph/Tfh help,2,0.15151212,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Tph/Tfh help,3–4,0.22210424,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Tph/Tfh help,≥5,0.13199736,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Activated Treg,1,0.0,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Activated Treg,2,0.0,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Activated Treg,3–4,0.08595974,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Activated Treg,≥5,0.0,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cycling T,1,0.0777401,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cycling T,2,0.09380582,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cycling T,3–4,0.0876409,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Cycling T,≥5,0.09621222,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 conventional,1,0.34305614,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 conventional,2,0.32010698,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 conventional,3–4,0.2341897,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 conventional,≥5,0.29507053,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 pathogenic,1,0.0,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 pathogenic,2,0.93005264,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 pathogenic,3–4,1.0231509,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Th17 pathogenic,≥5,0.8713126,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg suppressive,1,0.0,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg suppressive,2,0.0,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg suppressive,3–4,0.0,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg suppressive,≥5,0.0,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg reprogramming,1,0.0,1711
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg reprogramming,2,0.75192404,74
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg reprogramming,3–4,0.7798557,103
+GSE261334,IBD-4_2,IBD-4,week6,UC,TCR,Treg reprogramming,≥5,0.7258553,821
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Naive B,1,1.4224331,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Naive B,2,0.25358978,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Memory B,1,1.5432312,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Memory B,2,0.5071808,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Atypical memory,1,0.1947242,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Atypical memory,2,0.04009443,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Plasma differentiation,1,0.20552802,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Plasma differentiation,2,1.5829948,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Antibody secretion/UPR,1,0.41921228,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Antibody secretion/UPR,2,1.6374264,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,IgA mucosal,1,0.1427814,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,IgA mucosal,2,1.8265277,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,IgG inflammatory,1,0.3878211,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,IgG inflammatory,2,0.9566587,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Inflammatory AP/UPR,1,1.6607982,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Inflammatory AP/UPR,2,1.7487185,2
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Cycling B,1,0.07991016,208
+GSE261334,IBD-4_2,IBD-4,week6,UC,BCR,Cycling B,2,0.03742147,2
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Naive/CM,1,0.85318625,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Naive/CM,2,0.36370727,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Naive/CM,3–4,0.2712896,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Naive/CM,≥5,0.22344932,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cytotoxic,1,0.22122055,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cytotoxic,2,1.5275098,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cytotoxic,3–4,1.5976543,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cytotoxic,≥5,1.7847743,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,GZMK memory,1,0.38271177,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,GZMK memory,2,1.1967461,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,GZMK memory,3–4,1.186099,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,GZMK memory,≥5,1.1011299,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17/IL23,1,0.17996234,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17/IL23,2,0.0,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17/IL23,3–4,0.10496778,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17/IL23,≥5,0.0,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,TRM,1,0.18631405,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,TRM,2,0.2518764,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,TRM,3–4,0.2712259,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,TRM,≥5,0.25937873,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Gut homing,1,0.47942966,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Gut homing,2,0.46584997,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Gut homing,3–4,0.48827934,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Gut homing,≥5,0.42996606,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Tph/Tfh help,1,0.10102466,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Tph/Tfh help,2,0.1403994,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Tph/Tfh help,3–4,0.12508991,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Tph/Tfh help,≥5,0.11007337,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Activated Treg,1,0.0,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Activated Treg,2,0.0,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Activated Treg,3–4,0.0,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Activated Treg,≥5,0.0,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cycling T,1,0.086490154,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cycling T,2,0.095115475,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cycling T,3–4,0.09303363,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Cycling T,≥5,0.08951895,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 conventional,1,0.36047232,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 conventional,2,0.21489894,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 conventional,3–4,0.20066139,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 conventional,≥5,0.0,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 pathogenic,1,0.071810424,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 pathogenic,2,0.99043226,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 pathogenic,3–4,0.9535898,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Th17 pathogenic,≥5,0.8545525,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg suppressive,1,0.0,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg suppressive,2,0.0,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg suppressive,3–4,0.0,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg suppressive,≥5,0.0,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg reprogramming,1,0.29386616,810
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg reprogramming,2,0.77190703,84
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg reprogramming,3–4,0.8085777,106
+GSE261334,IBD-5_1,IBD-5,baseline,UC,TCR,Treg reprogramming,≥5,0.6864107,610
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Naive B,1,1.2396812,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Naive B,2,1.2444482,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Memory B,1,1.5395565,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Memory B,2,1.2006284,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Atypical memory,1,0.14890052,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Atypical memory,2,0.12823431,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Plasma differentiation,1,0.2029469,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Plasma differentiation,2,0.18258366,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Antibody secretion/UPR,1,0.39642167,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Antibody secretion/UPR,2,0.37423402,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,IgA mucosal,1,0.15206683,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,IgA mucosal,2,0.15145868,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,IgG inflammatory,1,0.31426835,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,IgG inflammatory,2,0.34433824,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6048719,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Inflammatory AP/UPR,2,1.3872161,4
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Cycling B,1,0.08289197,838
+GSE261334,IBD-5_1,IBD-5,baseline,UC,BCR,Cycling B,2,0.0,4
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Naive/CM,1,0.9126307,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Naive/CM,2,0.56305075,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Naive/CM,3–4,0.28130096,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Naive/CM,≥5,0.21951537,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cytotoxic,1,0.13069305,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cytotoxic,2,1.3593979,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cytotoxic,3–4,1.5585791,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cytotoxic,≥5,1.7031658,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,GZMK memory,1,0.31676784,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,GZMK memory,2,1.1264474,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,GZMK memory,3–4,1.128805,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,GZMK memory,≥5,1.0851165,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17/IL23,1,0.21660092,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17/IL23,2,0.16592199,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17/IL23,3–4,0.12011834,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17/IL23,≥5,0.0,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,TRM,1,0.29521763,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,TRM,2,0.4489838,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,TRM,3–4,0.3233507,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,TRM,≥5,0.32725573,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Gut homing,1,0.5194569,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Gut homing,2,0.561154,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Gut homing,3–4,0.44696686,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Gut homing,≥5,0.43056327,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Tph/Tfh help,1,0.0,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Tph/Tfh help,2,0.093012586,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Tph/Tfh help,3–4,0.12642871,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Tph/Tfh help,≥5,0.07221131,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Activated Treg,1,0.0,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Activated Treg,2,0.0,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Activated Treg,3–4,0.0,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Activated Treg,≥5,0.0,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cycling T,1,0.0,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cycling T,2,0.0,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cycling T,3–4,0.0,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Cycling T,≥5,0.0,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 conventional,1,0.3658503,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 conventional,2,0.4066059,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 conventional,3–4,0.295506,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 conventional,≥5,0.0,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 pathogenic,1,0.0,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 pathogenic,2,0.88336635,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 pathogenic,3–4,0.7380361,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Th17 pathogenic,≥5,0.7595761,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg suppressive,1,0.0,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg suppressive,2,0.0,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg suppressive,3–4,0.0,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg suppressive,≥5,0.0,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg reprogramming,1,0.1596058,701
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg reprogramming,2,0.8041477,48
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg reprogramming,3–4,0.74086237,57
+GSE261334,IBD-5_2,IBD-5,week6,UC,TCR,Treg reprogramming,≥5,0.63542527,548
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Naive B,1,1.2977825,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Naive B,2,1.3578944,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Memory B,1,1.5112984,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Memory B,2,1.4784851,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Atypical memory,1,0.12382767,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Atypical memory,2,0.1300479,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Plasma differentiation,1,0.16932987,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Plasma differentiation,2,0.14908177,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Antibody secretion/UPR,1,0.3966725,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Antibody secretion/UPR,2,0.29385775,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,IgA mucosal,1,0.14671068,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,IgA mucosal,2,0.0,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,IgG inflammatory,1,0.34915537,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,IgG inflammatory,2,0.30360195,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Inflammatory AP/UPR,1,1.6390698,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Inflammatory AP/UPR,2,1.6368425,14
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Cycling B,1,0.064718455,1010
+GSE261334,IBD-5_2,IBD-5,week6,UC,BCR,Cycling B,2,0.0,14
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Naive/CM,1,0.99215996,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Naive/CM,2,0.77664113,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Naive/CM,3–4,0.6492174,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Naive/CM,≥5,0.519335,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cytotoxic,1,0.3017527,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cytotoxic,2,1.2369661,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cytotoxic,3–4,1.6210248,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cytotoxic,≥5,1.6323533,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,GZMK memory,1,0.5196051,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,GZMK memory,2,1.1711226,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,GZMK memory,3–4,1.263,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,GZMK memory,≥5,1.2121178,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17/IL23,1,0.19736439,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17/IL23,2,0.10771115,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17/IL23,3–4,0.062092643,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17/IL23,≥5,0.0,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,TRM,1,0.16581252,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,TRM,2,0.17412105,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,TRM,3–4,0.16296433,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,TRM,≥5,0.17184575,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Gut homing,1,0.69044435,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Gut homing,2,0.6997927,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Gut homing,3–4,0.7265645,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Gut homing,≥5,0.6661437,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Tph/Tfh help,1,0.11978993,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Tph/Tfh help,2,0.16597566,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Tph/Tfh help,3–4,0.16627166,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Tph/Tfh help,≥5,0.19453737,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Activated Treg,1,0.07454287,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Activated Treg,2,0.07821217,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Activated Treg,3–4,0.07624835,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Activated Treg,≥5,0.10463407,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cycling T,1,0.08650317,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cycling T,2,0.07870656,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cycling T,3–4,0.08330386,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Cycling T,≥5,0.084457904,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 conventional,1,0.37767655,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 conventional,2,0.31036988,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 conventional,3–4,0.22594468,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 conventional,≥5,0.0866559,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 pathogenic,1,0.41385332,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 pathogenic,2,0.9678898,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 pathogenic,3–4,0.9866335,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Th17 pathogenic,≥5,0.908549,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg suppressive,1,0.0,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg suppressive,2,0.0,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg suppressive,3–4,0.12092313,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg suppressive,≥5,0.14496899,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg reprogramming,1,0.4481831,770
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg reprogramming,2,0.7379954,132
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg reprogramming,3–4,0.7791368,109
+GSE261334,IBD-6_1,IBD-6,baseline,UC,TCR,Treg reprogramming,≥5,0.7037424,1491
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Naive B,1,1.5754807,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Naive B,3–4,1.5316889,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Memory B,1,1.5858588,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Memory B,3–4,1.5411719,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Atypical memory,1,0.30351096,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Atypical memory,3–4,0.12517498,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Plasma differentiation,1,0.22912082,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Plasma differentiation,3–4,0.12517498,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Antibody secretion/UPR,1,0.49214843,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Antibody secretion/UPR,3–4,0.37915763,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,IgA mucosal,1,0.13430426,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,IgA mucosal,3–4,0.0,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,IgG inflammatory,1,0.32597724,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,IgG inflammatory,3–4,0.21408492,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Inflammatory AP/UPR,1,1.5892735,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.495636,3
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Cycling B,1,0.09052066,407
+GSE261334,IBD-6_1,IBD-6,baseline,UC,BCR,Cycling B,3–4,0.11688257,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Naive/CM,1,1.136984,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Naive/CM,2,0.73301053,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Naive/CM,3–4,0.6563506,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Naive/CM,≥5,0.47189248,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cytotoxic,1,0.0864104,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cytotoxic,2,0.990708,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cytotoxic,3–4,1.2487941,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cytotoxic,≥5,1.4846519,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,GZMK memory,1,0.29721785,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,GZMK memory,2,1.0482824,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,GZMK memory,3–4,1.2215803,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,GZMK memory,≥5,1.2578082,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17/IL23,1,0.20135868,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17/IL23,2,0.12128702,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17/IL23,3–4,0.088326916,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17/IL23,≥5,0.0,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,TRM,1,0.29374725,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,TRM,2,0.3207537,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,TRM,3–4,0.35228366,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,TRM,≥5,0.30525386,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Gut homing,1,0.7545526,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Gut homing,2,0.7176475,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Gut homing,3–4,0.723421,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Gut homing,≥5,0.6468996,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Tph/Tfh help,1,0.078843266,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Tph/Tfh help,2,0.09758547,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Tph/Tfh help,3–4,0.10313557,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Tph/Tfh help,≥5,0.11307209,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Activated Treg,1,0.048431914,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Activated Treg,2,0.073464625,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Activated Treg,3–4,0.072942615,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Activated Treg,≥5,0.06995523,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cycling T,1,0.07709709,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cycling T,2,0.08198279,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cycling T,3–4,0.079141855,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Cycling T,≥5,0.08063385,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 conventional,1,0.34882292,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 conventional,2,0.3113972,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 conventional,3–4,0.2799344,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 conventional,≥5,0.16512787,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 pathogenic,1,0.0,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 pathogenic,2,0.8008932,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 pathogenic,3–4,0.87667453,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Th17 pathogenic,≥5,0.9155135,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg suppressive,1,0.0,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg suppressive,2,0.0,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg suppressive,3–4,0.0,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg suppressive,≥5,0.0,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg reprogramming,1,0.16350968,1327
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg reprogramming,2,0.6559646,122
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg reprogramming,3–4,0.73639876,92
+GSE261334,IBD-6_2,IBD-6,week6,UC,TCR,Treg reprogramming,≥5,0.72041667,481
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Naive B,1,1.4392886,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Naive B,3–4,0.6751565,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Memory B,1,1.589219,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Memory B,3–4,1.5789646,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Atypical memory,1,0.24081093,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Atypical memory,3–4,0.35763374,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Plasma differentiation,1,0.20193936,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Plasma differentiation,3–4,0.3461946,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Antibody secretion/UPR,1,0.5857413,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Antibody secretion/UPR,3–4,0.5130991,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,IgA mucosal,1,0.12938523,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,IgA mucosal,3–4,0.8280403,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,IgG inflammatory,1,0.3888709,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,IgG inflammatory,3–4,0.44061133,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Inflammatory AP/UPR,1,1.7247599,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Inflammatory AP/UPR,3–4,1.5060259,3
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Cycling B,1,0.07720773,252
+GSE261334,IBD-6_2,IBD-6,week6,UC,BCR,Cycling B,3–4,0.10785401,3
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Naive/CM,1,1.2433362,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Naive/CM,2,1.0021877,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Naive/CM,3–4,0.8351212,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Naive/CM,≥5,0.47274208,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cytotoxic,1,0.12664488,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cytotoxic,2,0.440931,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cytotoxic,3–4,1.3252937,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cytotoxic,≥5,1.4286199,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,GZMK memory,1,0.26287478,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,GZMK memory,2,0.525153,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,GZMK memory,3–4,1.0860105,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,GZMK memory,≥5,1.1233835,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17/IL23,1,0.2463674,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17/IL23,2,0.23298591,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17/IL23,3–4,0.17903177,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17/IL23,≥5,0.16194394,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,TRM,1,0.2032696,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,TRM,2,0.2678547,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,TRM,3–4,0.3365194,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,TRM,≥5,0.25732803,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Gut homing,1,0.67587245,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Gut homing,2,0.6307646,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Gut homing,3–4,0.70708084,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Gut homing,≥5,0.5847968,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Tph/Tfh help,1,0.08652432,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Tph/Tfh help,2,0.106686234,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Tph/Tfh help,3–4,0.10406901,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Tph/Tfh help,≥5,0.109191656,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Activated Treg,1,0.06307721,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Activated Treg,2,0.09528725,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Activated Treg,3–4,0.09458961,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Activated Treg,≥5,0.026240919,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cycling T,1,0.07729176,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cycling T,2,0.07959397,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cycling T,3–4,0.08366067,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Cycling T,≥5,0.091170035,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 conventional,1,0.36594224,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 conventional,2,0.3557263,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 conventional,3–4,0.2861074,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 conventional,≥5,0.30465087,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 pathogenic,1,0.0,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 pathogenic,2,0.28274506,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 pathogenic,3–4,0.83163625,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Th17 pathogenic,≥5,0.77705824,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg suppressive,1,0.0,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg suppressive,2,0.0,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg suppressive,3–4,0.0,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg suppressive,≥5,0.0,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg reprogramming,1,0.117101446,2384
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg reprogramming,2,0.41822582,118
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg reprogramming,3–4,0.78388226,45
+GSE261334,IBD-7_1,IBD-7,baseline,UC,TCR,Treg reprogramming,≥5,0.7790228,42
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Naive B,1,1.3653872,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Naive B,2,0.8207333,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Memory B,1,1.5080934,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Memory B,2,1.4772445,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Atypical memory,1,0.18634197,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Atypical memory,2,0.20987673,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Plasma differentiation,1,0.21203277,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Plasma differentiation,2,0.45256388,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Antibody secretion/UPR,1,0.47252846,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Antibody secretion/UPR,2,0.5396594,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,IgA mucosal,1,0.13991049,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,IgA mucosal,2,0.48674542,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,IgG inflammatory,1,0.32210106,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,IgG inflammatory,2,0.58122295,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Inflammatory AP/UPR,1,1.6021594,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Inflammatory AP/UPR,2,1.678565,22
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Cycling B,1,0.086220324,1042
+GSE261334,IBD-7_1,IBD-7,baseline,UC,BCR,Cycling B,2,0.06639832,22
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Naive/CM,1,1.2634664,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Naive/CM,2,1.0781736,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Naive/CM,3–4,0.63436395,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Naive/CM,≥5,0.42762414,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cytotoxic,1,0.10702506,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cytotoxic,2,0.34786814,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cytotoxic,3–4,1.4544196,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cytotoxic,≥5,1.6016283,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,GZMK memory,1,0.27831936,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,GZMK memory,2,0.63629794,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,GZMK memory,3–4,1.1137723,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,GZMK memory,≥5,1.1591585,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17/IL23,1,0.23448607,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17/IL23,2,0.26379773,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17/IL23,3–4,0.1281219,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17/IL23,≥5,0.1261559,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,TRM,1,0.27449715,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,TRM,2,0.36686772,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,TRM,3–4,0.3230187,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,TRM,≥5,0.4663714,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Gut homing,1,0.7960058,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Gut homing,2,0.8305969,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Gut homing,3–4,0.7717034,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Gut homing,≥5,0.67712826,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Tph/Tfh help,1,0.082161784,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Tph/Tfh help,2,0.10953897,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Tph/Tfh help,3–4,0.07556076,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Tph/Tfh help,≥5,0.18936619,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Activated Treg,1,0.04584095,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Activated Treg,2,0.0,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Activated Treg,3–4,0.0,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Activated Treg,≥5,0.060971048,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cycling T,1,0.07516139,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cycling T,2,0.0745606,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cycling T,3–4,0.08317389,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Cycling T,≥5,0.16411737,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 conventional,1,0.3486974,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 conventional,2,0.48428032,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 conventional,3–4,0.26216874,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 conventional,≥5,0.26712298,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 pathogenic,1,0.0,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 pathogenic,2,0.44073558,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 pathogenic,3–4,0.93396205,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Th17 pathogenic,≥5,0.8459154,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg suppressive,1,0.0,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg suppressive,2,0.0,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg suppressive,3–4,0.0,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg suppressive,≥5,0.0,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg reprogramming,1,0.113995336,955
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg reprogramming,2,0.44247502,34
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg reprogramming,3–4,0.7372708,21
+GSE261334,IBD-7_2,IBD-7,week6,UC,TCR,Treg reprogramming,≥5,0.80016077,5
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Naive B,1,1.430654,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Naive B,2,1.203393,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Memory B,1,1.5931385,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Memory B,2,1.5871426,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Atypical memory,1,0.18453263,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Atypical memory,2,0.17313503,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Plasma differentiation,1,0.19700053,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Plasma differentiation,2,0.108854294,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Antibody secretion/UPR,1,0.5416157,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Antibody secretion/UPR,2,0.5730475,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,IgA mucosal,1,0.1271097,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,IgA mucosal,2,0.0,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,IgG inflammatory,1,0.39283353,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,IgG inflammatory,2,0.33744425,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Inflammatory AP/UPR,1,1.7380836,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Inflammatory AP/UPR,2,1.5955299,10
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Cycling B,1,0.0816491,1070
+GSE261334,IBD-7_2,IBD-7,week6,UC,BCR,Cycling B,2,0.08225329,10
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Naive/CM,1,1.1223757,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Naive/CM,2,0.6551274,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Naive/CM,3–4,0.35366198,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Naive/CM,≥5,0.2587061,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cytotoxic,1,0.14244786,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cytotoxic,2,1.496969,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cytotoxic,3–4,1.8147879,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cytotoxic,≥5,1.9505246,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,GZMK memory,1,0.24778825,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,GZMK memory,2,1.0325458,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,GZMK memory,3–4,1.2135956,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,GZMK memory,≥5,1.1920224,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17/IL23,1,0.19962305,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17/IL23,2,0.15660766,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17/IL23,3–4,0.0,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17/IL23,≥5,0.049620267,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,TRM,1,0.17128022,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,TRM,2,0.2162508,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,TRM,3–4,0.28263485,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,TRM,≥5,0.21656016,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Gut homing,1,0.6434232,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Gut homing,2,0.59988606,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Gut homing,3–4,0.5123522,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Gut homing,≥5,0.47682992,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Tph/Tfh help,1,0.08336844,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Tph/Tfh help,2,0.12786657,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Tph/Tfh help,3–4,0.16070408,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Tph/Tfh help,≥5,0.16511872,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Activated Treg,1,0.0,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Activated Treg,2,0.06182781,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Activated Treg,3–4,0.12496242,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Activated Treg,≥5,0.13993943,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cycling T,1,0.08074413,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cycling T,2,0.09941235,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cycling T,3–4,0.08542937,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Cycling T,≥5,0.08319312,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 conventional,1,0.32082984,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 conventional,2,0.2791357,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 conventional,3–4,0.0,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 conventional,≥5,0.0,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 pathogenic,1,0.0,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 pathogenic,2,0.8279376,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 pathogenic,3–4,0.8332925,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Th17 pathogenic,≥5,0.79638964,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg suppressive,1,0.0,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg suppressive,2,0.0,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg suppressive,3–4,0.21071935,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg suppressive,≥5,0.1767631,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg reprogramming,1,0.0,496
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg reprogramming,2,0.7373334,56
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg reprogramming,3–4,0.62496936,16
+GSE261334,IBD-8_1,IBD-8,baseline,UC,TCR,Treg reprogramming,≥5,0.66496813,162
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Naive B,1,1.298923,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Naive B,2,1.0837197,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Naive B,3–4,0.85974044,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Memory B,1,1.6111971,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Memory B,2,1.6509459,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Memory B,3–4,1.458804,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Atypical memory,1,0.24497814,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Atypical memory,2,0.21803942,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Atypical memory,3–4,0.15933011,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Plasma differentiation,1,0.222821,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Plasma differentiation,2,0.22608007,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Plasma differentiation,3–4,0.2277057,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Antibody secretion/UPR,1,0.5133695,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Antibody secretion/UPR,2,0.41627198,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Antibody secretion/UPR,3–4,0.5313133,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgA mucosal,1,0.17145643,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgA mucosal,2,0.19563615,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgA mucosal,3–4,0.2260832,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgG inflammatory,1,0.40369517,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgG inflammatory,2,0.35839733,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,IgG inflammatory,3–4,0.38961735,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Inflammatory AP/UPR,1,1.7343435,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Inflammatory AP/UPR,2,1.667985,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Inflammatory AP/UPR,3–4,1.6829478,9
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Cycling B,1,0.07981451,1040
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Cycling B,2,0.07109988,166
+GSE261334,IBD-8_1,IBD-8,baseline,UC,BCR,Cycling B,3–4,0.11112424,9
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Naive/CM,1,1.2151173,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Naive/CM,2,0.7880822,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Naive/CM,3–4,0.503752,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Naive/CM,≥5,0.25604057,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cytotoxic,1,0.14168367,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cytotoxic,2,1.246659,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cytotoxic,3–4,1.7056293,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cytotoxic,≥5,1.9082539,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,GZMK memory,1,0.265955,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,GZMK memory,2,1.146215,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,GZMK memory,3–4,1.2133744,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,GZMK memory,≥5,1.1710448,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17/IL23,1,0.20289698,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17/IL23,2,0.11414404,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17/IL23,3–4,0.0921198,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17/IL23,≥5,0.07165783,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,TRM,1,0.14384522,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,TRM,2,0.18946385,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,TRM,3–4,0.30576745,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,TRM,≥5,0.24272019,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Gut homing,1,0.6884174,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Gut homing,2,0.625459,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Gut homing,3–4,0.6156175,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Gut homing,≥5,0.5072149,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Tph/Tfh help,1,0.08165418,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Tph/Tfh help,2,0.09187569,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Tph/Tfh help,3–4,0.09645261,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Tph/Tfh help,≥5,0.16750729,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Activated Treg,1,0.0,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Activated Treg,2,0.0,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Activated Treg,3–4,0.1310446,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Activated Treg,≥5,0.16698563,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cycling T,1,0.07538799,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cycling T,2,0.0798804,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cycling T,3–4,0.08433047,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Cycling T,≥5,0.09712264,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 conventional,1,0.3366095,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 conventional,2,0.31599247,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 conventional,3–4,0.07943202,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 conventional,≥5,0.0,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 pathogenic,1,0.0,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 pathogenic,2,0.70615447,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 pathogenic,3–4,0.85351694,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Th17 pathogenic,≥5,0.7969341,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg suppressive,1,0.0,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg suppressive,2,0.0,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg suppressive,3–4,0.1528075,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg suppressive,≥5,0.2113862,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg reprogramming,1,0.0,739
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg reprogramming,2,0.61026514,20
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg reprogramming,3–4,0.6745852,24
+GSE261334,IBD-8_2,IBD-8,week6,UC,TCR,Treg reprogramming,≥5,0.6714994,210
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Naive B,1,1.3967823,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Naive B,2,1.1522424,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Memory B,1,1.6199282,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Memory B,2,1.6422961,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Atypical memory,1,0.22649923,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Atypical memory,2,0.30683357,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Plasma differentiation,1,0.18572275,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Plasma differentiation,2,0.1586045,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Antibody secretion/UPR,1,0.47887427,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Antibody secretion/UPR,2,0.41686654,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,IgA mucosal,1,0.12851092,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,IgA mucosal,2,0.16905767,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,IgG inflammatory,1,0.38320133,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,IgG inflammatory,2,0.42894155,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Inflammatory AP/UPR,1,1.7422903,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Inflammatory AP/UPR,2,1.7172209,8
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Cycling B,1,0.07478704,1059
+GSE261334,IBD-8_2,IBD-8,week6,UC,BCR,Cycling B,2,0.09723401,8

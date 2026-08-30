@@ -1,0 +1,127 @@
+participant,compartment,module,traffic,value,n_cells,n_clonotypes
+CD10,mild colon,GZMK memory,blood-shared,0.6772056,79,53
+CD10,mild colon,GZMK memory,tissue-private,0.3946052,2667,2384
+CD10,mild colon,Th17/IL23,blood-shared,0.4754381,79,53
+CD10,mild colon,Th17/IL23,tissue-private,0.46173903,2667,2384
+CD10,mild colon,TRM,blood-shared,0.8617961,79,53
+CD10,mild colon,TRM,tissue-private,0.81647587,2667,2384
+CD10,mild colon,Gut homing,blood-shared,0.65064055,79,53
+CD10,mild colon,Gut homing,tissue-private,0.63765776,2667,2384
+CD10,mild colon,Tph/Tfh help,blood-shared,0.2998756,79,53
+CD10,mild colon,Tph/Tfh help,tissue-private,0.3445627,2667,2384
+CD10,mild colon,Activated Treg,blood-shared,0.18160154,79,53
+CD10,mild colon,Activated Treg,tissue-private,0.33463493,2667,2384
+CD10,mild colon,Cycling T,blood-shared,0.14011103,79,53
+CD10,mild colon,Cycling T,tissue-private,0.13251777,2667,2384
+CD10,inflamed colon,GZMK memory,blood-shared,0.6700278,72,50
+CD10,inflamed colon,GZMK memory,tissue-private,0.36235714,2299,2054
+CD10,inflamed colon,Th17/IL23,blood-shared,0.4523704,72,50
+CD10,inflamed colon,Th17/IL23,tissue-private,0.40531805,2299,2054
+CD10,inflamed colon,TRM,blood-shared,0.7149224,72,50
+CD10,inflamed colon,TRM,tissue-private,0.7440632,2299,2054
+CD10,inflamed colon,Gut homing,blood-shared,0.6524719,72,50
+CD10,inflamed colon,Gut homing,tissue-private,0.61808133,2299,2054
+CD10,inflamed colon,Tph/Tfh help,blood-shared,0.27351105,72,50
+CD10,inflamed colon,Tph/Tfh help,tissue-private,0.38505092,2299,2054
+CD10,inflamed colon,Activated Treg,blood-shared,0.2671234,72,50
+CD10,inflamed colon,Activated Treg,tissue-private,0.46106234,2299,2054
+CD10,inflamed colon,Cycling T,blood-shared,0.15448445,72,50
+CD10,inflamed colon,Cycling T,tissue-private,0.14292167,2299,2054
+CD10,MLN,GZMK memory,blood-shared,0.32578817,21,20
+CD10,MLN,GZMK memory,tissue-private,0.28093013,3148,3102
+CD10,MLN,Th17/IL23,blood-shared,0.17892106,21,20
+CD10,MLN,Th17/IL23,tissue-private,0.18325433,3148,3102
+CD10,MLN,TRM,blood-shared,0.5926031,21,20
+CD10,MLN,TRM,tissue-private,0.58910096,3148,3102
+CD10,MLN,Gut homing,blood-shared,0.79444855,21,20
+CD10,MLN,Gut homing,tissue-private,0.61492705,3148,3102
+CD10,MLN,Tph/Tfh help,blood-shared,0.23880316,21,20
+CD10,MLN,Tph/Tfh help,tissue-private,0.306037,3148,3102
+CD10,MLN,Activated Treg,blood-shared,0.15650497,21,20
+CD10,MLN,Activated Treg,tissue-private,0.26271683,3148,3102
+CD10,MLN,Cycling T,blood-shared,0.10394045,21,20
+CD10,MLN,Cycling T,tissue-private,0.103668466,3148,3102
+CD11,mild colon,GZMK memory,blood-shared,0.70904225,5,5
+CD11,mild colon,GZMK memory,tissue-private,0.2957014,1071,1058
+CD11,mild colon,Th17/IL23,blood-shared,0.11831127,5,5
+CD11,mild colon,Th17/IL23,tissue-private,0.1967363,1071,1058
+CD11,mild colon,TRM,blood-shared,0.5601987,5,5
+CD11,mild colon,TRM,tissue-private,0.48016998,1071,1058
+CD11,mild colon,Gut homing,blood-shared,0.67752266,5,5
+CD11,mild colon,Gut homing,tissue-private,0.57577443,1071,1058
+CD11,mild colon,Tph/Tfh help,blood-shared,0.16545321,5,5
+CD11,mild colon,Tph/Tfh help,tissue-private,0.3376296,1071,1058
+CD11,mild colon,Activated Treg,blood-shared,0.17649975,5,5
+CD11,mild colon,Activated Treg,tissue-private,0.18523408,1071,1058
+CD11,mild colon,Cycling T,blood-shared,0.1329594,5,5
+CD11,mild colon,Cycling T,tissue-private,0.12094531,1071,1058
+CD11,inflamed colon,GZMK memory,blood-shared,1.0605279,23,17
+CD11,inflamed colon,GZMK memory,tissue-private,0.52831006,995,927
+CD11,inflamed colon,Th17/IL23,blood-shared,0.36079898,23,17
+CD11,inflamed colon,Th17/IL23,tissue-private,0.39860305,995,927
+CD11,inflamed colon,TRM,blood-shared,0.87326425,23,17
+CD11,inflamed colon,TRM,tissue-private,0.9040852,995,927
+CD11,inflamed colon,Gut homing,blood-shared,0.7486073,23,17
+CD11,inflamed colon,Gut homing,tissue-private,0.77023256,995,927
+CD11,inflamed colon,Tph/Tfh help,blood-shared,0.3395858,23,17
+CD11,inflamed colon,Tph/Tfh help,tissue-private,0.33589956,995,927
+CD11,inflamed colon,Activated Treg,blood-shared,0.0837972,23,17
+CD11,inflamed colon,Activated Treg,tissue-private,0.18507215,995,927
+CD11,inflamed colon,Cycling T,blood-shared,0.1223263,23,17
+CD11,inflamed colon,Cycling T,tissue-private,0.13349661,995,927
+CD11,MLN,GZMK memory,blood-shared,0.44415826,6,6
+CD11,MLN,GZMK memory,tissue-private,0.27569714,2098,2087
+CD11,MLN,Th17/IL23,blood-shared,0.22956781,6,6
+CD11,MLN,Th17/IL23,tissue-private,0.16700447,2098,2087
+CD11,MLN,TRM,blood-shared,0.5780596,6,6
+CD11,MLN,TRM,tissue-private,0.46490228,2098,2087
+CD11,MLN,Gut homing,blood-shared,0.6109671,6,6
+CD11,MLN,Gut homing,tissue-private,0.64279795,2098,2087
+CD11,MLN,Tph/Tfh help,blood-shared,0.3983891,6,6
+CD11,MLN,Tph/Tfh help,tissue-private,0.33146948,2098,2087
+CD11,MLN,Activated Treg,blood-shared,0.28806973,6,6
+CD11,MLN,Activated Treg,tissue-private,0.1824475,2098,2087
+CD11,MLN,Cycling T,blood-shared,0.15671945,6,6
+CD11,MLN,Cycling T,tissue-private,0.11935422,2098,2087
+CD12,mild colon,GZMK memory,blood-shared,0.7375903,56,25
+CD12,mild colon,GZMK memory,tissue-private,0.46945918,2709,2159
+CD12,mild colon,Th17/IL23,blood-shared,0.5589565,56,25
+CD12,mild colon,Th17/IL23,tissue-private,0.49910924,2709,2159
+CD12,mild colon,TRM,blood-shared,0.84240663,56,25
+CD12,mild colon,TRM,tissue-private,0.8078001,2709,2159
+CD12,mild colon,Gut homing,blood-shared,0.7054887,56,25
+CD12,mild colon,Gut homing,tissue-private,0.70651597,2709,2159
+CD12,mild colon,Tph/Tfh help,blood-shared,0.25394523,56,25
+CD12,mild colon,Tph/Tfh help,tissue-private,0.33972535,2709,2159
+CD12,mild colon,Activated Treg,blood-shared,0.17062494,56,25
+CD12,mild colon,Activated Treg,tissue-private,0.25881332,2709,2159
+CD12,mild colon,Cycling T,blood-shared,0.12822571,56,25
+CD12,mild colon,Cycling T,tissue-private,0.11501203,2709,2159
+CD12,inflamed colon,GZMK memory,blood-shared,0.32403043,32,27
+CD12,inflamed colon,GZMK memory,tissue-private,0.2864066,1748,1487
+CD12,inflamed colon,Th17/IL23,blood-shared,0.36638978,32,27
+CD12,inflamed colon,Th17/IL23,tissue-private,0.34060064,1748,1487
+CD12,inflamed colon,TRM,blood-shared,0.53874326,32,27
+CD12,inflamed colon,TRM,tissue-private,0.58959925,1748,1487
+CD12,inflamed colon,Gut homing,blood-shared,0.6042925,32,27
+CD12,inflamed colon,Gut homing,tissue-private,0.5863564,1748,1487
+CD12,inflamed colon,Tph/Tfh help,blood-shared,0.34691942,32,27
+CD12,inflamed colon,Tph/Tfh help,tissue-private,0.4479342,1748,1487
+CD12,inflamed colon,Activated Treg,blood-shared,0.3794253,32,27
+CD12,inflamed colon,Activated Treg,tissue-private,0.51187885,1748,1487
+CD12,inflamed colon,Cycling T,blood-shared,0.100421876,32,27
+CD12,inflamed colon,Cycling T,tissue-private,0.12564185,1748,1487
+CD12,MLN,GZMK memory,blood-shared,0.6571816,102,57
+CD12,MLN,GZMK memory,tissue-private,0.24704148,6857,6493
+CD12,MLN,Th17/IL23,blood-shared,0.39375544,102,57
+CD12,MLN,Th17/IL23,tissue-private,0.2464423,6857,6493
+CD12,MLN,TRM,blood-shared,0.51496005,102,57
+CD12,MLN,TRM,tissue-private,0.39498973,6857,6493
+CD12,MLN,Gut homing,blood-shared,0.66268474,102,57
+CD12,MLN,Gut homing,tissue-private,0.566313,6857,6493
+CD12,MLN,Tph/Tfh help,blood-shared,0.28341633,102,57
+CD12,MLN,Tph/Tfh help,tissue-private,0.33858758,6857,6493
+CD12,MLN,Activated Treg,blood-shared,0.13522431,102,57
+CD12,MLN,Activated Treg,tissue-private,0.2438536,6857,6493
+CD12,MLN,Cycling T,blood-shared,0.15463993,102,57
+CD12,MLN,Cycling T,tissue-private,0.13257995,6857,6493

@@ -1,0 +1,19 @@
+figure	stage	primary_workflow	shareable_output	controlled_input_required
+Figure 1	atlas	analysis/figures/extract_figure1_umaps_from_seurat.R	figures/main/Figure_1.pdf	yes
+Figure 2	TCR clone state	analysis/figures/export_figure2_clone_size_dose_response.R	figures/main/Figure_2.pdf	yes
+Figure 3	TCR sequence neighborhoods	analysis/core/run_tcr_sequence_state_graph.py	figures/main/Figure_3.pdf	yes
+Figure 4	BCR clone state	analysis/figures/analyze_bcr_expansion_maturation.py	figures/main/Figure_4.pdf	yes
+Figure 5	BCR SHM and lineages	analysis/core/analyze_bcr_germline_lineages.py	figures/main/Figure_5.pdf	yes
+Figure 6	T-B coordination	analysis/core/run_high_impact_integrative_analyses.R	figures/main/Figure_6.pdf	yes
+Figure 7	immuneML clinical benchmarks	analysis/core/run_ml_sensitivity_validation.py	figures/main/Figure_7.pdf	yes
+Figure S1	receptor QC	analysis/figures/extract_figure1_robustness_data.R	figures/supplementary/Figure_S1.pdf	yes
+Figure S2	TCR sensitivity	analysis/core/run_exact_clonotype_definition_sensitivity.R	figures/supplementary/Figure_S2.pdf	yes
+Figure S3	external longitudinal validation	analysis/external_validation/run_external_validation.py	figures/supplementary/Figure_S3.pdf	public only
+Figure S4	BCR sensitivity	analysis/figures/analyze_bcr_expansion_maturation.py	figures/supplementary/Figure_S4.pdf	yes
+Figure S5	lineage sensitivity	analysis/core/analyze_bcr_lineage_threshold_effects.py	figures/supplementary/Figure_S5.pdf	yes
+Figure S6	lineage maturation	analysis/core/analyze_bcr_figure5_enhancements.py	figures/supplementary/Figure_S6.pdf	yes
+Figure S7	T-B robustness	analysis/core/run_high_impact_integrative_analyses.R	figures/supplementary/Figure_S7.pdf	yes
+Figure S8	Th17/Treg/helper architecture	analysis/figures/run_th17_treg_b_helper.py	figures/supplementary/Figure_S8.pdf	yes
+Figure S9	external mucosal validation	analysis/external_validation/run_external_validation.py	figures/supplementary/Figure_S9.pdf	public only
+Figure S10	ML sensitivity	analysis/ml_validation/build_supplementary_figures.py	figures/supplementary/Figure_S10.pdf	yes
+

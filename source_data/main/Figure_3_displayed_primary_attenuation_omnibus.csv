@@ -1,0 +1,3 @@
+comparison,wald_chi_square,degrees_freedom,omnibus_p,n_bootstrap,n_series,resampling_unit,batch_term_included
+Clone-size adjusted,2.6383090301625005,3,0.4508130260478635,2000,8,participant within acquisition series,False
+Dominant-state adjusted,24.628956053200188,3,1.845950450970603e-05,2000,8,participant within acquisition series,False

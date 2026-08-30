@@ -1,0 +1,3 @@
+outcome,observed_rho,null_ci_low,null_ci_high,empirical_p,n,permutations,permutation_strata
+bcr_IgA_mucosal_module,0.4954498339214424,0.1207795867758405,0.4890459987542145,0.0212978702129787,56,10000,acquisition_series
+bcr_plasma_differentiation_module,0.5889329559904402,0.1313724592273605,0.4636477271261408,0.0001999800019998,56,10000,acquisition_series

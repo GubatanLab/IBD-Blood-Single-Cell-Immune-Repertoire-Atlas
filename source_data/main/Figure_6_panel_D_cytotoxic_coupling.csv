@@ -1,0 +1,7 @@
+outcome,outcome_label,diagnosis,n,partial_rho,ci_low,ci_high,p_value,p_adj_within_six
+bcr_IgA_mucosal_module,IgA mucosal plasma-cell module,Control,17,0.2985199091220706,-0.599470128293574,0.8183934906359596,0.2444823542549782,1.0
+bcr_IgA_mucosal_module,IgA mucosal plasma-cell module,CD,56,0.4954498339214421,0.2309156288770082,0.6892699142983395,0.000103442006962,0.0006206520417725
+bcr_IgA_mucosal_module,IgA mucosal plasma-cell module,UC,54,-0.1492380655357471,-0.4153900701160454,0.1044825081678028,0.2814552200431321,1.0
+bcr_plasma_differentiation_module,Plasmablast/plasma-cell differentiation module,Control,17,-0.2319793035584089,-0.8208062842366105,0.4494779402089346,0.3702895683246746,1.0
+bcr_plasma_differentiation_module,Plasmablast/plasma-cell differentiation module,CD,56,0.5889329559904399,0.3942950807023342,0.7270062338275998,1.8012824180289706e-06,1.0807694508173824e-05
+bcr_plasma_differentiation_module,Plasmablast/plasma-cell differentiation module,UC,54,-0.1005922238807541,-0.4123735025161519,0.1879768499778872,0.4692245926835171,1.0

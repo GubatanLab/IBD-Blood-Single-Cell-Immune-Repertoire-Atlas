@@ -1,0 +1,416 @@
+receptor,module,sample,participant,time,disease,rho
+BCR,Antibody secretion/UPR,HC-1,HC-1,baseline,healthy,-1.0
+BCR,Antibody secretion/UPR,HC-2,HC-2,baseline,healthy,0.5
+BCR,Antibody secretion/UPR,HC-3,HC-3,baseline,healthy,-0.5
+BCR,Antibody secretion/UPR,HC-5,HC-5,baseline,healthy,1.0
+BCR,Antibody secretion/UPR,IBD-1_1,IBD-1,baseline,UC,1.0
+BCR,Antibody secretion/UPR,IBD-2_1,IBD-2,baseline,UC,-1.0
+BCR,Antibody secretion/UPR,IBD-4_1,IBD-4,baseline,UC,-0.5
+BCR,Antibody secretion/UPR,IBD-8_1,IBD-8,baseline,UC,0.5
+BCR,Antibody secretion/UPR,IBD-9_1,IBD-9,baseline,UC,-0.5
+BCR,Antibody secretion/UPR,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,Atypical memory,HC-1,HC-1,baseline,healthy,1.0
+BCR,Atypical memory,HC-2,HC-2,baseline,healthy,-0.5
+BCR,Atypical memory,HC-3,HC-3,baseline,healthy,-0.5
+BCR,Atypical memory,HC-5,HC-5,baseline,healthy,1.0
+BCR,Atypical memory,IBD-1_1,IBD-1,baseline,UC,-1.0
+BCR,Atypical memory,IBD-2_1,IBD-2,baseline,UC,-0.5
+BCR,Atypical memory,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,Atypical memory,IBD-8_1,IBD-8,baseline,UC,-1.0
+BCR,Atypical memory,IBD-9_1,IBD-9,baseline,UC,-0.5
+BCR,Atypical memory,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,Cycling B,HC-1,HC-1,baseline,healthy,0.5
+BCR,Cycling B,HC-2,HC-2,baseline,healthy,-0.8660254037844387
+BCR,Cycling B,HC-3,HC-3,baseline,healthy,-0.8660254037844387
+BCR,Cycling B,HC-5,HC-5,baseline,healthy,-0.5
+BCR,Cycling B,IBD-1_1,IBD-1,baseline,UC,0.8660254037844387
+BCR,Cycling B,IBD-2_1,IBD-2,baseline,UC,0.5
+BCR,Cycling B,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,Cycling B,IBD-8_1,IBD-8,baseline,UC,0.5
+BCR,Cycling B,IBD-9_1,IBD-9,baseline,UC,0.5
+BCR,Cycling B,IBD-9_2,IBD-9,week6,UC,-0.5
+BCR,IgA mucosal,HC-1,HC-1,baseline,healthy,-0.5
+BCR,IgA mucosal,HC-2,HC-2,baseline,healthy,-0.5
+BCR,IgA mucosal,HC-3,HC-3,baseline,healthy,-0.5
+BCR,IgA mucosal,HC-5,HC-5,baseline,healthy,-0.5
+BCR,IgA mucosal,IBD-1_1,IBD-1,baseline,UC,0.5
+BCR,IgA mucosal,IBD-2_1,IBD-2,baseline,UC,-1.0
+BCR,IgA mucosal,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,IgA mucosal,IBD-8_1,IBD-8,baseline,UC,1.0
+BCR,IgA mucosal,IBD-9_1,IBD-9,baseline,UC,-1.0
+BCR,IgA mucosal,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,IgG inflammatory,HC-1,HC-1,baseline,healthy,-0.5
+BCR,IgG inflammatory,HC-2,HC-2,baseline,healthy,-0.5
+BCR,IgG inflammatory,HC-3,HC-3,baseline,healthy,-1.0
+BCR,IgG inflammatory,HC-5,HC-5,baseline,healthy,-0.5
+BCR,IgG inflammatory,IBD-1_1,IBD-1,baseline,UC,0.5
+BCR,IgG inflammatory,IBD-2_1,IBD-2,baseline,UC,-1.0
+BCR,IgG inflammatory,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,IgG inflammatory,IBD-8_1,IBD-8,baseline,UC,-0.5
+BCR,IgG inflammatory,IBD-9_1,IBD-9,baseline,UC,-0.5
+BCR,IgG inflammatory,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,Inflammatory AP/UPR,HC-1,HC-1,baseline,healthy,-1.0
+BCR,Inflammatory AP/UPR,HC-2,HC-2,baseline,healthy,0.5
+BCR,Inflammatory AP/UPR,HC-3,HC-3,baseline,healthy,-1.0
+BCR,Inflammatory AP/UPR,HC-5,HC-5,baseline,healthy,-1.0
+BCR,Inflammatory AP/UPR,IBD-1_1,IBD-1,baseline,UC,0.5
+BCR,Inflammatory AP/UPR,IBD-2_1,IBD-2,baseline,UC,-0.5
+BCR,Inflammatory AP/UPR,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,Inflammatory AP/UPR,IBD-8_1,IBD-8,baseline,UC,-0.5
+BCR,Inflammatory AP/UPR,IBD-9_1,IBD-9,baseline,UC,0.5
+BCR,Inflammatory AP/UPR,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,Memory B,HC-1,HC-1,baseline,healthy,-1.0
+BCR,Memory B,HC-2,HC-2,baseline,healthy,0.5
+BCR,Memory B,HC-3,HC-3,baseline,healthy,-1.0
+BCR,Memory B,HC-5,HC-5,baseline,healthy,-1.0
+BCR,Memory B,IBD-1_1,IBD-1,baseline,UC,-1.0
+BCR,Memory B,IBD-2_1,IBD-2,baseline,UC,0.5
+BCR,Memory B,IBD-4_1,IBD-4,baseline,UC,1.0
+BCR,Memory B,IBD-8_1,IBD-8,baseline,UC,-0.5
+BCR,Memory B,IBD-9_1,IBD-9,baseline,UC,0.5
+BCR,Memory B,IBD-9_2,IBD-9,week6,UC,0.5
+BCR,Naive B,HC-1,HC-1,baseline,healthy,-1.0
+BCR,Naive B,HC-2,HC-2,baseline,healthy,1.0
+BCR,Naive B,HC-3,HC-3,baseline,healthy,1.0
+BCR,Naive B,HC-5,HC-5,baseline,healthy,-1.0
+BCR,Naive B,IBD-1_1,IBD-1,baseline,UC,-1.0
+BCR,Naive B,IBD-2_1,IBD-2,baseline,UC,-1.0
+BCR,Naive B,IBD-4_1,IBD-4,baseline,UC,-1.0
+BCR,Naive B,IBD-8_1,IBD-8,baseline,UC,-1.0
+BCR,Naive B,IBD-9_1,IBD-9,baseline,UC,-0.5
+BCR,Naive B,IBD-9_2,IBD-9,week6,UC,-1.0
+BCR,Plasma differentiation,HC-1,HC-1,baseline,healthy,0.5
+BCR,Plasma differentiation,HC-2,HC-2,baseline,healthy,0.5
+BCR,Plasma differentiation,HC-3,HC-3,baseline,healthy,0.5
+BCR,Plasma differentiation,HC-5,HC-5,baseline,healthy,0.5
+BCR,Plasma differentiation,IBD-1_1,IBD-1,baseline,UC,1.0
+BCR,Plasma differentiation,IBD-2_1,IBD-2,baseline,UC,-1.0
+BCR,Plasma differentiation,IBD-4_1,IBD-4,baseline,UC,0.5
+BCR,Plasma differentiation,IBD-8_1,IBD-8,baseline,UC,1.0
+BCR,Plasma differentiation,IBD-9_1,IBD-9,baseline,UC,-0.5
+BCR,Plasma differentiation,IBD-9_2,IBD-9,week6,UC,-0.5
+TCR,Activated Treg,HC-1,HC-1,baseline,healthy,0.7745966692414834
+TCR,Activated Treg,HC-2,HC-2,baseline,healthy,0.7999999999999999
+TCR,Activated Treg,HC-3,HC-3,baseline,healthy,0.2581988897471611
+TCR,Activated Treg,HC-4,HC-4,baseline,healthy,0.7999999999999999
+TCR,Activated Treg,HC-5,HC-5,baseline,healthy,0.632455532033676
+TCR,Activated Treg,IBD-10_1,IBD-10,baseline,UC,-0.2581988897471611
+TCR,Activated Treg,IBD-10_2,IBD-10,week6,UC,
+TCR,Activated Treg,IBD-1_1,IBD-1,baseline,UC,
+TCR,Activated Treg,IBD-1_2,IBD-1,week6,UC,
+TCR,Activated Treg,IBD-2_1,IBD-2,baseline,UC,-0.7999999999999999
+TCR,Activated Treg,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,Activated Treg,IBD-3_1,IBD-3,baseline,UC,-0.2581988897471611
+TCR,Activated Treg,IBD-3_2,IBD-3,week6,UC,-0.2581988897471611
+TCR,Activated Treg,IBD-4_1,IBD-4,baseline,UC,
+TCR,Activated Treg,IBD-4_2,IBD-4,week6,UC,0.2581988897471611
+TCR,Activated Treg,IBD-5_1,IBD-5,baseline,UC,
+TCR,Activated Treg,IBD-5_2,IBD-5,week6,UC,
+TCR,Activated Treg,IBD-6_1,IBD-6,baseline,UC,0.7999999999999999
+TCR,Activated Treg,IBD-6_2,IBD-6,week6,UC,0.19999999999999998
+TCR,Activated Treg,IBD-7_1,IBD-7,baseline,UC,-0.39999999999999997
+TCR,Activated Treg,IBD-7_2,IBD-7,week6,UC,0.316227766016838
+TCR,Activated Treg,IBD-8_1,IBD-8,baseline,UC,1.0
+TCR,Activated Treg,IBD-8_2,IBD-8,week6,UC,0.9486832980505139
+TCR,Activated Treg,IBD-9_1,IBD-9,baseline,UC,-0.7745966692414834
+TCR,Activated Treg,IBD-9_2,IBD-9,week6,UC,
+TCR,Cycling T,HC-1,HC-1,baseline,healthy,1.0
+TCR,Cycling T,HC-2,HC-2,baseline,healthy,0.6000000000000001
+TCR,Cycling T,HC-3,HC-3,baseline,healthy,0.6000000000000001
+TCR,Cycling T,HC-4,HC-4,baseline,healthy,0.19999999999999998
+TCR,Cycling T,HC-5,HC-5,baseline,healthy,1.0
+TCR,Cycling T,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,Cycling T,IBD-10_2,IBD-10,week6,UC,0.7999999999999999
+TCR,Cycling T,IBD-1_1,IBD-1,baseline,UC,1.0
+TCR,Cycling T,IBD-1_2,IBD-1,week6,UC,0.7745966692414834
+TCR,Cycling T,IBD-2_1,IBD-2,baseline,UC,0.39999999999999997
+TCR,Cycling T,IBD-2_2,IBD-2,week6,UC,0.39999999999999997
+TCR,Cycling T,IBD-3_1,IBD-3,baseline,UC,0.39999999999999997
+TCR,Cycling T,IBD-3_2,IBD-3,week6,UC,0.39999999999999997
+TCR,Cycling T,IBD-4_1,IBD-4,baseline,UC,0.7999999999999999
+TCR,Cycling T,IBD-4_2,IBD-4,week6,UC,0.7999999999999999
+TCR,Cycling T,IBD-5_1,IBD-5,baseline,UC,0.19999999999999998
+TCR,Cycling T,IBD-5_2,IBD-5,week6,UC,
+TCR,Cycling T,IBD-6_1,IBD-6,baseline,UC,-0.19999999999999998
+TCR,Cycling T,IBD-6_2,IBD-6,week6,UC,0.39999999999999997
+TCR,Cycling T,IBD-7_1,IBD-7,baseline,UC,1.0
+TCR,Cycling T,IBD-7_2,IBD-7,week6,UC,0.7999999999999999
+TCR,Cycling T,IBD-8_1,IBD-8,baseline,UC,0.19999999999999998
+TCR,Cycling T,IBD-8_2,IBD-8,week6,UC,1.0
+TCR,Cycling T,IBD-9_1,IBD-9,baseline,UC,0.39999999999999997
+TCR,Cycling T,IBD-9_2,IBD-9,week6,UC,0.7999999999999999
+TCR,Cytotoxic,HC-1,HC-1,baseline,healthy,1.0
+TCR,Cytotoxic,HC-2,HC-2,baseline,healthy,1.0
+TCR,Cytotoxic,HC-3,HC-3,baseline,healthy,1.0
+TCR,Cytotoxic,HC-4,HC-4,baseline,healthy,1.0
+TCR,Cytotoxic,HC-5,HC-5,baseline,healthy,1.0
+TCR,Cytotoxic,IBD-10_1,IBD-10,baseline,UC,1.0
+TCR,Cytotoxic,IBD-10_2,IBD-10,week6,UC,1.0
+TCR,Cytotoxic,IBD-1_1,IBD-1,baseline,UC,1.0
+TCR,Cytotoxic,IBD-1_2,IBD-1,week6,UC,1.0
+TCR,Cytotoxic,IBD-2_1,IBD-2,baseline,UC,1.0
+TCR,Cytotoxic,IBD-2_2,IBD-2,week6,UC,1.0
+TCR,Cytotoxic,IBD-3_1,IBD-3,baseline,UC,1.0
+TCR,Cytotoxic,IBD-3_2,IBD-3,week6,UC,1.0
+TCR,Cytotoxic,IBD-4_1,IBD-4,baseline,UC,0.7999999999999999
+TCR,Cytotoxic,IBD-4_2,IBD-4,week6,UC,1.0
+TCR,Cytotoxic,IBD-5_1,IBD-5,baseline,UC,1.0
+TCR,Cytotoxic,IBD-5_2,IBD-5,week6,UC,1.0
+TCR,Cytotoxic,IBD-6_1,IBD-6,baseline,UC,1.0
+TCR,Cytotoxic,IBD-6_2,IBD-6,week6,UC,1.0
+TCR,Cytotoxic,IBD-7_1,IBD-7,baseline,UC,1.0
+TCR,Cytotoxic,IBD-7_2,IBD-7,week6,UC,1.0
+TCR,Cytotoxic,IBD-8_1,IBD-8,baseline,UC,1.0
+TCR,Cytotoxic,IBD-8_2,IBD-8,week6,UC,1.0
+TCR,Cytotoxic,IBD-9_1,IBD-9,baseline,UC,1.0
+TCR,Cytotoxic,IBD-9_2,IBD-9,week6,UC,1.0
+TCR,GZMK memory,HC-1,HC-1,baseline,healthy,0.7999999999999999
+TCR,GZMK memory,HC-2,HC-2,baseline,healthy,0.19999999999999998
+TCR,GZMK memory,HC-3,HC-3,baseline,healthy,0.39999999999999997
+TCR,GZMK memory,HC-4,HC-4,baseline,healthy,1.0
+TCR,GZMK memory,HC-5,HC-5,baseline,healthy,1.0
+TCR,GZMK memory,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,GZMK memory,IBD-10_2,IBD-10,week6,UC,1.0
+TCR,GZMK memory,IBD-1_1,IBD-1,baseline,UC,0.7999999999999999
+TCR,GZMK memory,IBD-1_2,IBD-1,week6,UC,1.0
+TCR,GZMK memory,IBD-2_1,IBD-2,baseline,UC,1.0
+TCR,GZMK memory,IBD-2_2,IBD-2,week6,UC,1.0
+TCR,GZMK memory,IBD-3_1,IBD-3,baseline,UC,0.7999999999999999
+TCR,GZMK memory,IBD-3_2,IBD-3,week6,UC,1.0
+TCR,GZMK memory,IBD-4_1,IBD-4,baseline,UC,0.39999999999999997
+TCR,GZMK memory,IBD-4_2,IBD-4,week6,UC,0.7999999999999999
+TCR,GZMK memory,IBD-5_1,IBD-5,baseline,UC,0.19999999999999998
+TCR,GZMK memory,IBD-5_2,IBD-5,week6,UC,0.39999999999999997
+TCR,GZMK memory,IBD-6_1,IBD-6,baseline,UC,0.7999999999999999
+TCR,GZMK memory,IBD-6_2,IBD-6,week6,UC,1.0
+TCR,GZMK memory,IBD-7_1,IBD-7,baseline,UC,1.0
+TCR,GZMK memory,IBD-7_2,IBD-7,week6,UC,1.0
+TCR,GZMK memory,IBD-8_1,IBD-8,baseline,UC,0.7999999999999999
+TCR,GZMK memory,IBD-8_2,IBD-8,week6,UC,0.7999999999999999
+TCR,GZMK memory,IBD-9_1,IBD-9,baseline,UC,1.0
+TCR,GZMK memory,IBD-9_2,IBD-9,week6,UC,1.0
+TCR,Gut homing,HC-1,HC-1,baseline,healthy,-1.0
+TCR,Gut homing,HC-2,HC-2,baseline,healthy,-1.0
+TCR,Gut homing,HC-3,HC-3,baseline,healthy,-1.0
+TCR,Gut homing,HC-4,HC-4,baseline,healthy,-0.7999999999999999
+TCR,Gut homing,HC-5,HC-5,baseline,healthy,0.0
+TCR,Gut homing,IBD-10_1,IBD-10,baseline,UC,-0.39999999999999997
+TCR,Gut homing,IBD-10_2,IBD-10,week6,UC,-0.7999999999999999
+TCR,Gut homing,IBD-1_1,IBD-1,baseline,UC,-0.19999999999999998
+TCR,Gut homing,IBD-1_2,IBD-1,week6,UC,-0.39999999999999997
+TCR,Gut homing,IBD-2_1,IBD-2,baseline,UC,0.39999999999999997
+TCR,Gut homing,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,Gut homing,IBD-3_1,IBD-3,baseline,UC,-0.39999999999999997
+TCR,Gut homing,IBD-3_2,IBD-3,week6,UC,-1.0
+TCR,Gut homing,IBD-4_1,IBD-4,baseline,UC,-0.19999999999999998
+TCR,Gut homing,IBD-4_2,IBD-4,week6,UC,-0.39999999999999997
+TCR,Gut homing,IBD-5_1,IBD-5,baseline,UC,-0.39999999999999997
+TCR,Gut homing,IBD-5_2,IBD-5,week6,UC,-0.7999999999999999
+TCR,Gut homing,IBD-6_1,IBD-6,baseline,UC,-0.19999999999999998
+TCR,Gut homing,IBD-6_2,IBD-6,week6,UC,-0.7999999999999999
+TCR,Gut homing,IBD-7_1,IBD-7,baseline,UC,-0.39999999999999997
+TCR,Gut homing,IBD-7_2,IBD-7,week6,UC,-0.7999999999999999
+TCR,Gut homing,IBD-8_1,IBD-8,baseline,UC,-1.0
+TCR,Gut homing,IBD-8_2,IBD-8,week6,UC,-1.0
+TCR,Gut homing,IBD-9_1,IBD-9,baseline,UC,-1.0
+TCR,Gut homing,IBD-9_2,IBD-9,week6,UC,-1.0
+TCR,Naive/CM,HC-1,HC-1,baseline,healthy,-1.0
+TCR,Naive/CM,HC-2,HC-2,baseline,healthy,-1.0
+TCR,Naive/CM,HC-3,HC-3,baseline,healthy,-1.0
+TCR,Naive/CM,HC-4,HC-4,baseline,healthy,-1.0
+TCR,Naive/CM,HC-5,HC-5,baseline,healthy,-1.0
+TCR,Naive/CM,IBD-10_1,IBD-10,baseline,UC,-1.0
+TCR,Naive/CM,IBD-10_2,IBD-10,week6,UC,-1.0
+TCR,Naive/CM,IBD-1_1,IBD-1,baseline,UC,-1.0
+TCR,Naive/CM,IBD-1_2,IBD-1,week6,UC,-1.0
+TCR,Naive/CM,IBD-2_1,IBD-2,baseline,UC,-1.0
+TCR,Naive/CM,IBD-2_2,IBD-2,week6,UC,-1.0
+TCR,Naive/CM,IBD-3_1,IBD-3,baseline,UC,-0.7999999999999999
+TCR,Naive/CM,IBD-3_2,IBD-3,week6,UC,-1.0
+TCR,Naive/CM,IBD-4_1,IBD-4,baseline,UC,-0.7999999999999999
+TCR,Naive/CM,IBD-4_2,IBD-4,week6,UC,-1.0
+TCR,Naive/CM,IBD-5_1,IBD-5,baseline,UC,-1.0
+TCR,Naive/CM,IBD-5_2,IBD-5,week6,UC,-1.0
+TCR,Naive/CM,IBD-6_1,IBD-6,baseline,UC,-1.0
+TCR,Naive/CM,IBD-6_2,IBD-6,week6,UC,-1.0
+TCR,Naive/CM,IBD-7_1,IBD-7,baseline,UC,-1.0
+TCR,Naive/CM,IBD-7_2,IBD-7,week6,UC,-1.0
+TCR,Naive/CM,IBD-8_1,IBD-8,baseline,UC,-1.0
+TCR,Naive/CM,IBD-8_2,IBD-8,week6,UC,-1.0
+TCR,Naive/CM,IBD-9_1,IBD-9,baseline,UC,-1.0
+TCR,Naive/CM,IBD-9_2,IBD-9,week6,UC,-1.0
+TCR,TRM,HC-1,HC-1,baseline,healthy,0.7999999999999999
+TCR,TRM,HC-2,HC-2,baseline,healthy,0.7999999999999999
+TCR,TRM,HC-3,HC-3,baseline,healthy,0.6000000000000001
+TCR,TRM,HC-4,HC-4,baseline,healthy,1.0
+TCR,TRM,HC-5,HC-5,baseline,healthy,0.39999999999999997
+TCR,TRM,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,TRM,IBD-10_2,IBD-10,week6,UC,0.39999999999999997
+TCR,TRM,IBD-1_1,IBD-1,baseline,UC,0.7999999999999999
+TCR,TRM,IBD-1_2,IBD-1,week6,UC,1.0
+TCR,TRM,IBD-2_1,IBD-2,baseline,UC,0.19999999999999998
+TCR,TRM,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,TRM,IBD-3_1,IBD-3,baseline,UC,0.39999999999999997
+TCR,TRM,IBD-3_2,IBD-3,week6,UC,1.0
+TCR,TRM,IBD-4_1,IBD-4,baseline,UC,0.19999999999999998
+TCR,TRM,IBD-4_2,IBD-4,week6,UC,0.39999999999999997
+TCR,TRM,IBD-5_1,IBD-5,baseline,UC,0.7999999999999999
+TCR,TRM,IBD-5_2,IBD-5,week6,UC,0.39999999999999997
+TCR,TRM,IBD-6_1,IBD-6,baseline,UC,0.0
+TCR,TRM,IBD-6_2,IBD-6,week6,UC,0.39999999999999997
+TCR,TRM,IBD-7_1,IBD-7,baseline,UC,0.39999999999999997
+TCR,TRM,IBD-7_2,IBD-7,week6,UC,0.7999999999999999
+TCR,TRM,IBD-8_1,IBD-8,baseline,UC,0.7999999999999999
+TCR,TRM,IBD-8_2,IBD-8,week6,UC,0.7999999999999999
+TCR,TRM,IBD-9_1,IBD-9,baseline,UC,0.19999999999999998
+TCR,TRM,IBD-9_2,IBD-9,week6,UC,-0.39999999999999997
+TCR,Th17 conventional,HC-1,HC-1,baseline,healthy,-0.7999999999999999
+TCR,Th17 conventional,HC-2,HC-2,baseline,healthy,-0.9486832980505139
+TCR,Th17 conventional,HC-3,HC-3,baseline,healthy,-1.0
+TCR,Th17 conventional,HC-4,HC-4,baseline,healthy,-0.7999999999999999
+TCR,Th17 conventional,HC-5,HC-5,baseline,healthy,-0.39999999999999997
+TCR,Th17 conventional,IBD-10_1,IBD-10,baseline,UC,-1.0
+TCR,Th17 conventional,IBD-10_2,IBD-10,week6,UC,-1.0
+TCR,Th17 conventional,IBD-1_1,IBD-1,baseline,UC,-0.39999999999999997
+TCR,Th17 conventional,IBD-1_2,IBD-1,week6,UC,-0.7999999999999999
+TCR,Th17 conventional,IBD-2_1,IBD-2,baseline,UC,-1.0
+TCR,Th17 conventional,IBD-2_2,IBD-2,week6,UC,-1.0
+TCR,Th17 conventional,IBD-3_1,IBD-3,baseline,UC,-0.6000000000000001
+TCR,Th17 conventional,IBD-3_2,IBD-3,week6,UC,-1.0
+TCR,Th17 conventional,IBD-4_1,IBD-4,baseline,UC,-0.39999999999999997
+TCR,Th17 conventional,IBD-4_2,IBD-4,week6,UC,-0.7999999999999999
+TCR,Th17 conventional,IBD-5_1,IBD-5,baseline,UC,-1.0
+TCR,Th17 conventional,IBD-5_2,IBD-5,week6,UC,-0.7999999999999999
+TCR,Th17 conventional,IBD-6_1,IBD-6,baseline,UC,-1.0
+TCR,Th17 conventional,IBD-6_2,IBD-6,week6,UC,-1.0
+TCR,Th17 conventional,IBD-7_1,IBD-7,baseline,UC,-0.7999999999999999
+TCR,Th17 conventional,IBD-7_2,IBD-7,week6,UC,-0.6000000000000001
+TCR,Th17 conventional,IBD-8_1,IBD-8,baseline,UC,-0.9486832980505139
+TCR,Th17 conventional,IBD-8_2,IBD-8,week6,UC,-1.0
+TCR,Th17 conventional,IBD-9_1,IBD-9,baseline,UC,-1.0
+TCR,Th17 conventional,IBD-9_2,IBD-9,week6,UC,-1.0
+TCR,Th17 pathogenic,HC-1,HC-1,baseline,healthy,0.7999999999999999
+TCR,Th17 pathogenic,HC-2,HC-2,baseline,healthy,1.0
+TCR,Th17 pathogenic,HC-3,HC-3,baseline,healthy,0.19999999999999998
+TCR,Th17 pathogenic,HC-4,HC-4,baseline,healthy,0.7999999999999999
+TCR,Th17 pathogenic,HC-5,HC-5,baseline,healthy,0.7999999999999999
+TCR,Th17 pathogenic,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,Th17 pathogenic,IBD-10_2,IBD-10,week6,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-1_1,IBD-1,baseline,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-1_2,IBD-1,week6,UC,1.0
+TCR,Th17 pathogenic,IBD-2_1,IBD-2,baseline,UC,1.0
+TCR,Th17 pathogenic,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-3_1,IBD-3,baseline,UC,1.0
+TCR,Th17 pathogenic,IBD-3_2,IBD-3,week6,UC,1.0
+TCR,Th17 pathogenic,IBD-4_1,IBD-4,baseline,UC,0.19999999999999998
+TCR,Th17 pathogenic,IBD-4_2,IBD-4,week6,UC,0.39999999999999997
+TCR,Th17 pathogenic,IBD-5_1,IBD-5,baseline,UC,0.19999999999999998
+TCR,Th17 pathogenic,IBD-5_2,IBD-5,week6,UC,0.39999999999999997
+TCR,Th17 pathogenic,IBD-6_1,IBD-6,baseline,UC,0.39999999999999997
+TCR,Th17 pathogenic,IBD-6_2,IBD-6,week6,UC,1.0
+TCR,Th17 pathogenic,IBD-7_1,IBD-7,baseline,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-7_2,IBD-7,week6,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-8_1,IBD-8,baseline,UC,0.39999999999999997
+TCR,Th17 pathogenic,IBD-8_2,IBD-8,week6,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-9_1,IBD-9,baseline,UC,0.7999999999999999
+TCR,Th17 pathogenic,IBD-9_2,IBD-9,week6,UC,0.7999999999999999
+TCR,Th17/IL23,HC-1,HC-1,baseline,healthy,-1.0
+TCR,Th17/IL23,HC-2,HC-2,baseline,healthy,-0.9486832980505139
+TCR,Th17/IL23,HC-3,HC-3,baseline,healthy,-0.7999999999999999
+TCR,Th17/IL23,HC-4,HC-4,baseline,healthy,-0.7999999999999999
+TCR,Th17/IL23,HC-5,HC-5,baseline,healthy,-0.7999999999999999
+TCR,Th17/IL23,IBD-10_1,IBD-10,baseline,UC,-0.7745966692414834
+TCR,Th17/IL23,IBD-10_2,IBD-10,week6,UC,-0.9486832980505139
+TCR,Th17/IL23,IBD-1_1,IBD-1,baseline,UC,-1.0
+TCR,Th17/IL23,IBD-1_2,IBD-1,week6,UC,-0.7999999999999999
+TCR,Th17/IL23,IBD-2_1,IBD-2,baseline,UC,-1.0
+TCR,Th17/IL23,IBD-2_2,IBD-2,week6,UC,-1.0
+TCR,Th17/IL23,IBD-3_1,IBD-3,baseline,UC,-0.7999999999999999
+TCR,Th17/IL23,IBD-3_2,IBD-3,week6,UC,-1.0
+TCR,Th17/IL23,IBD-4_1,IBD-4,baseline,UC,-0.39999999999999997
+TCR,Th17/IL23,IBD-4_2,IBD-4,week6,UC,-0.7999999999999999
+TCR,Th17/IL23,IBD-5_1,IBD-5,baseline,UC,-0.632455532033676
+TCR,Th17/IL23,IBD-5_2,IBD-5,week6,UC,-1.0
+TCR,Th17/IL23,IBD-6_1,IBD-6,baseline,UC,-1.0
+TCR,Th17/IL23,IBD-6_2,IBD-6,week6,UC,-1.0
+TCR,Th17/IL23,IBD-7_1,IBD-7,baseline,UC,-1.0
+TCR,Th17/IL23,IBD-7_2,IBD-7,week6,UC,-0.7999999999999999
+TCR,Th17/IL23,IBD-8_1,IBD-8,baseline,UC,-0.7999999999999999
+TCR,Th17/IL23,IBD-8_2,IBD-8,week6,UC,-1.0
+TCR,Th17/IL23,IBD-9_1,IBD-9,baseline,UC,-1.0
+TCR,Th17/IL23,IBD-9_2,IBD-9,week6,UC,-1.0
+TCR,Tph/Tfh help,HC-1,HC-1,baseline,healthy,1.0
+TCR,Tph/Tfh help,HC-2,HC-2,baseline,healthy,0.39999999999999997
+TCR,Tph/Tfh help,HC-3,HC-3,baseline,healthy,0.7999999999999999
+TCR,Tph/Tfh help,HC-4,HC-4,baseline,healthy,1.0
+TCR,Tph/Tfh help,HC-5,HC-5,baseline,healthy,0.6000000000000001
+TCR,Tph/Tfh help,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,Tph/Tfh help,IBD-10_2,IBD-10,week6,UC,0.19999999999999998
+TCR,Tph/Tfh help,IBD-1_1,IBD-1,baseline,UC,1.0
+TCR,Tph/Tfh help,IBD-1_2,IBD-1,week6,UC,0.21081851067789195
+TCR,Tph/Tfh help,IBD-2_1,IBD-2,baseline,UC,0.19999999999999998
+TCR,Tph/Tfh help,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,Tph/Tfh help,IBD-3_1,IBD-3,baseline,UC,0.7999999999999999
+TCR,Tph/Tfh help,IBD-3_2,IBD-3,week6,UC,0.39999999999999997
+TCR,Tph/Tfh help,IBD-4_1,IBD-4,baseline,UC,0.39999999999999997
+TCR,Tph/Tfh help,IBD-4_2,IBD-4,week6,UC,0.39999999999999997
+TCR,Tph/Tfh help,IBD-5_1,IBD-5,baseline,UC,0.19999999999999998
+TCR,Tph/Tfh help,IBD-5_2,IBD-5,week6,UC,0.39999999999999997
+TCR,Tph/Tfh help,IBD-6_1,IBD-6,baseline,UC,1.0
+TCR,Tph/Tfh help,IBD-6_2,IBD-6,week6,UC,1.0
+TCR,Tph/Tfh help,IBD-7_1,IBD-7,baseline,UC,0.7999999999999999
+TCR,Tph/Tfh help,IBD-7_2,IBD-7,week6,UC,0.39999999999999997
+TCR,Tph/Tfh help,IBD-8_1,IBD-8,baseline,UC,1.0
+TCR,Tph/Tfh help,IBD-8_2,IBD-8,week6,UC,1.0
+TCR,Tph/Tfh help,IBD-9_1,IBD-9,baseline,UC,-0.7378647873726218
+TCR,Tph/Tfh help,IBD-9_2,IBD-9,week6,UC,0.19999999999999998
+TCR,Treg reprogramming,HC-1,HC-1,baseline,healthy,0.7999999999999999
+TCR,Treg reprogramming,HC-2,HC-2,baseline,healthy,0.19999999999999998
+TCR,Treg reprogramming,HC-3,HC-3,baseline,healthy,0.39999999999999997
+TCR,Treg reprogramming,HC-4,HC-4,baseline,healthy,0.7999999999999999
+TCR,Treg reprogramming,HC-5,HC-5,baseline,healthy,0.7999999999999999
+TCR,Treg reprogramming,IBD-10_1,IBD-10,baseline,UC,0.19999999999999998
+TCR,Treg reprogramming,IBD-10_2,IBD-10,week6,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-1_1,IBD-1,baseline,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-1_2,IBD-1,week6,UC,1.0
+TCR,Treg reprogramming,IBD-2_1,IBD-2,baseline,UC,1.0
+TCR,Treg reprogramming,IBD-2_2,IBD-2,week6,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-3_1,IBD-3,baseline,UC,0.19999999999999998
+TCR,Treg reprogramming,IBD-3_2,IBD-3,week6,UC,1.0
+TCR,Treg reprogramming,IBD-4_1,IBD-4,baseline,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-4_2,IBD-4,week6,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-5_1,IBD-5,baseline,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-5_2,IBD-5,week6,UC,0.19999999999999998
+TCR,Treg reprogramming,IBD-6_1,IBD-6,baseline,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-6_2,IBD-6,week6,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-7_1,IBD-7,baseline,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-7_2,IBD-7,week6,UC,1.0
+TCR,Treg reprogramming,IBD-8_1,IBD-8,baseline,UC,0.39999999999999997
+TCR,Treg reprogramming,IBD-8_2,IBD-8,week6,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-9_1,IBD-9,baseline,UC,0.7999999999999999
+TCR,Treg reprogramming,IBD-9_2,IBD-9,week6,UC,0.7999999999999999
+TCR,Treg suppressive,HC-1,HC-1,baseline,healthy,
+TCR,Treg suppressive,HC-2,HC-2,baseline,healthy,1.0
+TCR,Treg suppressive,HC-3,HC-3,baseline,healthy,
+TCR,Treg suppressive,HC-4,HC-4,baseline,healthy,0.7999999999999999
+TCR,Treg suppressive,HC-5,HC-5,baseline,healthy,
+TCR,Treg suppressive,IBD-10_1,IBD-10,baseline,UC,
+TCR,Treg suppressive,IBD-10_2,IBD-10,week6,UC,
+TCR,Treg suppressive,IBD-1_1,IBD-1,baseline,UC,
+TCR,Treg suppressive,IBD-1_2,IBD-1,week6,UC,
+TCR,Treg suppressive,IBD-2_1,IBD-2,baseline,UC,-0.2581988897471611
+TCR,Treg suppressive,IBD-2_2,IBD-2,week6,UC,
+TCR,Treg suppressive,IBD-3_1,IBD-3,baseline,UC,
+TCR,Treg suppressive,IBD-3_2,IBD-3,week6,UC,
+TCR,Treg suppressive,IBD-4_1,IBD-4,baseline,UC,
+TCR,Treg suppressive,IBD-4_2,IBD-4,week6,UC,
+TCR,Treg suppressive,IBD-5_1,IBD-5,baseline,UC,
+TCR,Treg suppressive,IBD-5_2,IBD-5,week6,UC,
+TCR,Treg suppressive,IBD-6_1,IBD-6,baseline,UC,0.9486832980505139
+TCR,Treg suppressive,IBD-6_2,IBD-6,week6,UC,
+TCR,Treg suppressive,IBD-7_1,IBD-7,baseline,UC,
+TCR,Treg suppressive,IBD-7_2,IBD-7,week6,UC,
+TCR,Treg suppressive,IBD-8_1,IBD-8,baseline,UC,0.7378647873726218
+TCR,Treg suppressive,IBD-8_2,IBD-8,week6,UC,0.9486832980505139
+TCR,Treg suppressive,IBD-9_1,IBD-9,baseline,UC,
+TCR,Treg suppressive,IBD-9_2,IBD-9,week6,UC,

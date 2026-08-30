@@ -1,0 +1,13 @@
+{
+  "seed": 20260710,
+  "outer_resampling": "5-fold stratified CV repeated 3 times",
+  "inner_resampling": "3-fold stratified CV",
+  "permutations": 25,
+  "permutation_pipeline": "Prespecified fixed pipeline: C=1; 25 PBMC features or 25% of receptor k-mers; five-fold participant-level CV",
+  "primary_models": {
+    "PBMC": "L2 cell-frequency logistic regression",
+    "TCR": "TRA+TRB amino-acid CDR3 4-mer logistic regression",
+    "BCR": "IGH amino-acid CDR3 4-mer logistic regression"
+  },
+  "site_validation": "Not performed: no site variable; Batch is diagnosis-confounded."
+}

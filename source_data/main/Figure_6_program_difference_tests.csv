@@ -1,0 +1,5 @@
+comparison,first_outcome,second_outcome,rho_difference,ci_low,ci_high,bootstrap_p,n,bootstrap_draws,FDR_across_four
+Plasma differentiation - IgG inflammatory,bcr_plasma_differentiation_module,bcr_IgG_inflammatory_module,0.18875955233227415,0.009126656625020036,0.39227696459029765,0.0396,56,5000,0.1288
+Plasma differentiation - BAFF/APRIL,bcr_plasma_differentiation_module,bcr_BAFF_APRIL_module,0.20185675724971486,-0.00926809834768596,0.4113450592241881,0.0644,56,5000,0.1288
+IgA mucosal - IgG inflammatory,bcr_IgA_mucosal_module,bcr_IgG_inflammatory_module,0.09527643026327637,-0.13924880735819928,0.3231566008144756,0.4188,56,5000,0.4772
+IgA mucosal - BAFF/APRIL,bcr_IgA_mucosal_module,bcr_BAFF_APRIL_module,0.10837363518071708,-0.17917879717627241,0.3642942457982829,0.4772,56,5000,0.4772

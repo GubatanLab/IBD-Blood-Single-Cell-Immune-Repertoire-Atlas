@@ -1,0 +1,9 @@
+{
+  "replacements": {
+    "C:/path/to/private-manuscript-workspace": "D:/secure/IBD-manuscript-workspace",
+    "C:/path/to/private-immuneml-workspace": "D:/secure/ImmuneML",
+    "C:/path/to/private-immuneml-results": "D:/secure/ImmuneML-results",
+    "C:/path/to/private-legacy-manuscript-assets": "D:/secure/legacy-manuscript-assets"
+  }
+}
+

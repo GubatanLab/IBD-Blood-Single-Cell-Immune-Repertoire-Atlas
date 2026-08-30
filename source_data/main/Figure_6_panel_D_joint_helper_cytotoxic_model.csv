@@ -1,0 +1,5 @@
+outcome,predictor,standardized_rank_beta,ci_low,ci_high,n,bootstrap_draws
+b_mean_IgA_mucosal_plasma_cell,cd4_mean_Tph_Tfh_help,0.4958735748898903,0.2405204764160335,0.7450904940601489,56,3000
+b_mean_IgA_mucosal_plasma_cell,tcr_cytotoxic_expanded,0.3671031901385491,0.08890480012117866,0.5838903912910749,56,3000
+b_mean_Plasmablast_plasma_differentiation,cd4_mean_Tph_Tfh_help,0.6061991086180618,0.3632538223016993,0.8450243650351724,56,3000
+b_mean_Plasmablast_plasma_differentiation,tcr_cytotoxic_expanded,0.30241089882739636,0.03073128915774066,0.5208097657960383,56,3000

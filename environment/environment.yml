@@ -1,0 +1,26 @@
+name: ibd-immune-repertoire-atlas
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.11,<3.14
+  - r-base>=4.3
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - networkx
+  - openpyxl
+  - pyyaml
+  - biopython
+  - pip
+  - pip:
+      - anndata
+      - scanpy
+      - scvi-tools
+      - shap
+      - umap-learn
+

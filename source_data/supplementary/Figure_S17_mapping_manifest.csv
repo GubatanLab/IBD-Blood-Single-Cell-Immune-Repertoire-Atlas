@@ -1,0 +1,10 @@
+metric,value
+paired cells,30372.0
+cells mapped to germline lineage,27967.0
+mapped fraction,0.9208152245489266
+mapped lineages,25413.0
+mapped participants,182.0
+mapped fraction: 2 cells,0.9454545454545454
+mapped fraction: 3-4 cells,0.88
+mapped fraction: >=5 cells,0.9823087129588678
+mapped fraction: Singleton,0.9157319528329019

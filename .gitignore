@@ -1,0 +1,58 @@
+# Private path configuration
+config/paths.json
+.env
+.env.*
+!.env.example
+
+# Controlled and raw data
+data/raw/
+data/controlled/
+data/interim/
+**/airr_input/
+**/repertoires/
+**/datasets/
+*.rds
+*.RData
+*.Rdata
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.fasta
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+
+# Generated model artifacts
+**/jobs/
+**/results/
+**/outputs/
+**/checkpoints/
+**/checkpoint_logs/
+**/mlruns/
+*.joblib
+
+# Runtime and editor artifacts
+__pycache__/
+*.py[cod]
+.Rhistory
+.Rproj.user/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Temporary and rendered QA files
+tmp/
+temp/
+rendered/
+qa/
+*.log
+*.err
+

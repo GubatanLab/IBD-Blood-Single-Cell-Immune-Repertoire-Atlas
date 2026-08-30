@@ -1,0 +1,42 @@
+{
+  "input_root": "C:/path/to/private-immuneml-results/immuneML_runs/airr_input/tcr",
+  "output_root": "C:/path/to/private-immuneml-workspace/chain_tcr_immuneml",
+  "chain_groups": {
+    "tcr_alpha": [
+      "TRA"
+    ],
+    "tcr_beta": [
+      "TRB"
+    ],
+    "tcr_alpha_beta": [
+      "TRA",
+      "TRB"
+    ],
+    "tcr_gamma": [
+      "TRG"
+    ],
+    "tcr_delta": [
+      "TRD"
+    ],
+    "tcr_gamma_delta": [
+      "TRG",
+      "TRD"
+    ]
+  },
+  "comparisons": {
+    "cd_vs_control": [
+      "CD",
+      "Control"
+    ],
+    "uc_vs_control": [
+      "UC",
+      "Control"
+    ],
+    "cd_vs_uc": [
+      "CD",
+      "UC"
+    ]
+  },
+  "spec_path": "C:/path/to/private-immuneml-workspace/chain_tcr_immuneml/tcr_chain_diagnosis_k3_k4_aa.yaml",
+  "note": "Alpha/beta and gamma/delta groups are combined repertoire-level chain sets; the source AIRR files do not encode cell-level receptor pairing."
+}

@@ -1,0 +1,6 @@
+family,comparison,contrast,effect,p,n1,n2,group1,group2,median1,median2,fdr
+GSE261334 expansion dose response,TCR: Cytotoxic,"Spearman rho across 1, 2, 3–4, ≥5 cells",1.0,0.001953125,10,,UC baseline,,1.0,,0.0055803571428571
+GSE261334 expansion dose response,TCR: GZMK memory,"Spearman rho across 1, 2, 3–4, ≥5 cells",0.7999999999999999,0.001953125,10,,UC baseline,,0.7999999999999999,,0.0055803571428571
+GSE261334 expansion dose response,TCR: Naive/CM,"Spearman rho across 1, 2, 3–4, ≥5 cells",-1.0,0.001953125,10,,UC baseline,,-1.0,,0.0055803571428571
+GSE261334 expansion dose response,TCR: Th17 conventional,"Spearman rho across 1, 2, 3–4, ≥5 cells",-0.974341649025257,0.001953125,10,,UC baseline,,-0.974341649025257,,0.0055803571428571
+GSE261334 expansion dose response,TCR: Th17 pathogenic,"Spearman rho across 1, 2, 3–4, ≥5 cells",0.6,0.001953125,10,,UC baseline,,0.6,,0.0055803571428571
