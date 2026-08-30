@@ -111,8 +111,12 @@ def panel_title(ax, title: str):
 def figure5_heading(ax, label: str, title: str, full_width: bool = False):
     """Draw a Figure 5 panel letter and title above, not beside, the y-axis."""
     title_x = 0.055 if full_width else 0.10
+    # Keep the panel letter in the heading gutter, clearly left of the y-axis.
+    # A smaller offset is sufficient for full-width panels because their axes
+    # span the complete Cell Press canvas.
+    label_x = -0.025 if full_width else -0.055
     heading_y = 1.105
-    ax.text(0.0, heading_y, label, transform=ax.transAxes, fontsize=12,
+    ax.text(label_x, heading_y, label, transform=ax.transAxes, fontsize=12,
             fontweight="bold", va="top", ha="left", clip_on=False)
     ax.text(title_x, heading_y, title, transform=ax.transAxes, fontsize=8,
             fontweight="bold", va="top", ha="left", clip_on=False)

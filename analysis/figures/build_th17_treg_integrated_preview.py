@@ -71,7 +71,9 @@ def panel(ax, label, title, x=-0.13):
 
 def figure6_panel(ax, label, title, full_width=False):
     """Place letters outside the plotting area and align titles to the axes."""
-    letter_x = -0.065 if full_width else -0.10
+    # Use the narrow heading gutter immediately left of each y-axis.  This
+    # prevents panel letters—especially D—from occupying a rotated y-label.
+    letter_x = -0.045 if full_width else -0.08
     heading_y = 1.095
     ax.text(letter_x, heading_y, label, transform=ax.transAxes, fontsize=10.5,
             fontweight="bold", ha="left", va="top", clip_on=False)
