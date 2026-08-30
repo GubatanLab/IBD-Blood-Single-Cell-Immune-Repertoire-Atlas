@@ -71,16 +71,15 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
 
     # A: a single left-to-right Figure 2 -> sequence-neighborhood argument.
     ax = fig.add_subplot(gs[0, 0])
-    # Use more of the intentionally generous inter-column gutter for panel A.
-    # This enlarges the data-bearing network and schematic without changing the
-    # overall Cell Press canvas or reducing the neighboring panel B allocation.
+    # Extend panel A into its otherwise unused lower inter-row whitespace. This
+    # enlarges the network without changing the Cell Press canvas or panel B.
     panel_a_position = ax.get_position()
     ax.set_position(
         [
             panel_a_position.x0,
-            panel_a_position.y0 - 0.003,
+            panel_a_position.y0 - 0.042,
             panel_a_position.width * 1.14,
-            panel_a_position.height * 1.035,
+            panel_a_position.height + 0.042,
         ]
     )
     ax.set_axis_off()
@@ -145,7 +144,9 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
     node_map = node_data.set_index("node_id")
     values = np.array([node_map.loc[node, "EOMES_z"] for node in graph.nodes()], float)
     positions = nx.spring_layout(graph, seed=20260828, weight=None, k=0.55)
-    network_ax = ax.inset_axes([0.40, 0.105, 0.60, 0.79])
+    # Reserve a dedicated title band above and a statistics/colorbar band below
+    # so no network nodes or annotations compete with labels.
+    network_ax = ax.inset_axes([0.39, 0.195, 0.61, 0.650])
     edge_widths = []
     for node1, node2 in graph.edges():
         distance = float(graph.edges[node1, node2].get("sequence_distance", 0.50))
@@ -171,7 +172,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         cmap=eomes_cmap,
         vmin=-vmax,
         vmax=vmax,
-        node_size=50,
+        node_size=64,
         edgecolors="white",
         linewidths=0.62,
     )
@@ -182,7 +183,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         "Concordant\ninflammatory activity",
         xy=hotspot,
         xycoords="data",
-        xytext=(0.63, 0.04),
+        xytext=(0.66, 0.055),
         textcoords="axes fraction",
         fontsize=4.8,
         color=program_colors["EOMES_ZEB2_inflammatory_CD8_TRM_like"],
@@ -193,31 +194,22 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         bbox={"fc": "white", "ec": "none", "alpha": 0.84, "pad": 0.5},
     )
     network_ax.axis("off")
-    cax = ax.inset_axes([0.50, 0.010, 0.43, 0.030])
+    cax = ax.inset_axes([0.50, 0.045, 0.43, 0.026])
     colorbar = fig.colorbar(
         mpl.cm.ScalarMappable(norm=mpl.colors.Normalize(-vmax, vmax), cmap=eomes_cmap), cax=cax, orientation="horizontal"
     )
     colorbar.set_ticks([-2, 0, 2])
     colorbar.ax.tick_params(labelsize=4.9, length=1.3, pad=1)
     colorbar.set_label("Participant-centered EOMES-ZEB2 score", fontsize=5.1, labelpad=1)
-    ax.text(0.40, 0.95, "Cross-participant sequence neighborhood", fontsize=6.1, color=col["ink"], fontweight="bold", va="top")
-    ax.text(0.40, 0.865, "All edges connect different participants", fontsize=5.1, color=col["TCR"], va="top")
+    ax.text(0.39, 0.965, "Cross-participant sequence neighborhood", fontsize=6.1, color=col["ink"], fontweight="bold", va="top")
+    ax.text(0.39, 0.895, "All edges connect different participants", fontsize=5.1, color=col["TCR"], va="top")
     ax.text(
-        0.40,
-        0.070,
+        0.39,
+        0.115,
         f"{len(graph)} clonotypes · {len({item.split('::', 1)[0] for item in graph})} participants",
         fontsize=5.0,
         color=col["muted"],
         va="bottom",
-    )
-    ax.text(
-        0.025,
-        0.105,
-        "43,742 paired αβ clonotypes\n182 participants · exact pairs excluded",
-        fontsize=4.15,
-        color=col["muted"],
-        va="bottom",
-        linespacing=0.95,
     )
     panel_title(ax, "Expansion-linked programs recur in αβ neighborhoods")
     panel_label(ax, "A")

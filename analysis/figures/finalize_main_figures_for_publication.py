@@ -89,10 +89,6 @@ def paint_figure2(layer: canvas.Canvas, width: float, height: float) -> None:
 
 
 def paint_figure3(layer: canvas.Canvas, width: float, height: float) -> None:
-    # Panel A source counts duplicate the legend; retain the 23-clonotype result label.
-    pale_panel = Color(247 / 255, 247 / 255, 245 / 255)
-    erase_top_rect(layer, height, 47.3, 98.5, 119.7, 108.6, pale_panel)
-
     # Remove duplicated sample-size and methods footnotes while preserving q/I2 and P values.
     erase_top_rect(layer, height, 420.0, 107.2, 529.3, 114.4)
     erase_top_rect(layer, height, 319.0, 326.6, 549.0, 332.8)

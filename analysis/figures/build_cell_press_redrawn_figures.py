@@ -30,9 +30,9 @@ ASSET = OUT / "Graphical Assets"
 for directory in (MAIN, SUPP, SRC, LEG, ASSET):
     directory.mkdir(parents=True, exist_ok=True)
 
-TCR_DIR = Path(r"C:/path/to/private-user-home\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
-BCR_DIR = Path(r"C:/path/to/private-user-home\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 3 BCR")
-PBMC_DIR = Path(r"C:/path/to/private-legacy-manuscript-assets")
+TCR_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
+BCR_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 3 BCR")
+PBMC_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD PBMC Immune Repertoire Manuscript Figures")
 
 # Okabe-Ito-derived palette; group identity is reinforced by position and labels.
 COL = {
@@ -789,8 +789,13 @@ def full_pbmc_level2_umap(container_ax, pbmc, mode="main"):
         ann.set_path_effects([pe.withStroke(linewidth=1.45 if supplemental else 1.2, foreground="white")])
         annotations.append(ann)
 
-    plot_ax.set_xlabel(x_label, labelpad=-1)
-    plot_ax.set_ylabel(y_label, labelpad=-1)
+    if supplemental:
+        plot_ax.set_xlabel(x_label, labelpad=-1)
+        plot_ax.set_ylabel(y_label, labelpad=-1)
+    else:
+        plot_ax.set_xlabel("")
+        plot_ax.set_ylabel("")
+        draw_umap_axis_glyph(plot_ax, x=0.045, y=0.055, length=0.095)
     plot_ax.set_xticks([]); plot_ax.set_yticks([])
     for spine in plot_ax.spines.values():
         spine.set_visible(False)
@@ -820,6 +825,30 @@ def full_pbmc_level2_umap(container_ax, pbmc, mode="main"):
         container_ax.legend(handles=handles, frameon=False, loc="lower center", bbox_to_anchor=(0.50, -0.155),
                             ncol=7, fontsize=4.05, handletextpad=0.14, columnspacing=0.48,
                             labelspacing=0.25)
+
+
+def draw_umap_axis_glyph(ax, *, x=0.055, y=0.060, length=0.13, color="#343434"):
+    """Draw a compact, consistent UMAP orientation glyph in axes coordinates."""
+    halo = [pe.withStroke(linewidth=1.45, foreground="white")]
+    arrow = {
+        "arrowstyle": "-|>",
+        "mutation_scale": 5.2,
+        "lw": 0.62,
+        "color": color,
+        "shrinkA": 0,
+        "shrinkB": 0,
+        "path_effects": halo,
+    }
+    ax.annotate("", xy=(x + length, y), xytext=(x, y), xycoords=ax.transAxes,
+                arrowprops=arrow, annotation_clip=False, zorder=30)
+    ax.annotate("", xy=(x, y + length), xytext=(x, y), xycoords=ax.transAxes,
+                arrowprops=arrow, annotation_clip=False, zorder=30)
+    label_x = ax.text(x + length * 0.52, y - 0.020, "UMAP 1", transform=ax.transAxes,
+                      ha="center", va="top", fontsize=3.6, color=color, zorder=31)
+    label_y = ax.text(x - 0.020, y + length * 0.52, "UMAP 2", transform=ax.transAxes,
+                      ha="right", va="center", rotation=90, fontsize=3.6, color=color, zorder=31)
+    label_x.set_path_effects(halo)
+    label_y.set_path_effects(halo)
 
 
 def figure1_workflow(ax):

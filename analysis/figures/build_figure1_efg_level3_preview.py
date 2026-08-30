@@ -4,6 +4,7 @@ from pathlib import Path
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
 from matplotlib.gridspec import GridSpec, GridSpecFromSubplotSpec
 from matplotlib.lines import Line2D
 import numpy as np
@@ -181,6 +182,32 @@ def draw_umap(ax: plt.Axes, data: pd.DataFrame, panel: str) -> None:
     ax.set_ylabel("")
     for spine in ax.spines.values():
         spine.set_visible(False)
+    draw_umap_axis_glyph(ax)
+
+
+def draw_umap_axis_glyph(ax: plt.Axes, *, x: float = 0.055, y: float = 0.060,
+                         length: float = 0.13, color: str = "#343434") -> None:
+    """Add the same small UMAP orientation marker used in the main PBMC atlas."""
+    halo = [pe.withStroke(linewidth=1.45, foreground="white")]
+    arrow = {
+        "arrowstyle": "-|>",
+        "mutation_scale": 5.2,
+        "lw": 0.62,
+        "color": color,
+        "shrinkA": 0,
+        "shrinkB": 0,
+        "path_effects": halo,
+    }
+    ax.annotate("", xy=(x + length, y), xytext=(x, y), xycoords=ax.transAxes,
+                arrowprops=arrow, annotation_clip=False, zorder=30)
+    ax.annotate("", xy=(x, y + length), xytext=(x, y), xycoords=ax.transAxes,
+                arrowprops=arrow, annotation_clip=False, zorder=30)
+    label_x = ax.text(x + length * 0.52, y - 0.025, "UMAP 1", transform=ax.transAxes,
+                      ha="center", va="top", fontsize=3.5, color=color, zorder=31)
+    label_y = ax.text(x - 0.025, y + length * 0.52, "UMAP 2", transform=ax.transAxes,
+                      ha="right", va="center", rotation=90, fontsize=3.5, color=color, zorder=31)
+    label_x.set_path_effects(halo)
+    label_y.set_path_effects(halo)
 
 
 def draw_state_legend(ax: plt.Axes, panel: str) -> None:
