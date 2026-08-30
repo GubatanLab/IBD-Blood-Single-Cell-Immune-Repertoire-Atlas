@@ -16,10 +16,12 @@ from scipy import stats
 ROOT = Path(__file__).resolve().parents[1]
 PREVIEW = ROOT / "Cell Press Redrawn Figure Set" / "Preview Alternatives" / "Th17 Treg Integration"
 PDF_OUT = ROOT / "output" / "pdf"
+COMPACT_FIG6 = PDF_OUT / "Figure 6 Compact Revision"
 SOURCE = ROOT / "Cell Press Redrawn Figure Set" / "Source Data"
 TB = ROOT / "High Impact Additional Analyses" / "Th17 Treg B Helper Analyses"
 PREVIEW.mkdir(parents=True, exist_ok=True)
 PDF_OUT.mkdir(parents=True, exist_ok=True)
+COMPACT_FIG6.mkdir(parents=True, exist_ok=True)
 
 COL = {
     "Control": "#6F6F6F",
@@ -68,12 +70,12 @@ def panel(ax, label, title, x=-0.13):
 
 
 def figure6_panel(ax, label, title, full_width=False):
-    """Place Figure 6 letters and titles in a heading row above the axes."""
-    title_x = 0.055 if full_width else 0.12
-    heading_y = 1.08
-    ax.text(0.0, heading_y, label, transform=ax.transAxes, fontsize=11,
+    """Place letters outside the plotting area and align titles to the axes."""
+    letter_x = -0.065 if full_width else -0.10
+    heading_y = 1.095
+    ax.text(letter_x, heading_y, label, transform=ax.transAxes, fontsize=10.5,
             fontweight="bold", ha="left", va="top", clip_on=False)
-    ax.text(title_x, heading_y, title, transform=ax.transAxes, fontsize=7.7,
+    ax.text(0.0, heading_y, title, transform=ax.transAxes, fontsize=7.6,
             fontweight="bold", ha="left", va="top", clip_on=False)
 
 
@@ -107,9 +109,18 @@ def heatmap(ax, matrix, qmatrix=None, vlim=0.65, annotate=True, cbar=True, annot
     return im
 
 
-def save(fig, png_name, pdf_name):
+def save(fig, png_name, pdf_name, compact_figure6=False):
     fig.savefig(PREVIEW / png_name, dpi=350, facecolor="white")
     fig.savefig(PDF_OUT / pdf_name, facecolor="white")
+    if compact_figure6:
+        fig.savefig(COMPACT_FIG6 / "Figure_6.pdf", facecolor="white")
+        fig.savefig(COMPACT_FIG6 / "Figure_6.png", dpi=350, facecolor="white")
+        fig.savefig(
+            COMPACT_FIG6 / "Figure_6.tif",
+            dpi=500,
+            facecolor="white",
+            pil_kwargs={"compression": "tiff_lzw"},
+        )
     plt.close(fig)
 
 
@@ -198,14 +209,14 @@ def design_residuals(data, value, numeric, categorical):
 
 
 def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, validation):
-    # Preserve the Cell Press full-width canvas while adding vertical clearance
-    # for panel B's rotated category labels and the D/E heading row.
-    fig = plt.figure(figsize=(7.05, 9.45))
-    gs = fig.add_gridspec(4, 2, height_ratios=[0.95, 1.38, 1.16, 0.78],
-                          width_ratios=[1.22, 0.78], hspace=0.82, wspace=0.55,
-                          left=0.17, right=0.975, top=0.955, bottom=0.065)
+    # Preserve the Cell Press full-width canvas while using wrapped labels and
+    # tighter inter-panel gutters to reduce non-data whitespace.
+    fig = plt.figure(figsize=(7.05, 8.90))
+    gs = fig.add_gridspec(4, 2, height_ratios=[0.95, 1.34, 1.14, 0.74],
+                          width_ratios=[1.16, 0.84], hspace=0.82, wspace=0.32,
+                          left=0.135, right=0.985, top=0.952, bottom=0.065)
     fig.suptitle(
-        "Clonotype-restricted helper states coordinate with B-cell remodeling and CD-specific cytotoxic coupling",
+        "Participant-level helper/regulatory and cytotoxic programs covary with B-cell states in IBD",
         fontsize=9.2, fontweight="bold", y=0.988,
     )
 
@@ -216,8 +227,8 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
     b_order = ["bcr_gini", "bcr_expanded_cell_fraction", "bcr_multistate_clone_fraction",
                "bcr_switched_fraction", "bcr_SHM_rate", "bcr_IgA_mucosal_module",
                "bcr_plasma_differentiation_module", "bcr_BAFF_APRIL_module"]
-    t_labels = ["TCR clonality", "TCR Gini", "Expanded TCR-cell fraction",
-                "Multistate TCR-clone fraction", "Expanded-TCR cytotoxic score"]
+    t_labels = ["TCR clonality", "TCR Gini", "Expanded TCR-\ncell fraction",
+                "Multistate TCR-\nclone fraction", "Expanded-TCR\ncytotoxic score"]
     b_labels = ["BCR\nGini", "Expanded BCR-\ncell fraction", "Multistate BCR-\nclone fraction",
                 "Class-switched\nBCR", "BCR\nSHM", "IgA\nmucosal", "Plasma\ndifferentiation", "BAFF/APRIL"]
     m = global_corr.pivot(index="tcr_metric", columns="bcr_metric", values="partial_rho").reindex(
@@ -228,8 +239,8 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
     q.index, q.columns = t_labels, b_labels
     heatmap(ax, m, q, vlim=0.65, annot_size=4.4)
     ax.tick_params(axis="x", rotation=0, labelsize=5.4)
-    ax.tick_params(axis="y", labelsize=5.7)
-    figure6_panel(ax, "A", "Global repertoire and program coordination", full_width=True)
+    ax.tick_params(axis="y", labelsize=5.5)
+    figure6_panel(ax, "A", "Global repertoire and program covariation", full_width=True)
 
     # B: focused helper-state matrix.
     ax = fig.add_subplot(gs[1, 0])
@@ -244,10 +255,10 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
     # Panel A already supplies the shared partial-correlation color scale;
     # omitting the duplicate bar here protects the B/C inter-panel gutter.
     heatmap(ax, m, q, vlim=0.65, annot_size=4.5, cbar=False)
-    ax.tick_params(axis="x", rotation=45, labelsize=5.2, pad=1)
+    ax.tick_params(axis="x", rotation=40, labelsize=5.1, pad=1)
     plt.setp(ax.get_xticklabels(), ha="right", rotation_mode="anchor")
     ax.tick_params(axis="y", labelsize=5.6)
-    figure6_panel(ax, "B", "Helper programs track B-cell remodeling in IBD")
+    figure6_panel(ax, "B", "Helper programs covary with B-cell states in IBD")
 
     # C: independent helper-state effects.
     ax = fig.add_subplot(gs[1, 1])
@@ -262,9 +273,12 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
                     xerr=[d.standardized_beta - d.ci_low, d.ci_high - d.standardized_beta],
                     fmt="o", ms=3.5, color=COL[tl], capsize=2, label=tl)
     ax.axvline(0, color=COL["ink"], lw=0.7)
-    ax.set_yticks(range(len(outcomes)), list(reversed(outcomes)))
+    compact_outcomes = ["Plasma\ndifferentiation", "IgA mucosal\nplasma",
+                        "IgG inflammatory\nplasma", "Atypical\nmemory",
+                        "Antigen\npresentation"]
+    ax.set_yticks(range(len(outcomes)), list(reversed(compact_outcomes)))
     ax.set_xlabel("Adjusted standardized beta")
-    ax.legend(frameon=False, fontsize=4.4, loc="upper center", bbox_to_anchor=(0.5, -0.17),
+    ax.legend(frameon=False, fontsize=4.4, loc="upper center", bbox_to_anchor=(0.5, -0.20),
               ncol=3, columnspacing=0.55, handletextpad=0.25)
     style_axis(ax, "x")
     figure6_panel(ax, "C", "Independent helper contributions")
@@ -310,14 +324,14 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
         for j, (diagnosis, row) in enumerate(sub.iterrows()):
             y = y0 - oi * 4 - j
             positions.append(y)
-            labels.append(f"{('IgA' if oi == 0 else 'Plasma')} | {diagnosis} (n={int(row.n)})")
+            labels.append(f"{('IgA' if oi == 0 else 'Plasma')} | {diagnosis}\nn={int(row.n)}")
             ax.plot([row.ci_low, row.ci_high], [y, y], color=COL[diagnosis], lw=1.0)
             ax.plot(row.partial_rho, y, "o", color=COL[diagnosis], ms=3.5)
     ax.axvline(0, color=COL["muted"], lw=0.7, ls="--")
     ax.set_yticks(positions, labels)
     ax.set_xlabel("Partial Spearman rho (95% CI)")
     style_axis(ax, "x")
-    figure6_panel(ax, "E", "Cytotoxic-plasma coupling")
+    figure6_panel(ax, "E", "Cytotoxic-plasma covariation")
 
     # F: blocked validation summary from the established Figure 6 model.
     ax = fig.add_subplot(gs[3, :])
@@ -334,12 +348,13 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
     ax.axvline(0, color=COL["muted"], lw=0.7, ls="--")
     ax.set_yticks([1, 0], ["IgA mucosal plasma", "Plasma differentiation"])
     ax.set_xlabel("Leave-one-acquisition-series-out Spearman correlation")
-    ax.legend(frameon=False, ncol=3, loc="upper left", fontsize=5.2)
+    ax.legend(frameon=False, ncol=3, loc="lower center", bbox_to_anchor=(0.5, 1.00),
+              fontsize=5.2, handlelength=1.0, columnspacing=0.9)
     style_axis(ax, "x")
-    figure6_panel(ax, "F", "Blocked out-of-series validation", full_width=True)
+    figure6_panel(ax, "F", "Leave-one-series-out robustness", full_width=True)
 
     save(fig, "Figure_6_Helper_state_integration_preview.png",
-         "Figure_6_Helper_state_integration_preview.pdf")
+         "Figure_6_Helper_state_integration_preview.pdf", compact_figure6=True)
 
 
 def build_supplement_th17(clone_axis, sharing, size_models, delta_tests, corr, clinical, restraint):
