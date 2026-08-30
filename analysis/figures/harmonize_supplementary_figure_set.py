@@ -105,7 +105,14 @@ def harmonize(source: Path, output: Path, figure_number: int) -> None:
         writer.write(stream)
 
 
-def compose_vector_page(sources: list[Path], output: Path, figure_number: int, gap: float = 8.0) -> None:
+def compose_vector_page(
+    sources: list[Path],
+    output: Path,
+    figure_number: int,
+    gap: float = 8.0,
+    page_number: int = 1,
+    page_count: int = 1,
+) -> None:
     """Stack tight vector source figures beneath the shared supplementary header."""
     source_pages = [PdfReader(source).pages[0] for source in sources]
     widths = [float(page.mediabox.width) for page in source_pages]
@@ -123,7 +130,7 @@ def compose_vector_page(sources: list[Path], output: Path, figure_number: int, g
             Transformation().translate((width - source_width) / 2.0, top),
         )
         top -= gap
-    page.merge_page(header_overlay(width, height, figure_number, 1, 1).pages[0])
+    page.merge_page(header_overlay(width, height, figure_number, page_number, page_count).pages[0])
     writer.add_metadata(
         {
             "/Title": f"Figure S{figure_number}. {FIGURE_TITLES[figure_number]}",
