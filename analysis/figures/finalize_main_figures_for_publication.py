@@ -120,6 +120,21 @@ def revise_figure7_raster() -> None:
         raise RuntimeError(f"Unexpected Figure 7 raster size: {image.size}")
 
     draw = ImageDraw.Draw(image)
+    # Bring the model key into the main visual field while preserving its
+    # complete contents. Detect the original border so repeated finalization
+    # remains safe and does not shift an already-moved key a second time.
+    legend_box = (2128, 177, 2674, 690)
+    legend_shift = 160
+    border_color = (213, 226, 237)
+    border_count = sum(
+        1 for y in range(185, 684)
+        if image.getpixel((2137, y)) == border_color
+    )
+    if border_count > 300:
+        legend = image.crop(legend_box)
+        draw.rectangle(legend_box, fill="white")
+        image.paste(legend, (legend_box[0] - legend_shift, legend_box[1]))
+        draw = ImageDraw.Draw(image)
     # Panel F already shares the post-selection validation scheme established in panel D.
     # Clear the duplicated tag and redraw the title so the words no longer collide.
     draw.rectangle((475, 2615, 1730, 2685), fill="white")

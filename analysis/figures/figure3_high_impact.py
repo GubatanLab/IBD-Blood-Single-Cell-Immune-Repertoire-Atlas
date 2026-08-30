@@ -414,10 +414,10 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
                 "Dominant-state adjusted",
             }:
                 ax.text(
-                    0.333,
+                    0.370,
                     y_value,
                     f"{row.pooled_edge_correlation:.2f}",
-                    fontsize=4.35,
+                    fontsize=4.90,
                     color=color,
                     ha="right",
                     va="center",
@@ -439,7 +439,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
             clip_on=False,
         )
     ax.text(-0.02, 8.90, "EDGES", transform=ax.get_yaxis_transform(), fontsize=4.25, color=col["muted"], fontweight="bold", ha="right", va="center", clip_on=False)
-    ax.text(0.333, 8.90, "r", fontsize=4.35, color=col["muted"], fontweight="bold", ha="right", va="center")
+    ax.text(0.370, 8.90, "r", fontsize=4.80, color=col["muted"], fontweight="bold", ha="right", va="center")
     for configuration in config_order:
         ax.text(
             -0.02,
@@ -452,7 +452,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
             va="center",
             clip_on=False,
         )
-    ax.set_xlim(-0.04, 0.34)
+    ax.set_xlim(-0.04, 0.38)
     ax.set_ylim(0.20, 9.25)
     ax.set_xticks([0.0, 0.1, 0.2, 0.3])
     ax.set_xlabel("Pooled edge correlation (95% CI)")
@@ -487,8 +487,8 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
     ]
     for y_value, label, header_color in group_headers:
         ax.text(-0.34, y_value, label, transform=ax.get_yaxis_transform(), fontsize=4.55, color=header_color, fontweight="bold", ha="left", va="center", clip_on=False)
-    ribbon_y = -0.345
-    ribbon_height = 0.115
+    ribbon_y = -0.370
+    ribbon_height = 0.145
     ax.add_patch(
         FancyBboxPatch(
             (0.00, ribbon_y),
@@ -511,12 +511,12 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         ribbon_y + ribbon_height / 2,
         f"EXPANSION: PRESERVED\n6/6 CIs exclude 0 · omnibus P={clone_omnibus:.2f}",
         transform=ax.transAxes,
-        fontsize=4.25,
+        fontsize=4.90,
         color="#247A4A",
         fontweight="bold",
         ha="center",
         va="center",
-        linespacing=1.02,
+        linespacing=1.08,
         zorder=6,
     )
     ax.text(
@@ -524,12 +524,12 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         ribbon_y + ribbon_height / 2,
         f"STATE: ATTENUATED\n0/3 CIs exclude 0 · omnibus P={state_coefficient:.1f}×10$^{{{state_exponent}}}$",
         transform=ax.transAxes,
-        fontsize=4.25,
+        fontsize=4.90,
         color="#365F91",
         fontweight="bold",
         ha="center",
         va="center",
-        linespacing=1.02,
+        linespacing=1.08,
         zorder=6,
     )
     ax.text(

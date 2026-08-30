@@ -69,11 +69,12 @@ def panel(ax, label, title, x=-0.13):
     ax.set_title(title, loc="left", fontweight="bold", pad=5)
 
 
-def figure6_panel(ax, label, title, full_width=False):
+def figure6_panel(ax, label, title, full_width=False, letter_x=None):
     """Place letters outside the plotting area and align titles to the axes."""
     # Use the narrow heading gutter immediately left of each y-axis.  This
     # prevents panel letters—especially D—from occupying a rotated y-label.
-    letter_x = -0.045 if full_width else -0.08
+    if letter_x is None:
+        letter_x = -0.045 if full_width else -0.08
     heading_y = 1.095
     ax.text(letter_x, heading_y, label, transform=ax.transAxes, fontsize=10.5,
             fontweight="bold", ha="left", va="top", clip_on=False)
@@ -313,7 +314,7 @@ def build_revised_figure6(corr, restraint, analysis, global_corr, cytotoxic, val
     ax.set_ylabel("B-cell antigen-presentation residual rank")
     ax.legend(frameon=False, loc="lower right", fontsize=5.5)
     style_axis(ax, "both")
-    figure6_panel(ax, "D", "Representative adjusted association")
+    figure6_panel(ax, "D", "Representative adjusted association", letter_x=-0.19)
 
     # E: retain the CD-specific cytotoxic-plasma extension.
     ax = fig.add_subplot(gs[2, 1])

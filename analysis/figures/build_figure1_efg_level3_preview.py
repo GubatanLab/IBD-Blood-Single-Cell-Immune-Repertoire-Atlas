@@ -171,10 +171,16 @@ def draw_umap(ax: plt.Axes, data: pd.DataFrame, panel: str) -> None:
 
     xlo, xhi = np.nanquantile(data["UMAP_1"], [0.003, 0.997])
     ylo, yhi = np.nanquantile(data["UMAP_2"], [0.003, 0.997])
-    xpad = max((xhi - xlo) * 0.04, 0.25)
-    ypad = max((yhi - ylo) * 0.04, 0.25)
-    ax.set_xlim(xlo - xpad, xhi + xpad)
-    ax.set_ylim(ylo - ypad, yhi + ypad)
+    xspan = xhi - xlo
+    yspan = yhi - ylo
+    # Reserve a small, asymmetric non-data corner for the orientation glyph.
+    # This keeps the axes legible without covering low-coordinate cells.
+    left_pad = max(xspan * 0.15, 0.50)
+    right_pad = max(xspan * 0.04, 0.25)
+    bottom_pad = max(yspan * 0.15, 0.50)
+    top_pad = max(yspan * 0.04, 0.25)
+    ax.set_xlim(xlo - left_pad, xhi + right_pad)
+    ax.set_ylim(ylo - bottom_pad, yhi + top_pad)
     ax.set_aspect("equal", adjustable="box", anchor="C")
     ax.set_xticks([])
     ax.set_yticks([])
@@ -185,8 +191,8 @@ def draw_umap(ax: plt.Axes, data: pd.DataFrame, panel: str) -> None:
     draw_umap_axis_glyph(ax)
 
 
-def draw_umap_axis_glyph(ax: plt.Axes, *, x: float = 0.055, y: float = 0.060,
-                         length: float = 0.13, color: str = "#343434") -> None:
+def draw_umap_axis_glyph(ax: plt.Axes, *, x: float = 0.028, y: float = 0.032,
+                         length: float = 0.095, color: str = "#343434") -> None:
     """Add the same small UMAP orientation marker used in the main PBMC atlas."""
     halo = [pe.withStroke(linewidth=1.45, foreground="white")]
     arrow = {
@@ -202,10 +208,10 @@ def draw_umap_axis_glyph(ax: plt.Axes, *, x: float = 0.055, y: float = 0.060,
                 arrowprops=arrow, annotation_clip=False, zorder=30)
     ax.annotate("", xy=(x, y + length), xytext=(x, y), xycoords=ax.transAxes,
                 arrowprops=arrow, annotation_clip=False, zorder=30)
-    label_x = ax.text(x + length * 0.52, y - 0.025, "UMAP 1", transform=ax.transAxes,
-                      ha="center", va="top", fontsize=3.5, color=color, zorder=31)
-    label_y = ax.text(x - 0.025, y + length * 0.52, "UMAP 2", transform=ax.transAxes,
-                      ha="right", va="center", rotation=90, fontsize=3.5, color=color, zorder=31)
+    label_x = ax.text(x + length * 0.52, y - 0.020, "UMAP 1", transform=ax.transAxes,
+                      ha="center", va="top", fontsize=3.2, color=color, zorder=31)
+    label_y = ax.text(x - 0.020, y + length * 0.52, "UMAP 2", transform=ax.transAxes,
+                      ha="right", va="center", rotation=90, fontsize=3.2, color=color, zorder=31)
     label_x.set_path_effects(halo)
     label_y.set_path_effects(halo)
 

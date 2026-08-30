@@ -85,7 +85,7 @@ def build():
     bottom = GridSpecFromSubplotSpec(1, 3, subplot_spec=outer[2], width_ratios=[.86, .72, 1.42], wspace=.58)
 
     # A. Participant-level BCR repertoire metrics.
-    agrid = GridSpecFromSubplotSpec(2, 1, subplot_spec=top[0, 0], hspace=.54)
+    agrid = GridSpecFromSubplotSpec(2, 1, subplot_spec=top[0, 0], hspace=.60)
     metric_stats = []
     for j, (value, label) in enumerate([
         ("Clonality", "BCR clonality"),
@@ -93,9 +93,9 @@ def build():
     ]):
         ax = fig.add_subplot(agrid[j, 0])
         metric_stats.append(immunity.participant_panel(
-            ax, participant_metrics, value, label, stats_y=1.01, stats_inline=True
+            ax, participant_metrics, value, label, stats_y=1.045, stats_inline=True
         ))
-        ax.set_title(label, loc="left", fontweight="bold", fontsize=7.2, pad=0, y=1.13)
+        ax.set_title(label, loc="left", fontweight="bold", fontsize=7.2, pad=0, y=1.21)
         ax.tick_params(axis="x", labelsize=5.7)
         if j == 0:
             ax.tick_params(axis="x", labelbottom=False)
@@ -212,8 +212,15 @@ def build():
     ax.set_xticks(np.arange(5), ["0", ".2", ".4", ".6", ".8–1"])
     ax.set_xlabel("Slingshot pseudotime interval")
     ax.set_ylabel("Participant-mean module score")
+    # Add headroom so the program key occupies a dedicated non-data band.
+    # Keeping the key inside the axes avoids collision with panel C above.
+    ax.set_ylim(-0.65, 0.82)
     ax.set_title("Effector programs across pseudotime", loc="left", fontweight="bold", pad=4)
-    ax.legend(frameon=False, loc="upper left", handlelength=1.4, labelspacing=.25)
+    ax.legend(
+        frameon=False, loc="upper left", ncol=1,
+        fontsize=5.2, handlelength=1.25, handletextpad=.35,
+        labelspacing=.18, borderaxespad=.2,
+    )
     base.style_axis(ax, "y"); base.panel_label(ax, "F", x=-.22, y=1.08)
 
     # G1. Observed participant-level class switching.
