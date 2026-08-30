@@ -620,8 +620,8 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         1,
         3,
         subplot_spec=gs[3, 0],
-        width_ratios=[0.62, 0.15, 0.23],
-        wspace=0.34,
+        width_ratios=[0.60, 0.18, 0.22],
+        wspace=0.44,
     )
     ax = fig.add_subplot(gamma_grid[0, 0])
     gamma_order = (
@@ -682,18 +682,11 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         ha="left",
         va="center",
     )
-    size_handles = [
-        mpl.lines.Line2D(
-            [0], [0], marker="o", ls="", mfc="white", mec=col["muted"], mew=0.55,
-            ms=np.sqrt(11 + 128 * fraction), label=f"{int(fraction * n_gamma_participants)} P"
-        )
-        for fraction in (0.25, 0.50, 0.75)
-    ]
     key_ax = fig.add_subplot(gamma_grid[0, 1])
     key_ax.set_axis_off()
     key_ax.text(
         0.50,
-        0.96,
+        0.97,
         "PAIRING KEYS",
         transform=key_ax.transAxes,
         fontsize=4.15,
@@ -702,21 +695,22 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         ha="center",
         va="top",
     )
-    key_ax.legend(
-        handles=size_handles,
-        title="Carriers",
-        frameon=False,
-        loc="upper center",
-        bbox_to_anchor=(0.50, 0.88),
-        fontsize=3.9,
-        title_fontsize=4.0,
-        handletextpad=0.2,
-        labelspacing=0.2,
-        borderaxespad=0,
-    )
+    key_ax.text(0.50, 0.83, "Carriers", transform=key_ax.transAxes,
+                fontsize=4.0, color=col["muted"], ha="center", va="center")
+    for carrier_y, fraction in zip((0.70, 0.58, 0.46), (0.75, 0.50, 0.25)):
+        key_ax.scatter(
+            [0.32], [carrier_y], s=11 + 128 * fraction,
+            facecolor="white", edgecolor=col["muted"], linewidth=0.55,
+            transform=key_ax.transAxes, clip_on=False,
+        )
+        key_ax.text(
+            0.64, carrier_y, f"{int(fraction * n_gamma_participants)} P",
+            transform=key_ax.transAxes, fontsize=3.9, color=col["muted"],
+            ha="left", va="center",
+        )
     key_ax.scatter(
-        [0.20],
-        [0.49],
+        [0.25],
+        [0.35],
         s=20,
         facecolor="white",
         edgecolor=col["ink"],
@@ -725,8 +719,8 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         clip_on=False,
     )
     key_ax.text(
-        0.40,
-        0.49,
+        0.50,
+        0.35,
         "FDR<0.05",
         transform=key_ax.transAxes,
         fontsize=3.85,
@@ -734,11 +728,13 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         ha="left",
         va="center",
     )
-    cbar_ax = key_ax.inset_axes([0.30, 0.06, 0.28, 0.34])
+    cbar_ax = key_ax.inset_axes([0.42, 0.05, 0.22, 0.23])
     colorbar = fig.colorbar(scatter, cax=cbar_ax, orientation="vertical")
     colorbar.set_ticks([-1, 0, 1])
-    colorbar.set_label("$log_2$(O/E)", fontsize=4.15, labelpad=1)
+    colorbar.set_label("$log_2$(O/E)", fontsize=4.15, labelpad=1.5)
     colorbar.ax.tick_params(labelsize=4.2, length=1.5, pad=1)
+    colorbar.ax.yaxis.set_ticks_position("left")
+    colorbar.ax.yaxis.set_label_position("left")
     panel_title(ax, "Vγ9Vδ2 dominates paired γδ repertoires")
     panel_label(ax, "F")
 
@@ -775,7 +771,7 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
     ax_heterogeneity.set_xticks(range(3), diagnosis_labels)
     ax_heterogeneity.set_ylim(-0.04, 1.10)
     ax_heterogeneity.set_yticks([0, 0.5, 1.0])
-    ax_heterogeneity.set_ylabel("Vγ9Vδ2 fraction", fontsize=4.7, labelpad=1)
+    ax_heterogeneity.set_ylabel("Vγ9Vδ2 fraction", fontsize=4.7, labelpad=2)
     ax_heterogeneity.tick_params(labelsize=4.5, length=2, pad=1)
     ax_heterogeneity.text(
         0.50,
@@ -788,6 +784,13 @@ def build(root, main, col, concise_module_label, heatmap, style_axis, panel_titl
         va="bottom",
     )
     style_axis(ax_heterogeneity, "y")
+    # Place the heterogeneity scale on the outer edge of panel F so its axis
+    # label cannot collide with the central pairing legend or colorbar.
+    ax_heterogeneity.yaxis.tick_right()
+    ax_heterogeneity.yaxis.set_label_position("right")
+    ax_heterogeneity.spines["left"].set_visible(False)
+    ax_heterogeneity.spines["right"].set_visible(True)
+    ax_heterogeneity.spines["right"].set_color(col["ink"])
 
     # G: participant- and state-matched gamma-delta program contrasts.
     ax = fig.add_subplot(gs[3, 1])
