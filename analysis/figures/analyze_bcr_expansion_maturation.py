@@ -487,8 +487,12 @@ def plot_lineage_models(tests):
         ax.set_yticks(y, [SHORT[m] for m in MODULES])
         ax.set_title(outcome, loc="left", fontweight="bold")
         ax.set_xlabel("Adjusted association per program SD")
+        # Reserve a dedicated right-side annotation gutter so q-values never
+        # sit on confidence intervals or point estimates.
+        x_left, x_right = ax.get_xlim()
+        ax.set_xlim(x_left, x_right + 0.20 * (x_right - x_left))
         for yi, row in zip(y, z.itertuples()):
-            ax.text(.99, yi, q_text(row.FDR), transform=ax.get_yaxis_transform(), ha="right", va="center",
+            ax.text(.985, yi, q_text(row.FDR), transform=ax.get_yaxis_transform(), ha="right", va="center",
                     fontsize=5.0, color="#666666")
         style_axis(ax, "x")
     fig.suptitle("State-residualized B-cell programs and lineage maturation", fontsize=10.5, fontweight="bold")

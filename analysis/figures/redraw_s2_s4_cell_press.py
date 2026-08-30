@@ -13,21 +13,21 @@ from pypdf import PdfReader, PdfWriter
 from scipy.stats import kruskal, mannwhitneyu
 
 
-ROOT = Path(r"C:/path/to/private-manuscript-workspace")
+ROOT = Path(r"C:\Users\johng\OneDrive\Documents\Immune Repertoire Manuscript")
 OUT = ROOT / "output" / "pdf" / "Pruned Reordered Supplementary Figures"
 WORK = ROOT / "output" / "pdf" / "cell_press_redraw_work"
 ARCHIVE = OUT / "archive_before_cell_press_redraw_20260829"
 
-TCR = Path(r"C:/path/to/private-user-home\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
+TCR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
 TCR_ARCH = TCR / "TCR Architecture Analyses"
 BCR_SUB = Path(
-    r"C:/path/to/private-user-home\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
+    r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
     r"\Figure 3 BCR\BCR Architecture Analyses\Subfigures"
 )
-F5 = Path(r"C:/path/to/private-legacy-manuscript-assets\Figure 5")
-BCR_MODULES = Path(r"C:/path/to/private-user-home\OneDrive\Desktop\BCR Module Scores\BCR Clonotype Modules Cell Number Matched CD UC Only")
+F5 = Path(r"C:\Users\johng\OneDrive\Desktop\IBD PBMC Immune Repertoire Manuscript Figures\Figure 5")
+BCR_MODULES = Path(r"C:\Users\johng\OneDrive\Desktop\BCR Module Scores\BCR Clonotype Modules Cell Number Matched CD UC Only")
 BCR_SWITCH = Path(
-    r"C:/path/to/private-user-home\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
+    r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
     r"\Figure 3 BCR\BCR Architecture Analyses\BCR isotype switching diagnosis comparisons\tables"
 )
 
@@ -403,7 +403,7 @@ def build_s2_page1(path: Path) -> None:
     )
     fig = plt.figure(figsize=(190 * MM, 164 * MM))
     outer = fig.add_gridspec(
-        2, 2, left=0.055, right=0.93, bottom=0.075, top=0.875,
+        2, 2, left=0.067, right=0.93, bottom=0.075, top=0.875,
         width_ratios=[1.75, 1.0], height_ratios=[1.45, 1.0], wspace=0.28, hspace=0.38,
     )
     add_page_header(fig, "Figure S2. TCR repertoire structure and clone-size context | page 1 of 4")
@@ -434,7 +434,7 @@ def build_s4_page1(path: Path) -> None:
     state_order = stack_df.groupby("Level2Annotation")["mean_prop"].sum().sort_values(ascending=False).index.tolist()
     fig = plt.figure(figsize=(190 * MM, 164 * MM))
     outer = fig.add_gridspec(
-        2, 2, left=0.055, right=0.92, bottom=0.075, top=0.875,
+        2, 2, left=0.067, right=0.92, bottom=0.075, top=0.875,
         width_ratios=[1.75, 1.0], height_ratios=[1.45, 1.0], wspace=0.28, hspace=0.38,
     )
     add_page_header(fig, "Figure S4. BCR repertoire structure and expansion-linked programs | page 1 of 3")
@@ -573,13 +573,13 @@ def build_s4_page3(path: Path) -> None:
     box_strip(ax_j, switch, "switched_fraction", "Diagnosis1", "Class-switched B cells", ylabel="Switched fraction", percent=True, show_stats=True)
     ax_k = fig.add_subplot(top[0, 1])
     iso_order = mean_isotype_stack(ax_k, iso)
-    add_panel_letter(fig, 0.018, 0.925, "J")
-    add_panel_letter(fig, 0.395, 0.925, "K")
+    add_panel_letter(fig, 0.018, 0.942, "F")
+    add_panel_letter(fig, 0.395, 0.942, "G")
     isotype_small_multiples(fig, outer[1, 0], iso, iso_order)
-    fig.text(0.07, outer[1, 0].get_position(fig).y1 + 0.012, "Participant-level isotype fractions", fontsize=8.0, fontweight="bold", color=INK)
+    fig.text(0.07, outer[1, 0].get_position(fig).y1 + 0.028, "Participant-level isotype fractions", fontsize=8.0, fontweight="bold", color=INK)
     shm_small_multiples(fig, outer[2, 0], shm)
-    add_panel_letter(fig, 0.018, outer[2, 0].get_position(fig).y1 + 0.018, "L")
-    fig.text(0.07, outer[2, 0].get_position(fig).y1 + 0.012, "Somatic hypermutation across B-cell states", fontsize=8.0, fontweight="bold", color=INK)
+    add_panel_letter(fig, 0.018, outer[2, 0].get_position(fig).y1 + 0.034, "H")
+    fig.text(0.07, outer[2, 0].get_position(fig).y1 + 0.028, "Somatic hypermutation across B-cell states", fontsize=8.0, fontweight="bold", color=INK)
     fig.text(0.975, 0.024, "Boxes show median and interquartile range; points denote participants. *FDR < 0.05; **FDR < 0.01; ***FDR < 0.001; ****FDR < 0.0001.", ha="right", fontsize=5.3, color=MID)
     fig.savefig(path, bbox_inches=None)
     plt.close(fig)

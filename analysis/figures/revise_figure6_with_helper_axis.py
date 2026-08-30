@@ -868,7 +868,7 @@ def build_figure_s13():
     ax.set_xlabel("Participant-paired difference in ρ (95% CI)")
     panel_title(ax, "Formal between-program contrasts"); panel_label(ax, "F", x=-0.28); style_axis(ax, "x")
 
-    fig.suptitle("Figure 6 robustness, generalizability, and specificity analyses",
+    fig.suptitle("Robustness, sensitivity, and specificity analyses",
                  fontsize=9.2, fontweight="bold", y=0.988)
     save_figure(fig, "Figure_S13", SUPP)
 

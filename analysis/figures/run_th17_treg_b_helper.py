@@ -508,7 +508,7 @@ def build_figure_h2(data, correlations, restraint):
             ann.iloc[i, j] = "" if row.empty or not np.isfinite(mat.iloc[i, j]) else f"{mat.iloc[i, j]:.2f}{star(row.iloc[0]['FDR_within_group'])}"
     sns.heatmap(mat, cmap="vlag", center=0, vmin=-0.55, vmax=0.55, annot=ann, fmt="",
                 annot_kws={"fontsize": 5.8}, cbar_kws={"label": "Partial Spearman rho", "shrink": 0.7}, ax=ax_a)
-    ax_a.set_title("A  Targeted T-cell-B-cell coupling in IBD", loc="left", fontweight="bold")
+    ax_a.set_title("E  Targeted T-cell-B-cell coupling in IBD", loc="left", fontweight="bold")
     ax_a.set_xlabel("")
     ax_a.set_ylabel("")
     ax_a.tick_params(axis="x", rotation=55, labelsize=6.3)
@@ -528,7 +528,7 @@ def build_figure_h2(data, correlations, restraint):
     ax_b.axvline(0, color="black", lw=0.8)
     ax_b.set_yticks(range(len(outcomes)), outcomes)
     ax_b.set_xlabel("Adjusted standardized beta")
-    ax_b.set_title("B  Independent helper model", loc="left", fontweight="bold")
+    ax_b.set_title("F  Independent helper model", loc="left", fontweight="bold")
     ax_b.legend(frameon=False, fontsize=5.7, loc="upper center",
                 bbox_to_anchor=(0.5, -0.14), ncol=3, columnspacing=0.8, handletextpad=0.3)
     ax_b.tick_params(labelsize=6.5)
@@ -549,7 +549,7 @@ def build_figure_h2(data, correlations, restraint):
                     palette=palette, s=24, alpha=0.8, ax=ax_c)
     sns.regplot(data=plot, x="T residual rank", y="B residual rank", scatter=False,
                 line_kws={"color": "black", "lw": 1}, ax=ax_c)
-    ax_c.set_title(f"C  Strongest prespecified association\n{top['T_label']} vs {top['B_label']}",
+    ax_c.set_title(f"G  Strongest prespecified association\n{top['T_label']} vs {top['B_label']}",
                    loc="left", fontweight="bold")
     ax_c.text(0.02, 0.98, f"rho={top['partial_rho']:.2f}; FDR={top['FDR_within_group']:.3g}",
               transform=ax_c.transAxes, ha="left", va="top", fontsize=7)
@@ -565,7 +565,7 @@ def build_figure_h2(data, correlations, restraint):
     ax_d.axvline(0, color="black", lw=0.8)
     ax_d.set_yticks(y, robust["effect"], fontsize=5.7)
     ax_d.set_xlabel("Full beta; leave-one-series-out range")
-    ax_d.set_title("D  Acquisition-series robustness", loc="left", fontweight="bold")
+    ax_d.set_title("H  Acquisition-series robustness", loc="left", fontweight="bold")
     ax_d.tick_params(axis="x", labelsize=7)
 
     fig.savefig(OUT / "Figure_H2_Th17_Treg_B_helper_coupling.png", dpi=400)
