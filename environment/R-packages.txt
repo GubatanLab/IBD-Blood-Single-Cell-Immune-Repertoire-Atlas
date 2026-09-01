@@ -7,6 +7,8 @@ scater
 scuttle
 edgeR
 limma
+multinichenetr
+nichenetr
 data.table
 dplyr
 tidyr
@@ -20,4 +22,3 @@ glmmTMB
 emmeans
 matrixStats
 Matrix
-

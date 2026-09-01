@@ -9,7 +9,7 @@
 | 3 | Cross-participant paired-TCR sequence convergence and paired gamma-delta architecture | `analysis/core/export_paired_tcr_sequence_state.R`, `run_tcr_sequence_state_graph.py`, `analyze_figure3_high_impact.py`, `export_paired_gammadelta_figure3.R`, `analyze_paired_gammadelta_figure3.py` |
 | 4 | BCR clonal focusing, expansion-linked programs, B-cell trajectory, class switching | `analysis/figures/export_bcr_expansion_maturation_inputs.R`, `analyze_bcr_expansion_maturation.py`, `run_bcr_trajectory_priority.R`, `run_figure4c_mixed_effects_robustness.R`, `run_figure4g_count_models.R`, `run_figure4g_dirichlet_multinomial.py` |
 | 5 | Heavy-chain SHM, germline-rooted lineages, observed-only diversification, clinical context | `analysis/core/prepare_bcr_germline_inputs.R`, `analyze_bcr_germline_lineages.py`, `run_bcr_lineage_diversification.R`, `analyze_bcr_figure5_lineage_ibd.py`, `analyze_bcr_figure5_enhancements.py`, `analyze_bcr_lineage_threshold_effects.py` |
-| 6 | Participant-level helper/regulatory and cytotoxic T-cell–B-cell coordination | `analysis/core/run_high_impact_integrative_analyses.R`, `run_cd_specific_module_coupling.py`, `analysis/figures/export_th17_treg_b_helper.R`, `run_th17_treg_b_helper.py`, `revise_figure6_with_helper_axis.py` |
+| 6 | Participant-level helper/regulatory and cytotoxic T-cell–B-cell coordination plus bidirectional ligand–receptor prioritization | `analysis/core/run_high_impact_integrative_analyses.R`, `run_cd_specific_module_coupling.py`, `analysis/figures/export_th17_treg_b_helper.R`, `run_th17_treg_b_helper.py`, `analysis/interactome/audit_multinichenet_t_b_inputs.R`, `analysis/interactome/run_multinichenet_t_b_coupling.R`, `analysis/interactome/postprocess_multinichenet_t_b_coupling.R`, `analysis/interactome/run_clone_aware_multinichenet_validation.R`, `analysis/figures/build_figure6_with_multinichenet.py` |
 | 7 | immuneML diagnosis, inflammation, and biologic-response benchmarks | `analysis/immuneml/prepare_tcr_chain_immuneml.py`, `prepare_bcr_chain_immuneml.py`, `run_tcr_chain_kmer_svm_models.py`, `run_bcr_svm_feature_models.py`, `analysis/core/run_ml_sensitivity_validation.py`, `analysis/figures/build_figure7_immunity_revision.py` |
 
 ## Supplementary figures
@@ -28,4 +28,3 @@
 | S10 | Nested ML, permutation, calibration, and optimism | `analysis/core/run_ml_sensitivity_validation.py`, `analysis/ml_validation/build_supplementary_figures.py` |
 
 The final PDFs and complete legends are in `figures/`. Aggregate panel values are in `source_data/`; controlled inputs are described in `data/README.md`.
-

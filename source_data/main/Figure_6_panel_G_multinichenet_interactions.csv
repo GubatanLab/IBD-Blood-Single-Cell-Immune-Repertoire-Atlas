@@ -1,0 +1,31 @@
+mechanism,context,disease_color,analysis,contrast,group,sender,receiver,ligand,receptor,exact_interaction,prioritization_score,fraction_expressing_ligand_receptor,rank_within_contrast_direction,max_scaled_activity,context_order,mechanism_order
+B-cell MHC-II → Tfh,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,B_NaiveTransitional,Tfh,HLA.DMA,CD4,B_NaiveTransitional: HLA.DMA–CD4 → Tfh,0.7849586586628972,0.8548387096774194,17,0.6410532337018919,0,0
+B-cell MHC-II → Tfh,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,B_AtypicalMemory,Tfh,HLA.DPB1,CD4,B_AtypicalMemory: HLA.DPB1–CD4 → Tfh,0.8938912558161324,1.0,1,0.5912429633055231,1,0
+B-cell MHC-II → Tfh,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,B_AtypicalMemory,Tfh,HLA.DQB1,CD4,B_AtypicalMemory: HLA.DQB1–CD4 → Tfh,0.7116017239048642,0.859375,199,0.3923150913098704,2,0
+B-cell MHC-II → Tfh,CD > Control,CD,S6_diagnosis,CD-Control,CD,B_AtypicalMemory,Tfh,HLA.DQB1,CD4,B_AtypicalMemory: HLA.DQB1–CD4 → Tfh,0.5240178168049786,0.2727272727272727,1499,0.7994343927166362,3,0
+B-cell MHC-II → Tfh,UC > Control,UC,S6_diagnosis,UC-Control,UC,B_NaiveTransitional,Tfh,HLA.DOA,CD4,B_NaiveTransitional: HLA.DOA–CD4 → Tfh,0.7890963979580008,1.0,42,0.6861179624661796,4,0
+B-cell MHC-II → Th17,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,B_NaiveTransitional,Th17,HLA.DMA,CD4,B_NaiveTransitional: HLA.DMA–CD4 → Th17,0.7903293629520374,0.9516129032258064,14,0.6185577567581635,0,1
+B-cell MHC-II → Th17,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,B_AtypicalMemory,Th17,HLA.DPB1,CD4,B_AtypicalMemory: HLA.DPB1–CD4 → Th17,0.8479588773322577,1.0,6,0.2571045523968583,1,1
+B-cell MHC-II → Th17,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,B_AtypicalMemory,Th17,HLA.DRA,CD4,B_AtypicalMemory: HLA.DRA–CD4 → Th17,0.8839978926422418,0.96875,1,0.8372870634557907,2,1
+B-cell MHC-II → Th17,CD > Control,CD,S6_diagnosis,CD-Control,CD,B_AtypicalMemory,Th17,HLA.DRA,CD4,B_AtypicalMemory: HLA.DRA–CD4 → Th17,0.8499442571098921,1.0,29,0.5444612857606318,3,1
+B-cell MHC-II → Th17,UC > Control,UC,S6_diagnosis,UC-Control,UC,B_NaiveTransitional,Th17,HLA.DOA,CD4,B_NaiveTransitional: HLA.DOA–CD4 → Th17,0.7687385001803613,1.0,60,0.4365407760432931,4,1
+B-cell CD86 → Treg/Th17,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,B_AtypicalMemory,Th17,CD86,CD28,B_AtypicalMemory: CD86–CD28 → Th17,0.6815484258444352,0.8225806451612904,259,0.4633584647624124,0,2
+B-cell CD86 → Treg/Th17,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,B_Memory,Treg,CD86,CD28,B_Memory: CD86–CD28 → Treg,0.7194436460549811,0.7674418604651163,164,0.2147471873704094,1,2
+B-cell CD86 → Treg/Th17,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,B_AtypicalMemory,Th17,CD86,CD28,B_AtypicalMemory: CD86–CD28 → Th17,0.828567067712425,0.875,17,0.5229482152414124,2,2
+B-cell CD86 → Treg/Th17,CD > Control,CD,S6_diagnosis,CD-Control,CD,B_Memory,Treg,CD86,CD28,B_Memory: CD86–CD28 → Treg,0.8668365648090959,0.7272727272727273,16,0.754512892970797,3,2
+B-cell CD86 → Treg/Th17,UC > Control,UC,S6_diagnosis,UC-Control,UC,B_Memory,Th17,CD86,CD28,B_Memory: CD86–CD28 → Th17,0.8181014962305709,0.9,17,0.4200453021353902,4,2
+Treg TGF-β → IgM plasma,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,Treg,Plasma_IgM,TGFB1,TGFBR3,Treg: TGFB1–TGFBR3 → Plasma_IgM,0.8561571721642008,0.9032258064516128,2,0.5121914716621658,0,3
+Treg TGF-β → IgM plasma,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,Treg,Plasma_IgM,TGFB1,TGFBR2,Treg: TGFB1–TGFBR2 → Plasma_IgM,0.5999256072684582,0.8372093023255814,461,0.2100906047431947,1,3
+Treg TGF-β → IgM plasma,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,Treg,Plasma_IgM,TGFB1,TGFBR1,Treg: TGFB1–TGFBR1 → Plasma_IgM,0.7174392590258918,0.765625,107,0.1409793254493704,2,3
+Treg TGF-β → IgM plasma,CD > Control,CD,S6_diagnosis,CD-Control,CD,Treg,Plasma_IgM,TGFB1,TGFBR3,Treg: TGFB1–TGFBR3 → Plasma_IgM,0.6344419387013851,0.6363636363636364,626,0.2786223141274324,3,3
+Treg TGF-β → IgM plasma,UC > Control,UC,S6_diagnosis,UC-Control,UC,Treg,Plasma_IgM,TGFB1,TGFBR2,Treg: TGFB1–TGFBR2 → Plasma_IgM,0.5408562842392359,0.6,1077,0.6295647278018973,4,3
+Tfh/Th17 CD40L → B cells,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,Th17,B_NaiveTransitional,CD40LG,CD40,Th17: CD40LG–CD40 → B_NaiveTransitional,0.742705761704893,0.7419354838709677,59,0.6287756176070004,0,4
+Tfh/Th17 CD40L → B cells,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,Th17,B_NaiveTransitional,CD40LG,CD40,Th17: CD40LG–CD40 → B_NaiveTransitional,0.6993411579170188,0.7441860465116279,115,0.3637410959400446,1,4
+Tfh/Th17 CD40L → B cells,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,Tfh,B_NaiveTransitional,CD40LG,CD40,Tfh: CD40LG–CD40 → B_NaiveTransitional,0.7154684897169276,0.515625,111,0.2615631648036034,2,4
+Tfh/Th17 CD40L → B cells,CD > Control,CD,S6_diagnosis,CD-Control,CD,Th17,B_NaiveTransitional,CD40LG,CD40,Th17: CD40LG–CD40 → B_NaiveTransitional,0.6565262457558898,0.8181818181818182,523,0.3167638124841162,3,4
+Tfh/Th17 CD40L → B cells,UC > Control,UC,S6_diagnosis,UC-Control,UC,Th17,B_AtypicalMemory,CD40LG,CD40,Th17: CD40LG–CD40 → B_AtypicalMemory,0.7554168657634941,0.95,34,0.3406598974121948,4,4
+Th17 BAFF → B/plasma cells,CD inflamed,CD,CD_inflammation,Inflamed-Noninflamed,Inflamed,Th17,B_AtypicalMemory,TNFSF13B,TNFRSF13B,Th17: TNFSF13B–TNFRSF13B → B_AtypicalMemory,0.6084554242502154,0.3709677419354839,595,0.4726282432668376,0,5
+Th17 BAFF → B/plasma cells,UC inflamed,UC,UC_inflammation,Inflamed-Noninflamed,Inflamed,Th17,B_NaiveTransitional,TNFSF13B,TNFRSF13C,Th17: TNFSF13B–TNFRSF13C → B_NaiveTransitional,0.7078955332163376,0.3720930232558139,98,0.4095456197306057,1,5
+Th17 BAFF → B/plasma cells,CD > UC,CD,CD_vs_UC_shared_series,CD-UC,CD,Th17,B_AtypicalMemory,TNFSF13B,TNFRSF13C,Th17: TNFSF13B–TNFRSF13C → B_AtypicalMemory,0.7256598162068425,0.5,94,0.5412045112761428,2,5
+Th17 BAFF → B/plasma cells,CD > Control,CD,S6_diagnosis,CD-Control,CD,Th17,Plasma_Switched,TNFSF13B,TNFRSF17,Th17: TNFSF13B–TNFRSF17 → Plasma_Switched,0.8000654043452965,0.5454545454545454,63,0.5409623679532708,3,5
+Th17 BAFF → B/plasma cells,UC > Control,UC,S6_diagnosis,UC-Control,UC,Th17,Plasma_IgM,TNFSF13B,TNFRSF13C,Th17: TNFSF13B–TNFRSF13C → Plasma_IgM,0.5704232024115233,0.1,857,0.7252401048508851,4,5

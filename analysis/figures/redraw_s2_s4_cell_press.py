@@ -13,23 +13,17 @@ from pypdf import PdfReader, PdfWriter
 from scipy.stats import kruskal, mannwhitneyu
 
 
-ROOT = Path(r"C:\Users\johng\OneDrive\Documents\Immune Repertoire Manuscript")
+ROOT = Path("C:/path/to/private-manuscript-workspace")
 OUT = ROOT / "output" / "pdf" / "Pruned Reordered Supplementary Figures"
 WORK = ROOT / "output" / "pdf" / "cell_press_redraw_work"
 ARCHIVE = OUT / "archive_before_cell_press_redraw_20260829"
 
-TCR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
+TCR = ROOT / "Figure 2 TCR"
 TCR_ARCH = TCR / "TCR Architecture Analyses"
-BCR_SUB = Path(
-    r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
-    r"\Figure 3 BCR\BCR Architecture Analyses\Subfigures"
-)
-F5 = Path(r"C:\Users\johng\OneDrive\Desktop\IBD PBMC Immune Repertoire Manuscript Figures\Figure 5")
-BCR_MODULES = Path(r"C:\Users\johng\OneDrive\Desktop\BCR Module Scores\BCR Clonotype Modules Cell Number Matched CD UC Only")
-BCR_SWITCH = Path(
-    r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript"
-    r"\Figure 3 BCR\BCR Architecture Analyses\BCR isotype switching diagnosis comparisons\tables"
-)
+BCR_SUB = ROOT / "Figure 3 BCR" / "BCR Architecture Analyses" / "Subfigures"
+F5 = Path("C:/path/to/private-legacy-manuscript-assets/Figure 5")
+BCR_MODULES = ROOT / "BCR Module Scores" / "BCR Clonotype Modules Cell Number Matched CD UC Only"
+BCR_SWITCH = ROOT / "Figure 3 BCR" / "BCR Architecture Analyses" / "BCR isotype switching diagnosis comparisons" / "tables"
 
 S2_OLD = OUT / "Figure_S2.pdf"
 S4_OLD = OUT / "Figure_S4.pdf"

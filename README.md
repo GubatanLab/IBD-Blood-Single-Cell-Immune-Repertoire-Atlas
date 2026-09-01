@@ -11,6 +11,7 @@ The repository is private while the manuscript and controlled participant-level 
 ## Contents
 
 - `analysis/core/`: clone-aware TCR/BCR, sequence-neighborhood, lineage, pseudobulk, and sensitivity analyses
+- `analysis/interactome/`: MultiNicheNet T-helper–B-cell communication and clone-aware validation workflows
 - `analysis/figures/`: canonical and supporting figure-generation workflows
 - `analysis/external_validation/`: public-cohort validation workflows
 - `analysis/immuneml/`: immuneML input preparation, model fitting, evaluation, and SHAP summaries
@@ -45,7 +46,7 @@ Review the resulting path-only diff before executing analyses. The scripts do no
 2. Run receptor audits and figure-specific exports in `analysis/core/` and `analysis/figures/`.
 3. Run TCR clone-state, trajectory, and sequence-neighborhood workflows for Figures 2–3.
 4. Run BCR expansion, trajectory, SHM, and lineage workflows for Figures 4–5.
-5. Run participant-level T–B coordination workflows for Figure 6.
+5. Run participant-level T–B coordination and MultiNicheNet interactome workflows for Figure 6.
 6. Prepare AIRR repertoires and execute immuneML specifications for Figure 7.
 7. Run nested-validation and external-validation workflows before assembling final figures.
 
@@ -72,4 +73,3 @@ The audit checks expected figures/configurations, forbidden raw-data formats, ma
 ## Citation
 
 Until a journal citation or preprint identifier is available, cite the associated manuscript title and this repository. `CITATION.cff` will surface the software citation in GitHub.
-

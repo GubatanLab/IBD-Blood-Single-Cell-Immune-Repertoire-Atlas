@@ -30,9 +30,9 @@ ASSET = OUT / "Graphical Assets"
 for directory in (MAIN, SUPP, SRC, LEG, ASSET):
     directory.mkdir(parents=True, exist_ok=True)
 
-TCR_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 2 TCR")
-BCR_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD SingleCell Repertoire Manuscript\Figure 3 BCR")
-PBMC_DIR = Path(r"C:\Users\johng\OneDrive\Desktop\IBD PBMC Immune Repertoire Manuscript Figures")
+TCR_DIR = Path("C:/path/to/private-manuscript-workspace/Figure 2 TCR")
+BCR_DIR = Path("C:/path/to/private-manuscript-workspace/Figure 3 BCR")
+PBMC_DIR = Path("C:/path/to/private-legacy-manuscript-assets")
 
 # Okabe-Ito-derived palette; group identity is reinforced by position and labels.
 COL = {
