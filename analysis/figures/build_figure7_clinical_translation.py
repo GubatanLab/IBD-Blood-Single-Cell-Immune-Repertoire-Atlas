@@ -12,9 +12,10 @@ from sklearn.metrics import average_precision_score, balanced_accuracy_score, ro
 from sklearn.model_selection import StratifiedKFold
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path("C:/path/to/private-manuscript-workspace")
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import build_grant_all_receptor_shap_barplots as receptor_models
 import build_grant_combined_tcr_bcr_models as combined_models

@@ -15,6 +15,9 @@ dependencies:
   - networkx
   - openpyxl
   - pyyaml
+  - pypdf
+  - reportlab
+  - pillow
   - biopython
   - pip
   - pip:

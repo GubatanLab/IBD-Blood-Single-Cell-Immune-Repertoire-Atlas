@@ -12,7 +12,7 @@ from matplotlib.lines import Line2D
 from sklearn.metrics import roc_auc_score, average_precision_score
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path("C:/path/to/private-manuscript-workspace")
 OUT = ROOT / "Figure 7 Revised Immunity"
 OUT.mkdir(parents=True, exist_ok=True)
 

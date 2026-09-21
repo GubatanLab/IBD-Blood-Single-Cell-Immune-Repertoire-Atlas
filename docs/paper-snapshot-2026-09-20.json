@@ -1,0 +1,419 @@
+{
+  "date": "2026-09-20",
+  "manuscript_title": "Single-cell immune repertoire atlas maps coordinated circulating adaptive immune states in inflammatory bowel disease",
+  "artifacts": [
+    {
+      "path": "figures/main/Figure_1.pdf",
+      "source_name": "Figure_1.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 1109312,
+      "sha256": "b03f4f3f7b7547b21eb7b608645001e0df92de354489ef7c65384627d04c3b55"
+    },
+    {
+      "path": "figures/main/Figure_2.pdf",
+      "source_name": "Figure_2.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 303085,
+      "sha256": "b289319c99da98e71b7268d979543da3956943f5f65b34c5697b9855000ef681"
+    },
+    {
+      "path": "figures/main/Figure_3.pdf",
+      "source_name": "Figure_3.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 230502,
+      "sha256": "f79c7d1bddbad52e7d12b8b6d0f19ee69833b8bb9d776d3e596113c427e03de5"
+    },
+    {
+      "path": "figures/main/Figure_4.pdf",
+      "source_name": "Figure_4.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 283836,
+      "sha256": "280bffb1a8505b2f8ef6af25aba65e665b92c392183af01a8db6d2f08bd63040"
+    },
+    {
+      "path": "figures/main/Figure_5.pdf",
+      "source_name": "Figure_5.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 337702,
+      "sha256": "15d39c9dd6f8032183beda07ee388ed9f9e21aa7efc59490b1c54f321ba0e47c"
+    },
+    {
+      "path": "figures/main/Figure_6.pdf",
+      "source_name": "Figure_6.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 217022,
+      "sha256": "b69205f197a1b2ea5adad09878ded56a738fc2056ee88c0384693df488291676"
+    },
+    {
+      "path": "figures/main/Figure_7.pdf",
+      "source_name": "Figure_7.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 1702373,
+      "sha256": "560085cce65e2e295722553fc124f8d5e0b5e669b421463498573ee2cf09dda5"
+    },
+    {
+      "path": "figures/supplementary/Figure_S1.pdf",
+      "source_name": "Figure_S1.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 2203121,
+      "sha256": "81f4353ecfae94a37e0673c8dd7ea420a9f891c114420f3817bb992c32931463"
+    },
+    {
+      "path": "figures/supplementary/Figure_S2.pdf",
+      "source_name": "Figure_S2.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 5029757,
+      "sha256": "f20196e8112c783762583076d35cb3695b3e0f891aee97c66f30b2021b91453f"
+    },
+    {
+      "path": "figures/supplementary/Figure_S3.pdf",
+      "source_name": "Figure_S3.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 1320326,
+      "sha256": "70f03dfc2fbe601128f9c289716c6683d691cbb214681c20a6a680c0308bdaaf"
+    },
+    {
+      "path": "figures/supplementary/Figure_S4.pdf",
+      "source_name": "Figure_S4.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 10065224,
+      "sha256": "538d6a7b9aba449d4ec970191b84b32af5729ca133957289cd64437c62c790c1"
+    },
+    {
+      "path": "figures/supplementary/Figure_S5.pdf",
+      "source_name": "Figure_S5.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 1628907,
+      "sha256": "3f189e833534fd3df951c777f208c342d350fea5a1cf4fba778d775866a70843"
+    },
+    {
+      "path": "figures/supplementary/Figure_S6.pdf",
+      "source_name": "Figure_S6.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 3108839,
+      "sha256": "c14ca52237003a06842094e94efdcce72969a8097b1b1a7c65efa44fc488785e"
+    },
+    {
+      "path": "figures/supplementary/Figure_S7.pdf",
+      "source_name": "Figure_S7.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 2719658,
+      "sha256": "7bf7597d21460f611e3e88ac81254afc8ffc05db5ca542d82717e10ee0db90b9"
+    },
+    {
+      "path": "figures/supplementary/Figure_S8.pdf",
+      "source_name": "Figure_S8.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 2654699,
+      "sha256": "b0166a6073b1256442e85e39a91513e434da14fdd5f7693092f15ade86f28c24"
+    },
+    {
+      "path": "figures/supplementary/Figure_S9.pdf",
+      "source_name": "Figure_S9.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 902421,
+      "sha256": "08fcd91c85a6aa98e080e888ca47cc29e796d1f1accdeb964beb7f978b727ddc"
+    },
+    {
+      "path": "figures/supplementary/Figure_S10.pdf",
+      "source_name": "Figure_S10.pdf",
+      "transformation": "byte-identical copy",
+      "bytes": 3303552,
+      "sha256": "a9f8ac66f88529feecda0c1e91292650b518c7b405478d0e898296aec97c793e"
+    },
+    {
+      "path": "manuscript/Manuscript_2026-09-20.docx",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "byte-identical copy",
+      "bytes": 2221897,
+      "sha256": "771fc55601bfc7b06f6b6037acfb857c0b79f2ef30df50898327ed7adad1190d"
+    },
+    {
+      "path": "figures/main/Figure_1_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1650,
+      "sha256": "7e57f7f12d82669a6bb19adcf3db9701971f610032349421afb7bcdfba2473b0"
+    },
+    {
+      "path": "figures/main/Figure_2_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1685,
+      "sha256": "516172fd5a85813be873351a88242b702493df973edf186fc77b4a7d1a1881d0"
+    },
+    {
+      "path": "figures/main/Figure_3_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1837,
+      "sha256": "dc1eca23ea851ff98c0c70f9c63e4887d98cc8265f58405b219cd96d3770648e"
+    },
+    {
+      "path": "figures/main/Figure_4_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1708,
+      "sha256": "e86ef60df95e68db1495053c0598e328e5e2c3e76a7d56564765be243c73b05a"
+    },
+    {
+      "path": "figures/main/Figure_5_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1869,
+      "sha256": "8d7cc9aad9e137054e8ccb6d40588706cce0971a32d0c1e592ea793732cddde5"
+    },
+    {
+      "path": "figures/main/Figure_6_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1927,
+      "sha256": "8f9de218543f2084214135330d4ecbdcd2c6e094c0cbc4b09257d3c62f46d4eb"
+    },
+    {
+      "path": "figures/main/Figure_7_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 2114,
+      "sha256": "6d80cdfc494b851d0de3486d9e3a3e29a22e5bf41d19c144450799d846ddf349"
+    },
+    {
+      "path": "figures/main/All_main_figure_legends_1-7.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legends extracted without text edits",
+      "bytes": 12796,
+      "sha256": "0319d1c3b2998276b37c56fbe89dd27f2fbdc477db63b28506121e37954d7d79"
+    },
+    {
+      "path": "figures/supplementary/Figure_S1_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 598,
+      "sha256": "2336d3c236287bc02fe8f6bebbedb4120658a6cb42221e66714492eb436e8357"
+    },
+    {
+      "path": "figures/supplementary/Figure_S2_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 582,
+      "sha256": "099f2050c22994c913808bb7981d04a94c505824b028fdd38b751cd05c28a5b1"
+    },
+    {
+      "path": "figures/supplementary/Figure_S3_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1090,
+      "sha256": "20356a0ef97dc06d9247ced15e977a5ee40c51b00281e41a5a02376af64217d0"
+    },
+    {
+      "path": "figures/supplementary/Figure_S4_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1120,
+      "sha256": "29b131bb57945219f0b8075a79b01c48590fcfb822bf43444527e790a6963170"
+    },
+    {
+      "path": "figures/supplementary/Figure_S5_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 815,
+      "sha256": "ffcd8d183ef6dac84025eee364b349f91d47a620f7efc1811b423a346c6ea819"
+    },
+    {
+      "path": "figures/supplementary/Figure_S6_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1100,
+      "sha256": "43c4ad97fdca985a511b4260eabd33184b2e218311aee3ea45a06b97ca2e847d"
+    },
+    {
+      "path": "figures/supplementary/Figure_S7_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 915,
+      "sha256": "ad0d4daae724adbd1b2d2574e4b7fa876d89bbbd1a23d2eeb3f9981c2059a13b"
+    },
+    {
+      "path": "figures/supplementary/Figure_S8_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 1123,
+      "sha256": "84f2b7350c1ac3219a5000226f013d8338ac94553788a9282641ee38917e2781"
+    },
+    {
+      "path": "figures/supplementary/Figure_S9_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 704,
+      "sha256": "a9c5a123c4bf4333d2396ddfd98c4934972f23423a27325779d0966df02bb0ef"
+    },
+    {
+      "path": "figures/supplementary/Figure_S10_legend.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legend extracted without text edits",
+      "bytes": 941,
+      "sha256": "d930bc5509089357c118159d285d26f3f0723753cfeaa1def57b3fe09c9e2225"
+    },
+    {
+      "path": "figures/supplementary/All_supplementary_figure_legends_S1-S10.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legends extracted without text edits",
+      "bytes": 8997,
+      "sha256": "642abdd5c47d586afcc52a8f16b9e99f93501a073cc7c77a0eab06ccc01cd542"
+    },
+    {
+      "path": "tables/Supplementary_table_legends.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "legends extracted without text edits",
+      "bytes": 3768,
+      "sha256": "a221f1de5c0256e402572fbbfb5fc70cbf51786354c44d4e613ebad2eebdcf75"
+    },
+    {
+      "path": "tables/Supplementary Table S1 - Clinical and demographic characteristics of the study cohort.docx",
+      "source_name": "Supplementary Table S1 - Clinical and demographic characteristics of the study cohort.docx",
+      "transformation": "byte-identical copy",
+      "bytes": 40317,
+      "sha256": "7abf1659372568084081bee7477da35c651cdeff5c9e54dc217e3e6ee24af415"
+    },
+    {
+      "path": "tables/Supplementary Table S2 - CD versus control Milo differential abundance.csv",
+      "source_name": "Supplementary Table S2 - CD versus control Milo differential abundance.csv",
+      "transformation": "byte-identical copy; line endings normalized to LF",
+      "bytes": 9542622,
+      "sha256": "cb3773e0d9fb989a3861eca436c631b487a79a072b45c025b67a61d32f87f16c"
+    },
+    {
+      "path": "tables/Supplementary Table S3 - UC versus control Milo differential abundance.csv",
+      "source_name": "Supplementary Table S3 - UC versus control Milo differential abundance.csv",
+      "transformation": "byte-identical copy; line endings normalized to LF",
+      "bytes": 5961175,
+      "sha256": "4417336ec29ea09f1d4ab6427d9095980edc4de459dba74a43186363f6b52f84"
+    },
+    {
+      "path": "tables/Supplementary Table S4 - CD versus UC Milo differential abundance.csv",
+      "source_name": "Supplementary Table S4 - CD versus UC Milo differential abundance.csv",
+      "transformation": "byte-identical copy; line endings normalized to LF",
+      "bytes": 10465859,
+      "sha256": "f325532523c1c72b5a44dcd11a0bef75baaa3bfaeb9ce1f1ddc0fe2518f8465a"
+    },
+    {
+      "path": "tables/Supplementary Table S5 - TCR repertoire model performance.xlsx",
+      "source_name": "Supplementary Table S5 - TCR repertoire model performance.xlsx",
+      "transformation": "byte-identical copy",
+      "bytes": 126066,
+      "sha256": "9d01ed6321f99b2ed71410f7c6e5c7dcc8328bac6582b9bef95e7085d7b9a037"
+    },
+    {
+      "path": "tables/Supplementary Table S6 - BCR repertoire model performance.xlsx",
+      "source_name": "Supplementary Table S6 - BCR repertoire model performance.xlsx",
+      "transformation": "byte-identical copy",
+      "bytes": 156515,
+      "sha256": "7ee19e6dce4afbce540a5cbfa3228614f1206fbc6758a43904434e2c7427547f"
+    },
+    {
+      "path": "tables/Supplementary Table S7 - TCR and BCR transcriptional gene signatures.xlsx",
+      "source_name": "Supplementary Table S7 - TCR and BCR transcriptional gene signatures.xlsx",
+      "transformation": "byte-identical copy",
+      "bytes": 34455,
+      "sha256": "0f7ec0967f32c81731c84b5bb77c985838f65a5b79ede86d0b6f0c216f238e66"
+    },
+    {
+      "path": "manuscript/References_2026-09-20.txt",
+      "source_name": "IBD Immune Repertoire Manuscript_09-20-2026 Immunity_References Verified.docx",
+      "transformation": "numbered bibliography extracted without text edits",
+      "bytes": 13974,
+      "sha256": "ac5d5ac8ddfa8005c3ad9d1b02905a3ea5cb78d7545b2b9581759c4fb6a53818"
+    },
+    {
+      "path": "source_data/clinical_models/Figure_7BDF_performance_source_data.csv",
+      "source_name": "Figure_7BDF_performance_source_data.csv",
+      "transformation": "byte-identical copy; line endings normalized to LF",
+      "bytes": 9278,
+      "sha256": "96211720a79b1e6f7308ddc777207dda78434cb6f3a44151d6d0e294603d540b"
+    },
+    {
+      "path": "source_data/clinical_models/Figure_7CEG_SHAP_top6_source_data.csv",
+      "source_name": "Figure_7CEG_SHAP_top6_source_data.csv",
+      "transformation": "selection_source workstation paths replaced with neutral placeholders; all other fields unchanged",
+      "bytes": 49289,
+      "sha256": "562c4d5a861e4a79633823d64b932d14c1cae95f0afd5f41f322d350a76f5c47"
+    },
+    {
+      "path": "source_data/clinical_models/Figure_7G_complete_therapy_SHAP_source_data.csv",
+      "source_name": "Figure_7G_complete_therapy_SHAP_source_data.csv",
+      "transformation": "selection_source workstation paths replaced with neutral placeholders; all other fields unchanged",
+      "bytes": 87497,
+      "sha256": "095b46a43dd95bd17def9c1f5ccf4c0e4cd205f4353a802fbda848bf80581174"
+    },
+    {
+      "path": "analysis/figures/build_figure7_clinical_translation.py",
+      "source_name": "build_figure7_clinical_translation.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 28107,
+      "sha256": "91ec98d765a3af197f0041b618de56526f43855e6bec999d4533a992a1a42ecf"
+    },
+    {
+      "path": "analysis/figures/build_figure7_immunity_revision.py",
+      "source_name": "build_figure7_immunity_revision.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 35690,
+      "sha256": "d9616c4dbdf927a6961fdb779694e44e98b209a765674db26f136805d078f01a"
+    },
+    {
+      "path": "analysis/figures/rebuild_figure7_layout_review_20260920.py",
+      "source_name": "rebuild_figure7_layout_review_20260920.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 5216,
+      "sha256": "83a229ea8554b3694e87dabf3f034a234306bbff6e77f6612c619e1960a7bcc6"
+    },
+    {
+      "path": "analysis/figures/review_main_figures_20260920.py",
+      "source_name": "review_main_figures_20260920.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 7774,
+      "sha256": "8cfd50f4e7d7d1ec057a8b41c2582f143b0a37bdae5b79f33a96719ec15e0e69"
+    },
+    {
+      "path": "analysis/figures/standardize_supplement_panel_geometry_20260920.py",
+      "source_name": "standardize_supplement_panel_geometry_20260920.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 21096,
+      "sha256": "593e87eba478e50b7321696ba23e554df45e625b322e9873b88f163851fe8ba0"
+    },
+    {
+      "path": "analysis/figures/compact_s2_single_page_20260920.py",
+      "source_name": "compact_s2_single_page_20260920.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 3727,
+      "sha256": "1e6c1b67db7b14648d4e10c81240ea10829b8e5c8eb3827cd8c859d50b7f7fb2"
+    },
+    {
+      "path": "analysis/figures/harmonize_supplementary_figure_set.py",
+      "source_name": "harmonize_supplementary_figure_set.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 5884,
+      "sha256": "61a908303c1e5e25d6ba5ebe7ab6affd41e5aef3ddd1721946ee8ba48182a9fd"
+    },
+    {
+      "path": "analysis/figures/build_grant_all_receptor_shap_barplots.py",
+      "source_name": "build_grant_all_receptor_shap_barplots.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 15186,
+      "sha256": "a903fe6e9ad1d4c9a84870615a9bdff11ac8a2df9ae75bfa32eaf5ee859a0fab"
+    },
+    {
+      "path": "analysis/figures/build_grant_combined_tcr_bcr_models.py",
+      "source_name": "build_grant_combined_tcr_bcr_models.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 18733,
+      "sha256": "b069d1b8adcc0409689e81b303fab006d40c970f42abdfb790bc8394d78e8b5d"
+    },
+    {
+      "path": "analysis/figures/build_grant_combined_tcr_bcr_shap_barplots.py",
+      "source_name": "build_grant_combined_tcr_bcr_shap_barplots.py",
+      "transformation": "local roots replaced by neutral placeholders; Figure 7 local imports resolved within repository",
+      "bytes": 8189,
+      "sha256": "c0503005d0c98fe2a291dc76991650209f602cc687262f27ace76782e590c68a"
+    }
+  ]
+}

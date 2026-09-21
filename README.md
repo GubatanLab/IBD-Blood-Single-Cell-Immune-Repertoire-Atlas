@@ -1,8 +1,14 @@
 # IBD Blood Single-Cell Immune Repertoire Atlas
 
-Analysis code and figure workflows for the manuscript **“Single-cell immune repertoire profiling reveals coordinated systemic adaptive immune remodeling in inflammatory bowel disease.”**
+Analysis code and figure workflows for the manuscript **“Single-cell immune repertoire atlas maps coordinated circulating adaptive immune states in inflammatory bowel disease.”**
 
 This repository links single-cell transcriptomes to paired TCR and BCR repertoires across Crohn's disease, ulcerative colitis, and non-IBD controls. It contains the analysis provenance for all seven main figures, ten supplementary figures, external-validation analyses, BCR lineage reconstruction, TCR sequence-neighborhood analyses, and the immuneML clinical-classification benchmarks.
+
+## Current paper snapshot — 20 September 2026
+
+The current manuscript, 64-reference bibliography, reviewed Figures 1–7 and S1–S10, manuscript-matched legends, and Supplementary Tables S1–S7 are included. Figure S2 now contains panels A–D on one page. Its former D–O panels are no longer part of the current supplement; the former motif panel P is now D.
+
+See [the release notes](docs/paper-update-2026-09-20.md), [manuscript](manuscript/README.md), and [supplementary tables](tables/README.md). The current Figure 7 numerical sources are named `Figure_7BDF`, `Figure_7CEG`, and `Figure_7G`; older source files are retained as historical provenance.
 
 ## Repository status
 
@@ -20,6 +26,8 @@ The repository is private while the manuscript and controlled participant-level 
 - `source_data/`: aggregate, non-identifying source outputs used in displayed panels
 - `figures/main/`: canonical main-figure PDFs and legends
 - `figures/supplementary/`: canonical supplementary-figure PDFs and legends
+- `manuscript/`: current manuscript snapshot and bibliography
+- `tables/`: supplementary tables and their current legends
 - `docs/figure-analysis-map.md`: panel-to-code map for Figures 1–7 and Figures S1–S10
 - `docs/reproducibility.md`: execution order, validation hierarchy, and provenance limitations
 - `data/README.md`: controlled-data policy and required input classes

@@ -1,0 +1,127 @@
+1. Maloy, K.J., and Powrie, F. (2011). Intestinal homeostasis and its breakdown in inflammatory bowel disease. Nature 474, 298-306. https://doi.org/10.1038/nature10208.
+
+2. Khor, B., Gardet, A., and Xavier, R.J. (2011). Genetics and pathogenesis of inflammatory bowel disease. Nature 474, 307-317. https://doi.org/10.1038/nature10209.
+
+3. Graham, D.B., and Xavier, R.J. (2020). Pathway paradigms revealed from the genetics of inflammatory bowel disease. Nature 578, 527-539. https://doi.org/10.1038/s41586-020-2025-2.
+
+4. de Souza, H.S.P., Fiocchi, C., and Iliopoulos, D. (2017). The IBD interactome: an integrated view of aetiology, pathogenesis and therapy. Nat. Rev. Gastroenterol. Hepatol. 14, 739-749. https://doi.org/10.1038/nrgastro.2017.110.
+
+5. Ng, S.C., Shi, H.Y., Hamidi, N., et al. (2017). Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. Lancet 390, 2769-2778. https://doi.org/10.1016/S0140-6736(17)32448-0.
+
+6. Turner, D., Ricciuto, A., Lewis, A., et al. (2021). STRIDE-II: an update on the Selecting Therapeutic Targets in Inflammatory Bowel Disease (STRIDE) initiative of the International Organization for the Study of IBD (IOIBD): determining therapeutic goals for treat-to-target strategies in IBD. Gastroenterology 160, 1570-1583. https://doi.org/10.1053/j.gastro.2020.12.031.
+
+7. Vermeire, S., Van Assche, G., and Rutgeerts, P. (2004). C-reactive protein as a marker for inflammatory bowel disease. Inflamm. Bowel Dis. 10, 661-665. https://doi.org/10.1097/00054725-200409000-00026.
+
+8. Sands, B.E. (2015). Biomarkers of inflammation in inflammatory bowel disease. Gastroenterology 149, 1275-1285.e2. https://doi.org/10.1053/j.gastro.2015.07.003.
+
+9. D'Haens, G., Ferrante, M., Vermeire, S., et al. (2012). Fecal calprotectin is a surrogate marker for endoscopic lesions in inflammatory bowel disease. Inflamm. Bowel Dis. 18, 2218-2224. https://doi.org/10.1002/ibd.22917.
+
+10. Mhanna, V., Bashour, H., Lê Quý, K., et al. (2024). Adaptive immune receptor repertoire analysis. Nat. Rev. Methods Primers 4, 6. https://doi.org/10.1038/s43586-023-00284-1.
+
+11. Greiff, V., Menzel, U., Miho, E., et al. (2017). Systems analysis reveals high genetic and antigen-driven predetermination of antibody repertoires throughout B cell development. Cell Rep. 19, 1467-1478. https://doi.org/10.1016/j.celrep.2017.04.054.
+
+12. Dash, P., Fiore-Gartland, A.J., Hertz, T., et al. (2017). Quantifiable predictive features define epitope-specific T cell receptor repertoires. Nature 547, 89-93. https://doi.org/10.1038/nature22383.
+
+13. Glanville, J., Huang, H., Nau, A., et al. (2017). Identifying specificity groups in the T cell receptor repertoire. Nature 547, 94-98. https://doi.org/10.1038/nature22976.
+
+14. Stubbington, M.J.T., Lönnberg, T., Proserpio, V., et al. (2016). T cell fate and clonality inference from single-cell transcriptomes. Nat. Methods 13, 329-332. https://doi.org/10.1038/nmeth.3800.
+
+15. Martin, J.C., Chang, C., Boschetti, G., et al. (2019). Single-cell analysis of Crohn's disease lesions identifies a pathogenic cellular module associated with resistance to anti-TNF therapy. Cell 178, 1493-1508.e20. https://doi.org/10.1016/j.cell.2019.08.008.
+
+16. Smillie, C.S., Biton, M., Ordovas-Montanes, J., et al. (2019). Intra- and inter-cellular rewiring of the human colon during ulcerative colitis. Cell 178, 714-730.e22. https://doi.org/10.1016/j.cell.2019.06.029.
+
+17. Boland, B.S., He, Z., Tsai, M.S., et al. (2020). Heterogeneity and clonal relationships of adaptive immune cells in ulcerative colitis revealed by single-cell analyses. Sci. Immunol. 5, eabb4432. https://doi.org/10.1126/sciimmunol.abb4432.
+
+18. Werner, L., Nunberg, M.Y., Rechavi, E., et al. (2019). Altered T cell receptor beta repertoire patterns in pediatric ulcerative colitis. Clin. Exp. Immunol. 196, 1-11. https://doi.org/10.1111/cei.13247.
+
+19. Wu, J., Pendegraft, A.H., Byrne-Steele, M., et al. (2018). Expanded TCRβ CDR3 clonotypes distinguish Crohn's disease and ulcerative colitis patients. Mucosal Immunol. 11, 1487-1495. https://doi.org/10.1038/s41385-018-0046-z.
+
+20. Williams, K.G., Kongala, R., Shows, D.M., et al. (2024). T cell repertoire homogeneity and blood-gut overlap in patients with inflammatory bowel disease. Cell. Mol. Gastroenterol. Hepatol. 17, 119-130. https://doi.org/10.1016/j.jcmgh.2023.09.003.
+
+21. Hegazy, A.N., West, N.R., Stubbington, M.J.T., et al. (2017). Circulating and tissue-resident CD4+ T cells with reactivity to intestinal microbiota are abundant in healthy individuals and function is altered during inflammation. Gastroenterology 153, 1320-1337.e16. https://doi.org/10.1053/j.gastro.2017.07.047.
+
+22. Safra, M., Werner, L., Peres, A., et al. (2023). A somatic hypermutation-based machine learning model stratifies individuals with Crohn's disease and controls. Genome Res. 33, 71-79. https://doi.org/10.1101/gr.276683.122.
+
+23. Pesesky, M., Bharanikumar, R., Le Bourhis, L., et al. (2025). Antigen-driven expansion of public clonal T-cell populations in inflammatory bowel diseases. J. Crohns Colitis 19, jjaf048. https://doi.org/10.1093/ecco-jcc/jjaf048.
+
+24. Kotagiri, P., Rae, W.M., Bergamaschi, L., et al. (2025). Disease-specific B cell clones are shared between patients with Crohn's disease. Nat. Commun. 16, 3689. https://doi.org/10.1038/s41467-025-58977-y.
+
+25. Martini, G.R., Tikhonova, E., Rosati, E., et al. (2023). Selection of cross-reactive T cells by commensal and food-derived yeasts drives cytotoxic TH1 cell responses in Crohn's disease. Nat. Med. 29, 2602-2614. https://doi.org/10.1038/s41591-023-02556-5.
+
+26. Palm, N.W., de Zoete, M.R., Cullen, T.W., et al. (2014). Immunoglobulin A coating identifies colitogenic bacteria in inflammatory bowel disease. Cell 158, 1000-1010. https://doi.org/10.1016/j.cell.2014.08.006.
+
+27. Bourgonje, A.R., Andreu-Sánchez, S., Vogl, T., et al. (2023). Phage-display immunoprecipitation sequencing of the antibody epitope repertoire in inflammatory bowel disease reveals distinct antibody signatures. Immunity 56, 1393-1409.e6. https://doi.org/10.1016/j.immuni.2023.04.017.
+
+28. Horn, V., Cancino, C.A., Steinheuer, L.M., et al. (2025). Multimodal profiling of peripheral blood identifies proliferating circulating effector CD4+ T cells as predictors for response to integrin α4β7-blocking therapy in inflammatory bowel disease. Gastroenterology 168, 327–343. https://doi.org/10.1053/j.gastro.2024.09.021.
+
+29. Huang, H., Wang, C., Rubelt, F., et al. (2020). Analyzing the Mycobacterium tuberculosis immune response by T-cell receptor clustering with GLIPH2 and genome-wide antigen screening. Nat. Biotechnol. 38, 1194–1202. https://doi.org/10.1038/s41587-020-0505-4.
+
+30. Chan, J.E., Mohsin, A., Krijgsman, J., et al. (2026). Shared CD4+ T cell receptor specificity groups in Crohn’s disease and ulcerative colitis. JCI Insight 11, e195354. https://doi.org/10.1172/jci.insight.195354.
+
+31. Street, K., Risso, D., Fletcher, R.B., et al. (2018). Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics. BMC Genomics 19, 477. https://doi.org/10.1186/s12864-018-4772-0.
+
+32. Arase, M., Murakami, M., Kihara, T., et al. (2025). Multi-omics uncovers transcriptional programs of gut-resident memory CD4+ T cells in Crohn’s disease. J. Exp. Med. 222, e20242106. https://doi.org/10.1084/jem.20242106.
+
+33. Browaeys, R., Gilis, J., Sang-Aram, C., et al. (2023). MultiNicheNet: a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data. Preprint at bioRxiv. https://doi.org/10.1101/2023.06.13.544751.
+
+34. Browaeys, R., Saelens, W., and Saeys, Y. (2020). NicheNet: modeling intercellular communication by linking ligands to target genes. Nat. Methods 17, 159–162. https://doi.org/10.1038/s41592-019-0667-5.
+
+35. Gubatan, J., Sojwal, R.S., Ye, J., et al. (2026). Multi-omics reveal vitamin D regulation of immune-gut microbiome interactions and tolerogenic pathways in inflammatory bowel disease. Cell Rep. Med. 7, 102703. https://doi.org/10.1016/j.xcrm.2026.102703.
+
+36. Lopez, R., Regier, J., Cole, M.B., et al. (2018). Deep generative modeling for single-cell transcriptomics. Nat. Methods 15, 1053–1058. https://doi.org/10.1038/s41592-018-0229-2.
+
+37. Gayoso, A., Lopez, R., Xing, G., et al. (2022). A Python library for probabilistic analysis of single-cell omics data. Nat. Biotechnol. 40, 163–166. https://doi.org/10.1038/s41587-021-01206-w.
+
+38. Stuart, T., Butler, A., Hoffman, P., et al. (2019). Comprehensive integration of single-cell data. Cell 177, 1888–1902.e21. https://doi.org/10.1016/j.cell.2019.05.031.
+
+39. Hao, Y., Stuart, T., Kowalski, M.H., et al. (2024). Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nat. Biotechnol. 42, 293–304. https://doi.org/10.1038/s41587-023-01767-y.
+
+40. McInnes, L., Healy, J., Saul, N., and Großberger, L. (2018). UMAP: Uniform Manifold Approximation and Projection. J. Open Source Softw. 3, 861. https://doi.org/10.21105/joss.00861.
+
+41. Korsunsky, I., Millard, N., Fan, J., et al. (2019). Fast, sensitive and accurate integration of single-cell data with Harmony. Nat. Methods 16, 1289–1296. https://doi.org/10.1038/s41592-019-0619-0.
+
+42. Ianevski, A., Giri, A.K., and Aittokallio, T. (2022). Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data. Nat. Commun. 13, 1246. https://doi.org/10.1038/s41467-022-28803-w.
+
+43. Hao, Y., Hao, S., Andersen-Nissen, E., et al. (2021). Integrated analysis of multimodal single-cell data. Cell 184, 3573–3587.e29. https://doi.org/10.1016/j.cell.2021.04.048.
+
+44. Terekhova, M., Swain, A., Bohacova, P., et al. (2023). Single-cell atlas of healthy human blood unveils age-related loss of NKG2C+GZMB−CD8+ memory T cells and accumulation of type 2 memory T cells. Immunity 56, 2836–2854.e9. https://doi.org/10.1016/j.immuni.2023.10.013.
+
+45. Dann, E., Henderson, N.C., Teichmann, S.A., et al. (2022). Differential abundance testing on single-cell data using k-nearest neighbor graphs. Nat. Biotechnol. 40, 245–253. https://doi.org/10.1038/s41587-021-01033-z.
+
+46. BD Biosciences (n.d.). BD Rhapsody Sequence Analysis Pipeline: TCR and BCR analysis. https://bd-rhapsody-bioinfo-docs.genomics.bd.com/steps/steps_tcr_bcr.html (accessed September 20, 2026).
+
+47. Grabherr, M.G., Haas, B.J., Yassour, M., et al. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. Nat. Biotechnol. 29, 644–652. https://doi.org/10.1038/nbt.1883.
+
+48. Ye, J., Ma, N., Madden, T.L., and Ostell, J.M. (2013). IgBLAST: an immunoglobulin variable domain sequence analysis tool. Nucleic Acids Res. 41, W34–W40. https://doi.org/10.1093/nar/gkt382.
+
+49. Langmead, B., and Salzberg, S.L. (2012). Fast gapped-read alignment with Bowtie 2. Nat. Methods 9, 357–359. https://doi.org/10.1038/nmeth.1923.
+
+50. Vander Heiden, J.A., Marquez, S., Marthandan, N., et al. (2018). AIRR Community standardized representations for annotated immune repertoires. Front. Immunol. 9, 2206. https://doi.org/10.3389/fimmu.2018.02206.
+
+51. Popov, A., Samokhina, M., Balashov, I., et al. (2025). immunomind/immunarch: 0.10.3 [software]. Zenodo. https://doi.org/10.5281/zenodo.17358072.
+
+52. Robinson, M.D., McCarthy, D.J., and Smyth, G.K. (2010). edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics 26, 139–140. https://doi.org/10.1093/bioinformatics/btp616.
+
+53. Law, C.W., Chen, Y., Shi, W., and Smyth, G.K. (2014). voom: precision weights unlock linear model analysis tools for RNA-seq read counts. Genome Biol. 15, R29. https://doi.org/10.1186/gb-2014-15-2-r29.
+
+54. Wu, D., and Smyth, G.K. (2012). Camera: a competitive gene set test accounting for inter-gene correlation. Nucleic Acids Res. 40, e133. https://doi.org/10.1093/nar/gks461.
+
+55. Lefranc, M.-P., Giudicelli, V., Ginestoux, C., et al. (2009). IMGT®, the international ImMunoGeneTics information system®. Nucleic Acids Res. 37, D1006–D1012. https://doi.org/10.1093/nar/gkn838.
+
+56. Gupta, N.T., Vander Heiden, J.A., Uduman, M., et al. (2015). Change-O: a toolkit for analyzing large-scale B cell immunoglobulin repertoire sequencing data. Bioinformatics 31, 3356-3358. https://doi.org/10.1093/bioinformatics/btv359.
+
+57. Pavlović, M., Scheffer, L., Motwani, K., et al. (2021). The immuneML ecosystem for machine learning analysis of adaptive immune receptor repertoires. Nat. Mach. Intell. 3, 936-944. https://doi.org/10.1038/s42256-021-00413-z.
+
+58. Pedregosa, F., Varoquaux, G., Gramfort, A., et al. (2011). Scikit-learn: machine learning in Python. J. Mach. Learn. Res. 12, 2825–2830. https://www.jmlr.org/papers/v12/pedregosa11a.html.
+
+59. Zaslavsky, M.E., Craig, E., Michuda, J.K., et al. (2025). Disease diagnostics using machine learning of B cell and T cell receptor sequences. Science 387, eadp2407. https://doi.org/10.1126/science.adp2407.
+
+60. Lundberg, S.M., and Lee, S.-I. (2017). A unified approach to interpreting model predictions. Adv. Neural Inf. Process. Syst. 30, 4765-4774. https://papers.neurips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html.
+
+61. R Core Team (2026). R: A language and environment for statistical computing (R Foundation for Statistical Computing). https://www.R-project.org/.
+
+62. Python Software Foundation (2026). Python 3.13.12 documentation. https://docs.python.org/release/3.13.12/.
+
+63. Wilcoxon, F. (1945). Individual comparisons by ranking methods. Biometrics Bull. 1, 80–83. https://doi.org/10.2307/3001968.
+
+64. Benjamini, Y., and Hochberg, Y. (1995). Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. R. Stat. Soc. Series B Methodol. 57, 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x.
