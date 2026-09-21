@@ -2,6 +2,8 @@
 
 Primary cohort data are controlled and are not stored in this repository.
 
+Sequencing datasets will be deposited in the NIH National Center for Biotechnology Information Gene Expression Omnibus (NCBI GEO) at the time of publication. No GEO accession is asserted by this release. Linked clinical metadata remain subject to consent, institutional review board approvals, and applicable data-use restrictions. See the [current availability statement](../docs/data-and-code-availability.md).
+
 ## Required controlled inputs
 
 The workflows expect authorized local copies of:
@@ -28,4 +30,3 @@ Downloaded public data should be placed outside the Git repository and reference
 ## Shareable outputs
 
 `source_data/` contains aggregate panel values and public-cohort derivatives selected for reproducibility. Internal sample-level tables were deliberately excluded even when identifiers were pseudonymous.
-

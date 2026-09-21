@@ -2,9 +2,13 @@ cff-version: 1.2.0
 message: "Please cite the associated manuscript and this software repository."
 title: "IBD Blood Single-Cell Immune Repertoire Atlas"
 type: software
+version: "1.0.0"
+date-released: 2026-09-20
+doi: "10.5281/zenodo.22866361"
 authors:
   - family-names: Gubatan
     given-names: John Mark
 repository-code: "https://github.com/GubatanLab/IBD-Blood-Single-Cell-Immune-Repertoire-Atlas"
+url: "https://github.com/GubatanLab/IBD-Blood-Single-Cell-Immune-Repertoire-Atlas/releases/tag/v1.0.0"
 abstract: "Analysis and figure workflows for a cohort-scale single-cell transcriptome and paired TCR/BCR atlas of inflammatory bowel disease."
 

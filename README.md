@@ -1,5 +1,7 @@
 # IBD Blood Single-Cell Immune Repertoire Atlas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22866361.svg)](https://doi.org/10.5281/zenodo.22866361)
+
 Analysis code and figure workflows for the manuscript **“Single-cell immune repertoire atlas maps coordinated circulating adaptive immune states in inflammatory bowel disease.”**
 
 This repository links single-cell transcriptomes to paired TCR and BCR repertoires across Crohn's disease, ulcerative colitis, and non-IBD controls. It contains the analysis provenance for all seven main figures, ten supplementary figures, external-validation analyses, BCR lineage reconstruction, TCR sequence-neighborhood analyses, and the immuneML clinical-classification benchmarks.
@@ -12,7 +14,11 @@ See [the release notes](docs/paper-update-2026-09-20.md), [manuscript](manuscrip
 
 ## Repository status
 
-The repository is private while the manuscript and controlled participant-level data remain under review. No open-source license is granted at this stage. Contact the Gubatan Lab before redistributing code or figures.
+The repository is publicly available. The first archival release is [v1.0.0](https://github.com/GubatanLab/IBD-Blood-Single-Cell-Immune-Repertoire-Atlas/releases/tag/v1.0.0), with version DOI [10.5281/zenodo.22866361](https://doi.org/10.5281/zenodo.22866361).
+
+Public access does not change the existing reuse terms: no open-source license is granted. Contact the Gubatan Lab before redistributing code or figures. Third-party materials retain their applicable terms.
+
+See [public-release notes](docs/public-release-v1.0.0.md) and the [current data and code availability statement](docs/data-and-code-availability.md). The included manuscript is a dated scientific snapshot; its pending-release wording predates this archival release.
 
 ## Contents
 
@@ -66,7 +72,9 @@ Python and R package manifests are provided in `environment/`. The historical wo
 
 ## Data availability
 
-Controlled cohort inputs are intentionally excluded. Public external-validation analyses use the accessions documented in `data/README.md` and the manuscript. Aggregate source data in this repository must not be treated as a substitute for the controlled primary data.
+Primary cohort inputs are intentionally excluded from this GitHub repository. Sequencing datasets will be deposited in the NIH National Center for Biotechnology Information Gene Expression Omnibus (NCBI GEO) at the time of publication. An accession has not yet been assigned here. Linked clinical metadata remain subject to consent, institutional review board approvals, and applicable data-use restrictions.
+
+Public external-validation analyses use the accessions documented in `data/README.md` and the manuscript. Aggregate source data in this repository must not be treated as a substitute for the primary data.
 
 ## Validation
 
@@ -80,4 +88,8 @@ The audit checks expected figures/configurations, forbidden raw-data formats, ma
 
 ## Citation
 
-Until a journal citation or preprint identifier is available, cite the associated manuscript title and this repository. `CITATION.cff` will surface the software citation in GitHub.
+Cite the specific archived release used in an analysis:
+
+Gubatan, John Mark. (2026). *IBD Blood Single-Cell Immune Repertoire Atlas* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22866361
+
+`CITATION.cff` provides the software citation in GitHub and retains the repository's existing software-author attribution. Full manuscript authorship is provided in the included manuscript. Cite the associated manuscript separately when discussing its scientific findings; this software DOI does not imply journal acceptance or a published article DOI.
